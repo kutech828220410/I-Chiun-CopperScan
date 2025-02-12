@@ -184,5 +184,8 @@
   <ItemGroup>
     <None Include="Resources\設備輸出輸入表 %282%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\設定-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -99,5 +99,15 @@ namespace 一詮精密工業_銅板檢測機_.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 設定_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("設定-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
