@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{700D8843-08B1-4D2E-951C-C883A0D508BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>一詮精密工業_銅板檢測機_</RootNamespace>
+    <AssemblyName>一詮精密工業%28銅板檢測機%29</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Basic">
+      <HintPath>..\0.DLL\Basic.dll</HintPath>
+    </Reference>
+    <Reference Include="CallBackUI">
+      <HintPath>..\0.DLL\CallBackUI.dll</HintPath>
+    </Reference>
+    <Reference Include="CSkin">
+      <HintPath>..\0.DLL\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="DeltaMotor485">
+      <HintPath>..\0.DLL\DeltaMotor485.dll</HintPath>
+    </Reference>
+    <Reference Include="DrawingClass">
+      <HintPath>..\0.DLL\DrawingClass.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp">
+      <HintPath>..\0.DLL\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="HCGUI">
+      <HintPath>..\0.DLL\HCGUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SpeechLib">
+      <HintPath>..\0.DLL\Interop.SpeechLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="LadderUI">
+      <HintPath>..\0.DLL\LadderUI.dll</HintPath>
+    </Reference>
+    <Reference Include="LeadShineUI">
+      <HintPath>..\0.DLL\LeadShineUI.dll</HintPath>
+    </Reference>
+    <Reference Include="LicenseLib">
+      <HintPath>..\0.DLL\LicenseLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LightControlUI">
+      <HintPath>..\0.DLL\LightControlUI.dll</HintPath>
+    </Reference>
+    <Reference Include="MeasureSystemFunction">
+      <HintPath>..\0.DLL\MeasureSystemFunction.dll</HintPath>
+    </Reference>
+    <Reference Include="MeasureSystemUI">
+      <HintPath>..\0.DLL\MeasureSystemUI.dll</HintPath>
+    </Reference>
+    <Reference Include="MVSDK">
+      <HintPath>..\0.DLL\MVSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="MVSDKUI">
+      <HintPath>..\0.DLL\MVSDKUI.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\0.DLL\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlBackup">
+      <HintPath>..\0.DLL\MySqlBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="MyUI">
+      <HintPath>..\0.DLL\MyUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\0.DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PC_Control">
+      <HintPath>..\0.DLL\PC_Control.dll</HintPath>
+    </Reference>
+    <Reference Include="PopupControl">
+      <HintPath>..\0.DLL\PopupControl.dll</HintPath>
+    </Reference>
+    <Reference Include="PortControlUI">
+      <HintPath>..\0.DLL\PortControlUI.dll</HintPath>
+    </Reference>
+    <Reference Include="SLDUI">
+      <HintPath>..\0.DLL\SLDUI.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLUI">
+      <HintPath>..\0.DLL\SQLUI.dll</HintPath>
+    </Reference>
+    <Reference Include="SunnyUI">
+      <HintPath>..\0.DLL\SunnyUI.dll</HintPath>
+    </Reference>
+    <Reference Include="SunnyUI.Common">
+      <HintPath>..\0.DLL\SunnyUI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TCP">
+      <HintPath>..\0.DLL\TCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ZealTechUI">
+      <HintPath>..\0.DLL\ZealTechUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Form.Designer.cs">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Main_Form.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\主畫面.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\後臺系統設定.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\設備輸出輸入表.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\設備輸出輸入表 %282%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
