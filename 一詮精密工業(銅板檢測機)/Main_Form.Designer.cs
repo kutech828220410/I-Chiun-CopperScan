@@ -921,7 +921,7 @@
             this.手動作業.Controls.Add(this.panel_輸出入);
             this.手動作業.Location = new System.Drawing.Point(4, 25);
             this.手動作業.Name = "手動作業";
-            this.手動作業.Size = new System.Drawing.Size(1884, 843);
+            this.手動作業.Size = new System.Drawing.Size(1878, 837);
             this.手動作業.TabIndex = 2;
             this.手動作業.Text = "手動作業";
             // 
@@ -939,7 +939,7 @@
             this.plC_ScreenPage_輸出入.Location = new System.Drawing.Point(0, 67);
             this.plC_ScreenPage_輸出入.Name = "plC_ScreenPage_輸出入";
             this.plC_ScreenPage_輸出入.SelectedIndex = 0;
-            this.plC_ScreenPage_輸出入.Size = new System.Drawing.Size(1884, 776);
+            this.plC_ScreenPage_輸出入.Size = new System.Drawing.Size(1878, 770);
             this.plC_ScreenPage_輸出入.TabBackColor = System.Drawing.Color.White;
             this.plC_ScreenPage_輸出入.TabIndex = 2;
             this.plC_ScreenPage_輸出入.顯示標籤列 = MyUI.PLC_ScreenPage.TabVisibleEnum.顯示;
@@ -952,7 +952,7 @@
             this.輸入.ForeColor = System.Drawing.Color.Black;
             this.輸入.Location = new System.Drawing.Point(4, 25);
             this.輸入.Name = "輸入";
-            this.輸入.Size = new System.Drawing.Size(1876, 747);
+            this.輸入.Size = new System.Drawing.Size(1870, 741);
             this.輸入.TabIndex = 0;
             this.輸入.Text = "輸入";
             // 
@@ -1042,7 +1042,7 @@
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1876, 747);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1870, 741);
             this.flowLayoutPanel1.TabIndex = 3;
             // 
             // panel1
@@ -1092,7 +1092,7 @@
             this.plC_Button1.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button1.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button1.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button1.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button1.Name = "plC_Button1";
             this.plC_Button1.OFF_文字內容 = "X10";
             this.plC_Button1.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1167,7 +1167,7 @@
             this.plC_Button2.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button2.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button2.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button2.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button2.Name = "plC_Button2";
             this.plC_Button2.OFF_文字內容 = "X11";
             this.plC_Button2.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1242,7 +1242,7 @@
             this.plC_Button3.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button3.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button3.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button3.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button3.Name = "plC_Button3";
             this.plC_Button3.OFF_文字內容 = "X12";
             this.plC_Button3.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1317,7 +1317,7 @@
             this.plC_Button4.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button4.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button4.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button4.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button4.Name = "plC_Button4";
             this.plC_Button4.OFF_文字內容 = "X13";
             this.plC_Button4.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1392,7 +1392,7 @@
             this.plC_Button5.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button5.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button5.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button5.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button5.Name = "plC_Button5";
             this.plC_Button5.OFF_文字內容 = "X14";
             this.plC_Button5.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1467,7 +1467,7 @@
             this.plC_Button6.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button6.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button6.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button6.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button6.Name = "plC_Button6";
             this.plC_Button6.OFF_文字內容 = "X15";
             this.plC_Button6.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1542,7 +1542,7 @@
             this.plC_Button7.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button7.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button7.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button7.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button7.Name = "plC_Button7";
             this.plC_Button7.OFF_文字內容 = "X16";
             this.plC_Button7.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1617,7 +1617,7 @@
             this.plC_Button8.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button8.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button8.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button8.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button8.Name = "plC_Button8";
             this.plC_Button8.OFF_文字內容 = "X17";
             this.plC_Button8.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1692,7 +1692,7 @@
             this.plC_Button9.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button9.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button9.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button9.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button9.Name = "plC_Button9";
             this.plC_Button9.OFF_文字內容 = "X20";
             this.plC_Button9.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1767,7 +1767,7 @@
             this.plC_Button10.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button10.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button10.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button10.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button10.Name = "plC_Button10";
             this.plC_Button10.OFF_文字內容 = "X21";
             this.plC_Button10.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1842,7 +1842,7 @@
             this.plC_Button11.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button11.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button11.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button11.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button11.Name = "plC_Button11";
             this.plC_Button11.OFF_文字內容 = "X22";
             this.plC_Button11.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1917,7 +1917,7 @@
             this.plC_Button12.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button12.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button12.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button12.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button12.Name = "plC_Button12";
             this.plC_Button12.OFF_文字內容 = "X23";
             this.plC_Button12.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -1992,7 +1992,7 @@
             this.plC_Button13.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button13.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button13.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button13.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button13.Name = "plC_Button13";
             this.plC_Button13.OFF_文字內容 = "X24";
             this.plC_Button13.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2067,7 +2067,7 @@
             this.plC_Button14.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button14.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button14.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button14.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button14.Name = "plC_Button14";
             this.plC_Button14.OFF_文字內容 = "X25";
             this.plC_Button14.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2142,7 +2142,7 @@
             this.plC_Button15.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button15.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button15.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button15.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button15.Name = "plC_Button15";
             this.plC_Button15.OFF_文字內容 = "X26";
             this.plC_Button15.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2217,7 +2217,7 @@
             this.plC_Button16.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button16.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button16.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button16.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button16.Name = "plC_Button16";
             this.plC_Button16.OFF_文字內容 = "X27";
             this.plC_Button16.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2292,7 +2292,7 @@
             this.plC_Button17.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button17.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button17.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button17.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button17.Name = "plC_Button17";
             this.plC_Button17.OFF_文字內容 = "X30";
             this.plC_Button17.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2367,7 +2367,7 @@
             this.plC_Button18.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button18.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button18.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button18.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button18.Name = "plC_Button18";
             this.plC_Button18.OFF_文字內容 = "X31";
             this.plC_Button18.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2442,7 +2442,7 @@
             this.plC_Button19.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button19.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button19.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button19.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button19.Name = "plC_Button19";
             this.plC_Button19.OFF_文字內容 = "X32";
             this.plC_Button19.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2517,7 +2517,7 @@
             this.plC_Button20.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button20.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button20.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button20.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button20.Name = "plC_Button20";
             this.plC_Button20.OFF_文字內容 = "X33";
             this.plC_Button20.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2592,7 +2592,7 @@
             this.plC_Button21.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button21.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button21.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button21.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button21.Name = "plC_Button21";
             this.plC_Button21.OFF_文字內容 = "X34";
             this.plC_Button21.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2667,7 +2667,7 @@
             this.plC_Button22.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button22.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button22.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button22.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button22.Name = "plC_Button22";
             this.plC_Button22.OFF_文字內容 = "X35";
             this.plC_Button22.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2742,7 +2742,7 @@
             this.plC_Button23.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button23.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button23.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button23.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button23.Name = "plC_Button23";
             this.plC_Button23.OFF_文字內容 = "X36";
             this.plC_Button23.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2817,7 +2817,7 @@
             this.plC_Button24.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button24.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button24.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button24.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button24.Name = "plC_Button24";
             this.plC_Button24.OFF_文字內容 = "X37";
             this.plC_Button24.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2892,7 +2892,7 @@
             this.plC_Button25.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button25.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button25.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button25.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button25.Name = "plC_Button25";
             this.plC_Button25.OFF_文字內容 = "X40";
             this.plC_Button25.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -2967,7 +2967,7 @@
             this.plC_Button26.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button26.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button26.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button26.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button26.Name = "plC_Button26";
             this.plC_Button26.OFF_文字內容 = "X41";
             this.plC_Button26.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3042,7 +3042,7 @@
             this.plC_Button27.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button27.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button27.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button27.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button27.Name = "plC_Button27";
             this.plC_Button27.OFF_文字內容 = "X42";
             this.plC_Button27.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3117,7 +3117,7 @@
             this.plC_Button28.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button28.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button28.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button28.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button28.Name = "plC_Button28";
             this.plC_Button28.OFF_文字內容 = "X43";
             this.plC_Button28.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3192,7 +3192,7 @@
             this.plC_Button29.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button29.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button29.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button29.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button29.Name = "plC_Button29";
             this.plC_Button29.OFF_文字內容 = "X44";
             this.plC_Button29.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3267,7 +3267,7 @@
             this.plC_Button30.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button30.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button30.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button30.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button30.Name = "plC_Button30";
             this.plC_Button30.OFF_文字內容 = "X45";
             this.plC_Button30.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3342,7 +3342,7 @@
             this.plC_Button31.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button31.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button31.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button31.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button31.Name = "plC_Button31";
             this.plC_Button31.OFF_文字內容 = "X46";
             this.plC_Button31.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3417,7 +3417,7 @@
             this.plC_Button32.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button32.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button32.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button32.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button32.Name = "plC_Button32";
             this.plC_Button32.OFF_文字內容 = "X47";
             this.plC_Button32.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3492,7 +3492,7 @@
             this.plC_Button33.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button33.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button33.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button33.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button33.Name = "plC_Button33";
             this.plC_Button33.OFF_文字內容 = "X50";
             this.plC_Button33.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3567,7 +3567,7 @@
             this.plC_Button34.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button34.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button34.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button34.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button34.Name = "plC_Button34";
             this.plC_Button34.OFF_文字內容 = "X51";
             this.plC_Button34.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3642,7 +3642,7 @@
             this.plC_Button35.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button35.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button35.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button35.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button35.Name = "plC_Button35";
             this.plC_Button35.OFF_文字內容 = "X52";
             this.plC_Button35.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3717,7 +3717,7 @@
             this.plC_Button36.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button36.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button36.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button36.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button36.Name = "plC_Button36";
             this.plC_Button36.OFF_文字內容 = "X53";
             this.plC_Button36.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3792,7 +3792,7 @@
             this.plC_Button37.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button37.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button37.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button37.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button37.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button37.Name = "plC_Button37";
             this.plC_Button37.OFF_文字內容 = "X54";
             this.plC_Button37.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3867,7 +3867,7 @@
             this.plC_Button38.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button38.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button38.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button38.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button38.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button38.Name = "plC_Button38";
             this.plC_Button38.OFF_文字內容 = "X55";
             this.plC_Button38.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -3942,7 +3942,7 @@
             this.plC_Button39.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button39.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button39.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button39.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button39.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button39.Name = "plC_Button39";
             this.plC_Button39.OFF_文字內容 = "X56";
             this.plC_Button39.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4017,7 +4017,7 @@
             this.plC_Button40.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button40.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button40.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button40.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button40.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button40.Name = "plC_Button40";
             this.plC_Button40.OFF_文字內容 = "X57";
             this.plC_Button40.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4092,7 +4092,7 @@
             this.plC_Button41.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button41.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button41.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button41.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button41.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button41.Name = "plC_Button41";
             this.plC_Button41.OFF_文字內容 = "X60";
             this.plC_Button41.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4167,7 +4167,7 @@
             this.plC_Button42.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button42.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button42.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button42.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button42.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button42.Name = "plC_Button42";
             this.plC_Button42.OFF_文字內容 = "X61";
             this.plC_Button42.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4242,7 +4242,7 @@
             this.plC_Button43.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button43.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button43.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button43.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button43.Name = "plC_Button43";
             this.plC_Button43.OFF_文字內容 = "X62";
             this.plC_Button43.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4317,7 +4317,7 @@
             this.plC_Button44.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button44.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button44.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button44.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button44.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button44.Name = "plC_Button44";
             this.plC_Button44.OFF_文字內容 = "X63";
             this.plC_Button44.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4392,7 +4392,7 @@
             this.plC_Button45.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button45.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button45.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button45.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button45.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button45.Name = "plC_Button45";
             this.plC_Button45.OFF_文字內容 = "X64";
             this.plC_Button45.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4467,7 +4467,7 @@
             this.plC_Button46.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button46.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button46.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button46.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button46.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button46.Name = "plC_Button46";
             this.plC_Button46.OFF_文字內容 = "X65";
             this.plC_Button46.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4542,7 +4542,7 @@
             this.plC_Button47.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button47.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button47.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button47.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button47.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button47.Name = "plC_Button47";
             this.plC_Button47.OFF_文字內容 = "X66";
             this.plC_Button47.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4617,7 +4617,7 @@
             this.plC_Button48.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button48.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button48.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button48.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button48.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button48.Name = "plC_Button48";
             this.plC_Button48.OFF_文字內容 = "X67";
             this.plC_Button48.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4692,7 +4692,7 @@
             this.plC_Button49.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button49.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button49.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button49.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button49.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button49.Name = "plC_Button49";
             this.plC_Button49.OFF_文字內容 = "X70";
             this.plC_Button49.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4767,7 +4767,7 @@
             this.plC_Button50.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button50.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button50.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button50.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button50.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button50.Name = "plC_Button50";
             this.plC_Button50.OFF_文字內容 = "X71";
             this.plC_Button50.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4842,7 +4842,7 @@
             this.plC_Button51.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button51.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button51.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button51.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button51.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button51.Name = "plC_Button51";
             this.plC_Button51.OFF_文字內容 = "X72";
             this.plC_Button51.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4917,7 +4917,7 @@
             this.plC_Button52.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button52.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button52.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button52.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button52.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button52.Name = "plC_Button52";
             this.plC_Button52.OFF_文字內容 = "X73";
             this.plC_Button52.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -4992,7 +4992,7 @@
             this.plC_Button53.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button53.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button53.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button53.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button53.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button53.Name = "plC_Button53";
             this.plC_Button53.OFF_文字內容 = "X74";
             this.plC_Button53.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5067,7 +5067,7 @@
             this.plC_Button54.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button54.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button54.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button54.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button54.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button54.Name = "plC_Button54";
             this.plC_Button54.OFF_文字內容 = "X75";
             this.plC_Button54.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5142,7 +5142,7 @@
             this.plC_Button55.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button55.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button55.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button55.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button55.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button55.Name = "plC_Button55";
             this.plC_Button55.OFF_文字內容 = "X76";
             this.plC_Button55.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5217,7 +5217,7 @@
             this.plC_Button56.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button56.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button56.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button56.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button56.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button56.Name = "plC_Button56";
             this.plC_Button56.OFF_文字內容 = "X77";
             this.plC_Button56.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5292,7 +5292,7 @@
             this.plC_Button57.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button57.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button57.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button57.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button57.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button57.Name = "plC_Button57";
             this.plC_Button57.OFF_文字內容 = "X100";
             this.plC_Button57.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5367,7 +5367,7 @@
             this.plC_Button58.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button58.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button58.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button58.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button58.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button58.Name = "plC_Button58";
             this.plC_Button58.OFF_文字內容 = "X101";
             this.plC_Button58.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5442,7 +5442,7 @@
             this.plC_Button59.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button59.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button59.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button59.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button59.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button59.Name = "plC_Button59";
             this.plC_Button59.OFF_文字內容 = "X102";
             this.plC_Button59.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5517,7 +5517,7 @@
             this.plC_Button60.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button60.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button60.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button60.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button60.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button60.Name = "plC_Button60";
             this.plC_Button60.OFF_文字內容 = "X103";
             this.plC_Button60.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5592,7 +5592,7 @@
             this.plC_Button61.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button61.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button61.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button61.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button61.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button61.Name = "plC_Button61";
             this.plC_Button61.OFF_文字內容 = "X104";
             this.plC_Button61.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5667,7 +5667,7 @@
             this.plC_Button62.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button62.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button62.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button62.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button62.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button62.Name = "plC_Button62";
             this.plC_Button62.OFF_文字內容 = "X105";
             this.plC_Button62.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5742,7 +5742,7 @@
             this.plC_Button63.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button63.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button63.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button63.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button63.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button63.Name = "plC_Button63";
             this.plC_Button63.OFF_文字內容 = "X106";
             this.plC_Button63.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5817,7 +5817,7 @@
             this.plC_Button64.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button64.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button64.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button64.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button64.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button64.Name = "plC_Button64";
             this.plC_Button64.OFF_文字內容 = "X107";
             this.plC_Button64.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5892,7 +5892,7 @@
             this.plC_Button65.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button65.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button65.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button65.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button65.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button65.Name = "plC_Button65";
             this.plC_Button65.OFF_文字內容 = "X110";
             this.plC_Button65.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -5967,7 +5967,7 @@
             this.plC_Button66.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button66.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button66.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button66.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button66.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button66.Name = "plC_Button66";
             this.plC_Button66.OFF_文字內容 = "X111";
             this.plC_Button66.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6042,7 +6042,7 @@
             this.plC_Button67.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button67.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button67.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button67.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button67.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button67.Name = "plC_Button67";
             this.plC_Button67.OFF_文字內容 = "X112";
             this.plC_Button67.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6117,7 +6117,7 @@
             this.plC_Button68.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button68.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button68.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button68.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button68.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button68.Name = "plC_Button68";
             this.plC_Button68.OFF_文字內容 = "X113";
             this.plC_Button68.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6192,7 +6192,7 @@
             this.plC_Button69.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button69.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button69.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button69.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button69.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button69.Name = "plC_Button69";
             this.plC_Button69.OFF_文字內容 = "X114";
             this.plC_Button69.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6267,7 +6267,7 @@
             this.plC_Button70.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button70.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button70.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button70.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button70.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button70.Name = "plC_Button70";
             this.plC_Button70.OFF_文字內容 = "X115";
             this.plC_Button70.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6342,7 +6342,7 @@
             this.plC_Button71.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button71.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button71.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button71.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button71.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button71.Name = "plC_Button71";
             this.plC_Button71.OFF_文字內容 = "X116";
             this.plC_Button71.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6417,7 +6417,7 @@
             this.plC_Button72.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button72.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button72.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button72.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button72.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button72.Name = "plC_Button72";
             this.plC_Button72.OFF_文字內容 = "X117";
             this.plC_Button72.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6492,7 +6492,7 @@
             this.plC_Button73.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button73.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button73.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button73.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button73.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button73.Name = "plC_Button73";
             this.plC_Button73.OFF_文字內容 = "X120";
             this.plC_Button73.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6567,7 +6567,7 @@
             this.plC_Button74.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button74.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button74.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button74.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button74.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button74.Name = "plC_Button74";
             this.plC_Button74.OFF_文字內容 = "X121";
             this.plC_Button74.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6642,7 +6642,7 @@
             this.plC_Button75.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button75.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button75.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button75.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button75.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button75.Name = "plC_Button75";
             this.plC_Button75.OFF_文字內容 = "X122";
             this.plC_Button75.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6717,7 +6717,7 @@
             this.plC_Button76.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button76.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button76.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button76.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button76.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button76.Name = "plC_Button76";
             this.plC_Button76.OFF_文字內容 = "X123";
             this.plC_Button76.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6792,7 +6792,7 @@
             this.plC_Button77.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button77.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button77.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button77.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button77.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button77.Name = "plC_Button77";
             this.plC_Button77.OFF_文字內容 = "X124";
             this.plC_Button77.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6867,7 +6867,7 @@
             this.plC_Button78.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button78.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button78.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button78.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button78.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button78.Name = "plC_Button78";
             this.plC_Button78.OFF_文字內容 = "X125";
             this.plC_Button78.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -6942,7 +6942,7 @@
             this.plC_Button79.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button79.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button79.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button79.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button79.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button79.Name = "plC_Button79";
             this.plC_Button79.OFF_文字內容 = "X126";
             this.plC_Button79.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -7017,7 +7017,7 @@
             this.plC_Button80.Dock = System.Windows.Forms.DockStyle.Left;
             this.plC_Button80.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button80.Location = new System.Drawing.Point(0, 0);
-            this.plC_Button80.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button80.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button80.Name = "plC_Button80";
             this.plC_Button80.OFF_文字內容 = "X127";
             this.plC_Button80.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -7053,7 +7053,7 @@
             this.輸出1.ForeColor = System.Drawing.Color.Black;
             this.輸出1.Location = new System.Drawing.Point(4, 25);
             this.輸出1.Name = "輸出1";
-            this.輸出1.Size = new System.Drawing.Size(1876, 747);
+            this.輸出1.Size = new System.Drawing.Size(1870, 741);
             this.輸出1.TabIndex = 1;
             this.輸出1.Text = "輸出1";
             // 
@@ -7118,7 +7118,7 @@
             this.panel162.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel162.Location = new System.Drawing.Point(0, 0);
             this.panel162.Name = "panel162";
-            this.panel162.Size = new System.Drawing.Size(1876, 747);
+            this.panel162.Size = new System.Drawing.Size(1870, 741);
             this.panel162.TabIndex = 64;
             // 
             // plC_Button96
@@ -7127,7 +7127,7 @@
             this.plC_Button96.but_press = false;
             this.plC_Button96.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button96.Location = new System.Drawing.Point(4, 4);
-            this.plC_Button96.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button96.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button96.Name = "plC_Button96";
             this.plC_Button96.OFF_文字內容 = "Y10";
             this.plC_Button96.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -7197,7 +7197,7 @@
             this.plC_Button95.but_press = false;
             this.plC_Button95.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button95.Location = new System.Drawing.Point(4, 74);
-            this.plC_Button95.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button95.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button95.Name = "plC_Button95";
             this.plC_Button95.OFF_文字內容 = "Y11";
             this.plC_Button95.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -7267,7 +7267,7 @@
             this.plC_Button94.but_press = false;
             this.plC_Button94.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button94.Location = new System.Drawing.Point(4, 214);
-            this.plC_Button94.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button94.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button94.Name = "plC_Button94";
             this.plC_Button94.OFF_文字內容 = "Y13";
             this.plC_Button94.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -7337,7 +7337,7 @@
             this.plC_Button93.but_press = false;
             this.plC_Button93.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button93.Location = new System.Drawing.Point(4, 144);
-            this.plC_Button93.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button93.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button93.Name = "plC_Button93";
             this.plC_Button93.OFF_文字內容 = "Y12";
             this.plC_Button93.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -7442,7 +7442,7 @@
             this.plC_Button133.but_press = false;
             this.plC_Button133.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button133.Location = new System.Drawing.Point(1264, 144);
-            this.plC_Button133.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button133.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button133.Name = "plC_Button133";
             this.plC_Button133.OFF_文字內容 = "Y72";
             this.plC_Button133.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -7512,7 +7512,7 @@
             this.plC_Button134.but_press = false;
             this.plC_Button134.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button134.Location = new System.Drawing.Point(1264, 214);
-            this.plC_Button134.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button134.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button134.Name = "plC_Button134";
             this.plC_Button134.OFF_文字內容 = "Y73";
             this.plC_Button134.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -7582,7 +7582,7 @@
             this.plC_Button135.but_press = false;
             this.plC_Button135.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button135.Location = new System.Drawing.Point(1264, 74);
-            this.plC_Button135.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button135.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button135.Name = "plC_Button135";
             this.plC_Button135.OFF_文字內容 = "Y71";
             this.plC_Button135.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -7652,7 +7652,7 @@
             this.plC_Button136.but_press = false;
             this.plC_Button136.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button136.Location = new System.Drawing.Point(1264, 4);
-            this.plC_Button136.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button136.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button136.Name = "plC_Button136";
             this.plC_Button136.OFF_文字內容 = "Y70";
             this.plC_Button136.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -7687,7 +7687,7 @@
             this.plC_Button104.but_press = false;
             this.plC_Button104.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button104.Location = new System.Drawing.Point(214, 4);
-            this.plC_Button104.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button104.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button104.Name = "plC_Button104";
             this.plC_Button104.OFF_文字內容 = "前送料盤汽缸";
             this.plC_Button104.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -7757,7 +7757,7 @@
             this.plC_Button103.but_press = false;
             this.plC_Button103.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button103.Location = new System.Drawing.Point(214, 74);
-            this.plC_Button103.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button103.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button103.Name = "plC_Button103";
             this.plC_Button103.OFF_文字內容 = "後送料盤汽缸";
             this.plC_Button103.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -7827,7 +7827,7 @@
             this.plC_Button102.but_press = false;
             this.plC_Button102.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button102.Location = new System.Drawing.Point(214, 214);
-            this.plC_Button102.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button102.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button102.Name = "plC_Button102";
             this.plC_Button102.OFF_文字內容 = "出料取料盤";
             this.plC_Button102.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -7897,7 +7897,7 @@
             this.plC_Button101.but_press = false;
             this.plC_Button101.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button101.Location = new System.Drawing.Point(214, 144);
-            this.plC_Button101.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button101.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button101.Name = "plC_Button101";
             this.plC_Button101.OFF_文字內容 = "進料取料盤";
             this.plC_Button101.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8002,7 +8002,7 @@
             this.plC_Button125.but_press = false;
             this.plC_Button125.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button125.Location = new System.Drawing.Point(1054, 144);
-            this.plC_Button125.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button125.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button125.Name = "plC_Button125";
             this.plC_Button125.OFF_文字內容 = "Y62";
             this.plC_Button125.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8072,7 +8072,7 @@
             this.plC_Button126.but_press = false;
             this.plC_Button126.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button126.Location = new System.Drawing.Point(1054, 214);
-            this.plC_Button126.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button126.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button126.Name = "plC_Button126";
             this.plC_Button126.OFF_文字內容 = "Y63";
             this.plC_Button126.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8142,7 +8142,7 @@
             this.plC_Button127.but_press = false;
             this.plC_Button127.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button127.Location = new System.Drawing.Point(1054, 74);
-            this.plC_Button127.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button127.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button127.Name = "plC_Button127";
             this.plC_Button127.OFF_文字內容 = "Y61";
             this.plC_Button127.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8212,7 +8212,7 @@
             this.plC_Button128.but_press = false;
             this.plC_Button128.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button128.Location = new System.Drawing.Point(1054, 4);
-            this.plC_Button128.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button128.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button128.Name = "plC_Button128";
             this.plC_Button128.OFF_文字內容 = "Y60";
             this.plC_Button128.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8247,7 +8247,7 @@
             this.plC_Button81.but_press = false;
             this.plC_Button81.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button81.Location = new System.Drawing.Point(424, 4);
-            this.plC_Button81.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button81.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button81.Name = "plC_Button81";
             this.plC_Button81.OFF_文字內容 = "Y30";
             this.plC_Button81.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8317,7 +8317,7 @@
             this.plC_Button82.but_press = false;
             this.plC_Button82.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button82.Location = new System.Drawing.Point(424, 74);
-            this.plC_Button82.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button82.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button82.Name = "plC_Button82";
             this.plC_Button82.OFF_文字內容 = "Y31";
             this.plC_Button82.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8387,7 +8387,7 @@
             this.plC_Button83.but_press = false;
             this.plC_Button83.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button83.Location = new System.Drawing.Point(424, 214);
-            this.plC_Button83.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button83.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button83.Name = "plC_Button83";
             this.plC_Button83.OFF_文字內容 = "Y33";
             this.plC_Button83.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8457,7 +8457,7 @@
             this.plC_Button84.but_press = false;
             this.plC_Button84.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button84.Location = new System.Drawing.Point(424, 144);
-            this.plC_Button84.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button84.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button84.Name = "plC_Button84";
             this.plC_Button84.OFF_文字內容 = "Y32";
             this.plC_Button84.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8562,7 +8562,7 @@
             this.plC_Button117.but_press = false;
             this.plC_Button117.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button117.Location = new System.Drawing.Point(844, 144);
-            this.plC_Button117.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button117.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button117.Name = "plC_Button117";
             this.plC_Button117.OFF_文字內容 = "Y52";
             this.plC_Button117.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8632,7 +8632,7 @@
             this.plC_Button118.but_press = false;
             this.plC_Button118.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button118.Location = new System.Drawing.Point(844, 214);
-            this.plC_Button118.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button118.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button118.Name = "plC_Button118";
             this.plC_Button118.OFF_文字內容 = "Y53";
             this.plC_Button118.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8702,7 +8702,7 @@
             this.plC_Button119.but_press = false;
             this.plC_Button119.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button119.Location = new System.Drawing.Point(844, 74);
-            this.plC_Button119.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button119.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button119.Name = "plC_Button119";
             this.plC_Button119.OFF_文字內容 = "Y51";
             this.plC_Button119.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8772,7 +8772,7 @@
             this.plC_Button120.but_press = false;
             this.plC_Button120.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button120.Location = new System.Drawing.Point(844, 4);
-            this.plC_Button120.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button120.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button120.Name = "plC_Button120";
             this.plC_Button120.OFF_文字內容 = "Y50";
             this.plC_Button120.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8807,7 +8807,7 @@
             this.plC_Button112.but_press = false;
             this.plC_Button112.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button112.Location = new System.Drawing.Point(634, 4);
-            this.plC_Button112.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button112.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button112.Name = "plC_Button112";
             this.plC_Button112.OFF_文字內容 = "Y40";
             this.plC_Button112.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8877,7 +8877,7 @@
             this.plC_Button111.but_press = false;
             this.plC_Button111.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button111.Location = new System.Drawing.Point(634, 74);
-            this.plC_Button111.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button111.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button111.Name = "plC_Button111";
             this.plC_Button111.OFF_文字內容 = "Y41";
             this.plC_Button111.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -8947,7 +8947,7 @@
             this.plC_Button110.but_press = false;
             this.plC_Button110.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button110.Location = new System.Drawing.Point(634, 214);
-            this.plC_Button110.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button110.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button110.Name = "plC_Button110";
             this.plC_Button110.OFF_文字內容 = "Y43";
             this.plC_Button110.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9017,7 +9017,7 @@
             this.plC_Button109.but_press = false;
             this.plC_Button109.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button109.Location = new System.Drawing.Point(634, 144);
-            this.plC_Button109.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button109.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button109.Name = "plC_Button109";
             this.plC_Button109.OFF_文字內容 = "Y42";
             this.plC_Button109.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9087,7 +9087,7 @@
             this.輸出2.Controls.Add(this.panel163);
             this.輸出2.Location = new System.Drawing.Point(4, 25);
             this.輸出2.Name = "輸出2";
-            this.輸出2.Size = new System.Drawing.Size(1876, 747);
+            this.輸出2.Size = new System.Drawing.Size(1870, 741);
             this.輸出2.TabIndex = 2;
             this.輸出2.Text = "輸出2";
             // 
@@ -9128,7 +9128,7 @@
             this.panel163.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel163.Location = new System.Drawing.Point(0, 0);
             this.panel163.Name = "panel163";
-            this.panel163.Size = new System.Drawing.Size(1876, 747);
+            this.panel163.Size = new System.Drawing.Size(1870, 741);
             this.panel163.TabIndex = 65;
             // 
             // plC_Button137
@@ -9137,7 +9137,7 @@
             this.plC_Button137.but_press = false;
             this.plC_Button137.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button137.Location = new System.Drawing.Point(4, 4);
-            this.plC_Button137.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button137.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button137.Name = "plC_Button137";
             this.plC_Button137.OFF_文字內容 = "Y100";
             this.plC_Button137.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9172,7 +9172,7 @@
             this.plC_Button139.but_press = false;
             this.plC_Button139.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button139.Location = new System.Drawing.Point(4, 74);
-            this.plC_Button139.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button139.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button139.Name = "plC_Button139";
             this.plC_Button139.OFF_文字內容 = "Y101";
             this.plC_Button139.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9207,7 +9207,7 @@
             this.plC_Button141.but_press = false;
             this.plC_Button141.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button141.Location = new System.Drawing.Point(4, 214);
-            this.plC_Button141.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button141.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button141.Name = "plC_Button141";
             this.plC_Button141.OFF_文字內容 = "Y103";
             this.plC_Button141.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9242,7 +9242,7 @@
             this.plC_Button143.but_press = false;
             this.plC_Button143.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button143.Location = new System.Drawing.Point(4, 144);
-            this.plC_Button143.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button143.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button143.Name = "plC_Button143";
             this.plC_Button143.OFF_文字內容 = "Y102";
             this.plC_Button143.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9417,7 +9417,7 @@
             this.plC_Button153.but_press = false;
             this.plC_Button153.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button153.Location = new System.Drawing.Point(214, 4);
-            this.plC_Button153.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button153.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button153.Name = "plC_Button153";
             this.plC_Button153.OFF_文字內容 = "Y110";
             this.plC_Button153.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9452,7 +9452,7 @@
             this.plC_Button155.but_press = false;
             this.plC_Button155.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button155.Location = new System.Drawing.Point(214, 74);
-            this.plC_Button155.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button155.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button155.Name = "plC_Button155";
             this.plC_Button155.OFF_文字內容 = "Y111";
             this.plC_Button155.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9487,7 +9487,7 @@
             this.plC_Button157.but_press = false;
             this.plC_Button157.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button157.Location = new System.Drawing.Point(214, 214);
-            this.plC_Button157.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button157.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button157.Name = "plC_Button157";
             this.plC_Button157.OFF_文字內容 = "Y113";
             this.plC_Button157.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9522,7 +9522,7 @@
             this.plC_Button159.but_press = false;
             this.plC_Button159.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button159.Location = new System.Drawing.Point(214, 144);
-            this.plC_Button159.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button159.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button159.Name = "plC_Button159";
             this.plC_Button159.OFF_文字內容 = "Y112";
             this.plC_Button159.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9697,7 +9697,7 @@
             this.plC_Button169.but_press = false;
             this.plC_Button169.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button169.Location = new System.Drawing.Point(424, 4);
-            this.plC_Button169.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button169.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button169.Name = "plC_Button169";
             this.plC_Button169.OFF_文字內容 = "Y120";
             this.plC_Button169.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9732,7 +9732,7 @@
             this.plC_Button171.but_press = false;
             this.plC_Button171.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button171.Location = new System.Drawing.Point(424, 74);
-            this.plC_Button171.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button171.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button171.Name = "plC_Button171";
             this.plC_Button171.OFF_文字內容 = "Y121";
             this.plC_Button171.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9767,7 +9767,7 @@
             this.plC_Button173.but_press = false;
             this.plC_Button173.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button173.Location = new System.Drawing.Point(424, 214);
-            this.plC_Button173.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button173.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button173.Name = "plC_Button173";
             this.plC_Button173.OFF_文字內容 = "Y123";
             this.plC_Button173.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9802,7 +9802,7 @@
             this.plC_Button175.but_press = false;
             this.plC_Button175.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button175.Location = new System.Drawing.Point(424, 144);
-            this.plC_Button175.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button175.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button175.Name = "plC_Button175";
             this.plC_Button175.OFF_文字內容 = "Y122";
             this.plC_Button175.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -9977,7 +9977,7 @@
             this.plC_Button185.but_press = false;
             this.plC_Button185.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button185.Location = new System.Drawing.Point(634, 4);
-            this.plC_Button185.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button185.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button185.Name = "plC_Button185";
             this.plC_Button185.OFF_文字內容 = "送料區真空泵";
             this.plC_Button185.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -10047,7 +10047,7 @@
             this.plC_Button187.but_press = false;
             this.plC_Button187.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button187.Location = new System.Drawing.Point(634, 74);
-            this.plC_Button187.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button187.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button187.Name = "plC_Button187";
             this.plC_Button187.OFF_文字內容 = "出料區真空泵";
             this.plC_Button187.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -10117,7 +10117,7 @@
             this.plC_Button189.but_press = false;
             this.plC_Button189.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button189.Location = new System.Drawing.Point(634, 214);
-            this.plC_Button189.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button189.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button189.Name = "plC_Button189";
             this.plC_Button189.OFF_文字內容 = "送料區升降馬達下降";
             this.plC_Button189.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -10187,7 +10187,7 @@
             this.plC_Button191.but_press = false;
             this.plC_Button191.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
             this.plC_Button191.Location = new System.Drawing.Point(634, 144);
-            this.plC_Button191.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button191.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button191.Name = "plC_Button191";
             this.plC_Button191.OFF_文字內容 = "送料區升降馬達上升";
             this.plC_Button191.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -10258,7 +10258,7 @@
             this.軸控.Controls.Add(this.panel_軸控);
             this.軸控.Location = new System.Drawing.Point(4, 25);
             this.軸控.Name = "軸控";
-            this.軸控.Size = new System.Drawing.Size(1876, 747);
+            this.軸控.Size = new System.Drawing.Size(1870, 741);
             this.軸控.TabIndex = 3;
             this.軸控.Text = "軸控";
             // 
@@ -10276,7 +10276,7 @@
             this.plC_ScreenPage_軸控.Location = new System.Drawing.Point(0, 67);
             this.plC_ScreenPage_軸控.Name = "plC_ScreenPage_軸控";
             this.plC_ScreenPage_軸控.SelectedIndex = 0;
-            this.plC_ScreenPage_軸控.Size = new System.Drawing.Size(1876, 680);
+            this.plC_ScreenPage_軸控.Size = new System.Drawing.Size(1870, 674);
             this.plC_ScreenPage_軸控.TabBackColor = System.Drawing.Color.White;
             this.plC_ScreenPage_軸控.TabIndex = 3;
             this.plC_ScreenPage_軸控.顯示標籤列 = MyUI.PLC_ScreenPage.TabVisibleEnum.顯示;
@@ -10296,7 +10296,7 @@
             this.軸控_進料區.Controls.Add(this.plC_Button138);
             this.軸控_進料區.Location = new System.Drawing.Point(4, 25);
             this.軸控_進料區.Name = "軸控_進料區";
-            this.軸控_進料區.Size = new System.Drawing.Size(1868, 651);
+            this.軸控_進料區.Size = new System.Drawing.Size(1862, 645);
             this.軸控_進料區.TabIndex = 0;
             this.軸控_進料區.Text = "進料區";
             // 
@@ -10304,7 +10304,7 @@
             // 
             this.panel168.Controls.Add(this.rJ_Lable85);
             this.panel168.Controls.Add(this.plC_NumBox5);
-            this.panel168.Location = new System.Drawing.Point(35, 279);
+            this.panel168.Location = new System.Drawing.Point(21, 283);
             this.panel168.Name = "panel168";
             this.panel168.Size = new System.Drawing.Size(292, 45);
             this.panel168.TabIndex = 41;
@@ -10343,8 +10343,10 @@
             this.plC_NumBox5.Value = 0;
             this.plC_NumBox5.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
             this.plC_NumBox5.密碼欄位 = false;
+            this.plC_NumBox5.寫入元件位置 = "D5003";
             this.plC_NumBox5.小數點位置 = 0;
             this.plC_NumBox5.微調數值 = 1;
+            this.plC_NumBox5.讀取元件位置 = "D5003";
             this.plC_NumBox5.音效 = true;
             this.plC_NumBox5.顯示微調按鈕 = false;
             this.plC_NumBox5.顯示螢幕小鍵盤 = true;
@@ -10353,7 +10355,7 @@
             // 
             this.panel167.Controls.Add(this.rJ_Lable84);
             this.panel167.Controls.Add(this.plC_NumBox4);
-            this.panel167.Location = new System.Drawing.Point(35, 228);
+            this.panel167.Location = new System.Drawing.Point(21, 232);
             this.panel167.Name = "panel167";
             this.panel167.Size = new System.Drawing.Size(292, 45);
             this.panel167.TabIndex = 40;
@@ -10392,8 +10394,10 @@
             this.plC_NumBox4.Value = 0;
             this.plC_NumBox4.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
             this.plC_NumBox4.密碼欄位 = false;
+            this.plC_NumBox4.寫入元件位置 = "D5002";
             this.plC_NumBox4.小數點位置 = 0;
             this.plC_NumBox4.微調數值 = 1;
+            this.plC_NumBox4.讀取元件位置 = "D5002";
             this.plC_NumBox4.音效 = true;
             this.plC_NumBox4.顯示微調按鈕 = false;
             this.plC_NumBox4.顯示螢幕小鍵盤 = true;
@@ -10402,7 +10406,7 @@
             // 
             this.panel166.Controls.Add(this.rJ_Lable83);
             this.panel166.Controls.Add(this.plC_NumBox3);
-            this.panel166.Location = new System.Drawing.Point(35, 177);
+            this.panel166.Location = new System.Drawing.Point(21, 181);
             this.panel166.Name = "panel166";
             this.panel166.Size = new System.Drawing.Size(292, 45);
             this.panel166.TabIndex = 39;
@@ -10453,7 +10457,7 @@
             // 
             this.panel165.Controls.Add(this.rJ_Lable82);
             this.panel165.Controls.Add(this.plC_NumBox2);
-            this.panel165.Location = new System.Drawing.Point(35, 126);
+            this.panel165.Location = new System.Drawing.Point(21, 130);
             this.panel165.Name = "panel165";
             this.panel165.Size = new System.Drawing.Size(292, 45);
             this.panel165.TabIndex = 38;
@@ -10504,7 +10508,7 @@
             // 
             this.panel164.Controls.Add(this.rJ_Lable81);
             this.panel164.Controls.Add(this.plC_NumBox1);
-            this.panel164.Location = new System.Drawing.Point(35, 75);
+            this.panel164.Location = new System.Drawing.Point(21, 79);
             this.panel164.Name = "panel164";
             this.panel164.Size = new System.Drawing.Size(292, 45);
             this.panel164.TabIndex = 37;
@@ -10554,7 +10558,7 @@
             this.plC_Button144.Bool = false;
             this.plC_Button144.but_press = false;
             this.plC_Button144.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button144.Location = new System.Drawing.Point(314, 330);
+            this.plC_Button144.Location = new System.Drawing.Point(300, 334);
             this.plC_Button144.Margin = new System.Windows.Forms.Padding(1);
             this.plC_Button144.Name = "plC_Button144";
             this.plC_Button144.OFF_文字內容 = "復歸";
@@ -10589,8 +10593,8 @@
             this.plC_Button142.Bool = false;
             this.plC_Button142.but_press = false;
             this.plC_Button142.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button142.Location = new System.Drawing.Point(41, 15);
-            this.plC_Button142.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button142.Location = new System.Drawing.Point(27, 19);
+            this.plC_Button142.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button142.Name = "plC_Button142";
             this.plC_Button142.OFF_文字內容 = "原點";
             this.plC_Button142.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
@@ -10623,7 +10627,7 @@
             this.plC_Button140.Bool = false;
             this.plC_Button140.but_press = false;
             this.plC_Button140.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button140.Location = new System.Drawing.Point(175, 330);
+            this.plC_Button140.Location = new System.Drawing.Point(161, 334);
             this.plC_Button140.Margin = new System.Windows.Forms.Padding(2);
             this.plC_Button140.Name = "plC_Button140";
             this.plC_Button140.OFF_文字內容 = "JOG-";
@@ -10639,14 +10643,14 @@
             this.plC_Button140.TabIndex = 34;
             this.plC_Button140.事件驅動 = false;
             this.plC_Button140.字型鎖住 = true;
-            this.plC_Button140.寫入元件位置 = "S5000";
+            this.plC_Button140.寫入元件位置 = "S5002";
             this.plC_Button140.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
             this.plC_Button140.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
             this.plC_Button140.文字鎖住 = true;
             this.plC_Button140.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button140.狀態OFF圖片")));
             this.plC_Button140.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button140.狀態ON圖片")));
             this.plC_Button140.讀取位元反向 = false;
-            this.plC_Button140.讀取元件位置 = "S5000";
+            this.plC_Button140.讀取元件位置 = "S5002";
             this.plC_Button140.讀寫鎖住 = true;
             this.plC_Button140.起始狀態 = false;
             this.plC_Button140.音效 = true;
@@ -10658,8 +10662,8 @@
             this.plC_Button138.Bool = false;
             this.plC_Button138.but_press = false;
             this.plC_Button138.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button138.Location = new System.Drawing.Point(35, 330);
-            this.plC_Button138.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_Button138.Location = new System.Drawing.Point(21, 334);
+            this.plC_Button138.Margin = new System.Windows.Forms.Padding(4);
             this.plC_Button138.Name = "plC_Button138";
             this.plC_Button138.OFF_文字內容 = "JOG+";
             this.plC_Button138.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
@@ -10674,14 +10678,14 @@
             this.plC_Button138.TabIndex = 33;
             this.plC_Button138.事件驅動 = false;
             this.plC_Button138.字型鎖住 = true;
-            this.plC_Button138.寫入元件位置 = "S5000";
+            this.plC_Button138.寫入元件位置 = "S5001";
             this.plC_Button138.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
             this.plC_Button138.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
             this.plC_Button138.文字鎖住 = true;
             this.plC_Button138.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button138.狀態OFF圖片")));
             this.plC_Button138.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button138.狀態ON圖片")));
             this.plC_Button138.讀取位元反向 = false;
-            this.plC_Button138.讀取元件位置 = "S5000";
+            this.plC_Button138.讀取元件位置 = "S5001";
             this.plC_Button138.讀寫鎖住 = true;
             this.plC_Button138.起始狀態 = false;
             this.plC_Button138.音效 = true;
@@ -10693,7 +10697,7 @@
             this.軸控_CCD.BackColor = System.Drawing.Color.White;
             this.軸控_CCD.Location = new System.Drawing.Point(4, 25);
             this.軸控_CCD.Name = "軸控_CCD";
-            this.軸控_CCD.Size = new System.Drawing.Size(1868, 651);
+            this.軸控_CCD.Size = new System.Drawing.Size(1862, 645);
             this.軸控_CCD.TabIndex = 1;
             this.軸控_CCD.Text = "CCD";
             // 
@@ -10702,7 +10706,7 @@
             this.軸控_不良排除.BackColor = System.Drawing.Color.White;
             this.軸控_不良排除.Location = new System.Drawing.Point(4, 25);
             this.軸控_不良排除.Name = "軸控_不良排除";
-            this.軸控_不良排除.Size = new System.Drawing.Size(1868, 651);
+            this.軸控_不良排除.Size = new System.Drawing.Size(1862, 645);
             this.軸控_不良排除.TabIndex = 2;
             this.軸控_不良排除.Text = "不良排除";
             // 
@@ -10711,7 +10715,7 @@
             this.軸控_出料區.BackColor = System.Drawing.Color.White;
             this.軸控_出料區.Location = new System.Drawing.Point(4, 25);
             this.軸控_出料區.Name = "軸控_出料區";
-            this.軸控_出料區.Size = new System.Drawing.Size(1868, 651);
+            this.軸控_出料區.Size = new System.Drawing.Size(1862, 645);
             this.軸控_出料區.TabIndex = 3;
             this.軸控_出料區.Text = "出料區";
             // 
@@ -10724,7 +10728,7 @@
             this.panel_軸控.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_軸控.Location = new System.Drawing.Point(0, 0);
             this.panel_軸控.Name = "panel_軸控";
-            this.panel_軸控.Size = new System.Drawing.Size(1876, 67);
+            this.panel_軸控.Size = new System.Drawing.Size(1870, 67);
             this.panel_軸控.TabIndex = 2;
             // 
             // plC_RJ_ScreenButtonEx14
@@ -10972,7 +10976,7 @@
             this.panel_輸出入.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_輸出入.Location = new System.Drawing.Point(0, 0);
             this.panel_輸出入.Name = "panel_輸出入";
-            this.panel_輸出入.Size = new System.Drawing.Size(1884, 67);
+            this.panel_輸出入.Size = new System.Drawing.Size(1878, 67);
             this.panel_輸出入.TabIndex = 1;
             // 
             // plC_RJ_ScreenButtonEx10
@@ -11216,7 +11220,7 @@
             this.參數設定.BackColor = System.Drawing.Color.White;
             this.參數設定.Location = new System.Drawing.Point(4, 25);
             this.參數設定.Name = "參數設定";
-            this.參數設定.Size = new System.Drawing.Size(1884, 843);
+            this.參數設定.Size = new System.Drawing.Size(1878, 837);
             this.參數設定.TabIndex = 3;
             this.參數設定.Text = "參數設定";
             // 
@@ -11228,7 +11232,7 @@
             this.後台設定.ForeColor = System.Drawing.Color.Black;
             this.後台設定.Location = new System.Drawing.Point(4, 25);
             this.後台設定.Name = "後台設定";
-            this.後台設定.Size = new System.Drawing.Size(1884, 843);
+            this.後台設定.Size = new System.Drawing.Size(1878, 837);
             this.後台設定.TabIndex = 1;
             this.後台設定.Text = "後台設定";
             // 
@@ -11245,7 +11249,7 @@
             this.plC_ScreenPage_後台設定.Location = new System.Drawing.Point(0, 67);
             this.plC_ScreenPage_後台設定.Name = "plC_ScreenPage_後台設定";
             this.plC_ScreenPage_後台設定.SelectedIndex = 0;
-            this.plC_ScreenPage_後台設定.Size = new System.Drawing.Size(1884, 776);
+            this.plC_ScreenPage_後台設定.Size = new System.Drawing.Size(1878, 770);
             this.plC_ScreenPage_後台設定.TabBackColor = System.Drawing.Color.White;
             this.plC_ScreenPage_後台設定.TabIndex = 3;
             this.plC_ScreenPage_後台設定.顯示標籤列 = MyUI.PLC_ScreenPage.TabVisibleEnum.顯示;
@@ -11257,7 +11261,7 @@
             this.PLC.Controls.Add(this.panel2);
             this.PLC.Location = new System.Drawing.Point(4, 25);
             this.PLC.Name = "PLC";
-            this.PLC.Size = new System.Drawing.Size(1876, 747);
+            this.PLC.Size = new System.Drawing.Size(1870, 741);
             this.PLC.TabIndex = 0;
             this.PLC.Text = "PLC";
             // 
@@ -11268,14 +11272,14 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(886, 747);
+            this.panel2.Size = new System.Drawing.Size(886, 741);
             this.panel2.TabIndex = 4;
             // 
             // plC_UI_Init1
             // 
             this.plC_UI_Init1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.plC_UI_Init1.Location = new System.Drawing.Point(3, 586);
-            this.plC_UI_Init1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plC_UI_Init1.Margin = new System.Windows.Forms.Padding(4);
             this.plC_UI_Init1.Name = "plC_UI_Init1";
             this.plC_UI_Init1.Size = new System.Drawing.Size(72, 26);
             this.plC_UI_Init1.TabIndex = 1;
@@ -11293,7 +11297,7 @@
             // lowerMachine_Panel1
             // 
             this.lowerMachine_Panel1.Location = new System.Drawing.Point(-4, 15);
-            this.lowerMachine_Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lowerMachine_Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.lowerMachine_Panel1.Name = "lowerMachine_Panel1";
             this.lowerMachine_Panel1.Size = new System.Drawing.Size(869, 566);
             this.lowerMachine_Panel1.TabIndex = 0;
@@ -11305,7 +11309,7 @@
             this.TABP_9016.Controls.Add(this.c90161);
             this.TABP_9016.Location = new System.Drawing.Point(4, 25);
             this.TABP_9016.Name = "TABP_9016";
-            this.TABP_9016.Size = new System.Drawing.Size(1876, 747);
+            this.TABP_9016.Size = new System.Drawing.Size(1870, 741);
             this.TABP_9016.TabIndex = 1;
             this.TABP_9016.Text = "9016";
             // 
@@ -11315,9 +11319,9 @@
             this.c90161.CycleTime = 1;
             this.c90161.Dock = System.Windows.Forms.DockStyle.Left;
             this.c90161.Location = new System.Drawing.Point(0, 0);
-            this.c90161.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.c90161.Margin = new System.Windows.Forms.Padding(4);
             this.c90161.Name = "c90161";
-            this.c90161.Size = new System.Drawing.Size(872, 747);
+            this.c90161.Size = new System.Drawing.Size(872, 741);
             this.c90161.TabIndex = 0;
             this.c90161.設備名稱 = "C9016-001";
             // 
@@ -11328,7 +11332,7 @@
             this.TABP_1230_1280.Controls.Add(this.c12301);
             this.TABP_1230_1280.Location = new System.Drawing.Point(4, 25);
             this.TABP_1230_1280.Name = "TABP_1230_1280";
-            this.TABP_1230_1280.Size = new System.Drawing.Size(1876, 747);
+            this.TABP_1230_1280.Size = new System.Drawing.Size(1870, 741);
             this.TABP_1230_1280.TabIndex = 2;
             this.TABP_1230_1280.Text = "1230/1280";
             // 
@@ -11337,7 +11341,7 @@
             this.ioC12801.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ioC12801.CycleTime = 1;
             this.ioC12801.Location = new System.Drawing.Point(813, 30);
-            this.ioC12801.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ioC12801.Margin = new System.Windows.Forms.Padding(4);
             this.ioC12801.Name = "ioC12801";
             this.ioC12801.Size = new System.Drawing.Size(904, 582);
             this.ioC12801.TabIndex = 1;
@@ -11347,7 +11351,7 @@
             // 
             this.c12301.CycleTime = 1;
             this.c12301.Location = new System.Drawing.Point(24, 30);
-            this.c12301.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.c12301.Margin = new System.Windows.Forms.Padding(4);
             this.c12301.Name = "c12301";
             this.c12301.Size = new System.Drawing.Size(765, 542);
             this.c12301.TabIndex = 0;
@@ -11361,7 +11365,7 @@
             this.panel_後台設定.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_後台設定.Location = new System.Drawing.Point(0, 0);
             this.panel_後台設定.Name = "panel_後台設定";
-            this.panel_後台設定.Size = new System.Drawing.Size(1884, 67);
+            this.panel_後台設定.Size = new System.Drawing.Size(1878, 67);
             this.panel_後台設定.TabIndex = 2;
             // 
             // plC_RJ_ScreenButtonEx7
