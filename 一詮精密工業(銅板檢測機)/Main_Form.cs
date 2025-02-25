@@ -102,5 +102,10 @@ namespace 一詮精密工業_銅板檢測機_
 
 
         #endregion
+
+        private void plC_ScreenPage_輸出入_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -154,7 +154,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Program_出料盤系統.cs">
+    <Compile Include="PLC_出料盤系統.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
