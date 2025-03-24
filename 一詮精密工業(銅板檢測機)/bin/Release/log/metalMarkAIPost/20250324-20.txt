@@ -1,0 +1,23 @@
+20250324-20:34:02 - {
+  "Data": [
+    {
+      "stage": "1",
+      "product": "GoldSize",
+      "op_time": "20250324 203402"
+    }
+  ]
+}
+20250324-20:34:08 - {
+  "Data": [
+    {
+      "centers": {
+        "0,0": "537,790",
+        "0,5": "3497,815"
+      },
+      "fails": [],
+      "origin_image_path": "D:\\GoldSize\\20250324\\203402_stage_1_origin.png",
+      "result_image_path": "D:\\GoldSize\\20250324\\203402_stage_1_labeled.png"
+    }
+  ]
+}
+

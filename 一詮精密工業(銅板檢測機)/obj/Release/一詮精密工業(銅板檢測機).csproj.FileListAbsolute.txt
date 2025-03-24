@@ -138,7 +138,6 @@ C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢�
 C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\Basic.xml
 C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\SQLUI.xml
 C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\obj\Release\一詮精密工業(銅板檢測機).csproj.AssemblyReference.cache
-C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\obj\Release\一詮精密工業(銅板檢測機).exe.config
 C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\obj\Release\一詮精密工業_銅板檢測機_.Main_Form.resources
 C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\obj\Release\一詮精密工業_銅板檢測機_.Properties.Resources.resources
 C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\obj\Release\一詮精密工業(銅板檢測機).csproj.GenerateResource.cache
@@ -146,3 +145,18 @@ C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢�
 C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\obj\Release\一詮精密工業(銅板檢測機).csproj.CopyComplete
 C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\obj\Release\一詮精密工業(銅板檢測機).exe
 C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\obj\Release\一詮精密工業(銅板檢測機).pdb
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.Text.Encodings.Web.dll
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.Text.Json.dll
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.ValueTuple.dll
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.Buffers.xml
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.Memory.xml
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.Numerics.Vectors.xml
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.Text.Encodings.Web.xml
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.Text.Json.xml
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\Desktop\I-Chiun-CopperScan\一詮精密工業(銅板檢測機)\bin\Release\System.ValueTuple.xml

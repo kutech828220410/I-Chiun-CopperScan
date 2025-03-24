@@ -59,6 +59,16 @@
             this.rJ_Pannel1 = new MyUI.RJ_Pannel();
             this.plC_ScreenPage_main = new MyUI.PLC_ScreenPage();
             this.主畫面 = new System.Windows.Forms.TabPage();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_MainForm = new System.Windows.Forms.PictureBox();
+            this.panel334 = new System.Windows.Forms.Panel();
+            this.rJ_TextBox_主畫面_檢測別名 = new MyUI.RJ_TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel333 = new System.Windows.Forms.Panel();
+            this.comboBox_主畫面_型號選擇 = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.plC_Button_CCD測試一次 = new MyUI.PLC_Button();
             this.手動作業 = new System.Windows.Forms.TabPage();
             this.plC_ScreenPage_輸出入 = new MyUI.PLC_ScreenPage();
             this.輸入 = new System.Windows.Forms.TabPage();
@@ -532,6 +542,15 @@
             this.plC_RJ_ScreenButtonEx13 = new MyUI.PLC_RJ_ScreenButtonEx();
             this.入盤系統 = new System.Windows.Forms.TabPage();
             this.plC_RJ_Pannel8 = new MyUI.PLC_RJ_Pannel();
+            this.plC_Button245 = new MyUI.PLC_Button();
+            this.panel321 = new System.Windows.Forms.Panel();
+            this.rJ_Lable199 = new MyUI.RJ_Lable();
+            this.rJ_Lable200 = new MyUI.RJ_Lable();
+            this.plC_NumBox73 = new MyUI.PLC_NumBox();
+            this.panel320 = new System.Windows.Forms.Panel();
+            this.rJ_Lable197 = new MyUI.RJ_Lable();
+            this.rJ_Lable198 = new MyUI.RJ_Lable();
+            this.plC_NumBox72 = new MyUI.PLC_NumBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.plC_Button178 = new MyUI.PLC_Button();
             this.panel247 = new System.Windows.Forms.Panel();
@@ -679,9 +698,132 @@
             this.rJ_Lable116 = new MyUI.RJ_Lable();
             this.plC_NumBox35 = new MyUI.PLC_NumBox();
             this.CCD系統 = new System.Windows.Forms.TabPage();
+            this.plC_RJ_Pannel15 = new MyUI.PLC_RJ_Pannel();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.panel326 = new System.Windows.Forms.Panel();
+            this.plC_Button254 = new MyUI.PLC_Button();
+            this.plC_CheckBox5 = new MyUI.PLC_CheckBox();
+            this.rJ_Lable210 = new MyUI.RJ_Lable();
+            this.plC_NumBox78 = new MyUI.PLC_NumBox();
+            this.panel325 = new System.Windows.Forms.Panel();
+            this.plC_CheckBox4 = new MyUI.PLC_CheckBox();
+            this.plC_Button251 = new MyUI.PLC_Button();
+            this.rJ_Lable209 = new MyUI.RJ_Lable();
+            this.plC_NumBox77 = new MyUI.PLC_NumBox();
+            this.panel324 = new System.Windows.Forms.Panel();
+            this.plC_CheckBox3 = new MyUI.PLC_CheckBox();
+            this.rJ_Lable208 = new MyUI.RJ_Lable();
+            this.plC_Button250 = new MyUI.PLC_Button();
+            this.plC_NumBox76 = new MyUI.PLC_NumBox();
+            this.panel319 = new System.Windows.Forms.Panel();
+            this.rJ_Lable196 = new MyUI.RJ_Lable();
+            this.rJ_Lable195 = new MyUI.RJ_Lable();
+            this.plC_NumBox68 = new MyUI.PLC_NumBox();
+            this.plC_Button247 = new MyUI.PLC_Button();
+            this.plC_Button248 = new MyUI.PLC_Button();
+            this.panel328 = new System.Windows.Forms.Panel();
+            this.rJ_Lable201 = new MyUI.RJ_Lable();
+            this.plC_NumBox69 = new MyUI.PLC_NumBox();
+            this.panel329 = new System.Windows.Forms.Panel();
+            this.plC_CheckBox2 = new MyUI.PLC_CheckBox();
+            this.rJ_Lable202 = new MyUI.RJ_Lable();
+            this.plC_NumBox70 = new MyUI.PLC_NumBox();
+            this.plC_Button249 = new MyUI.PLC_Button();
+            this.panel330 = new System.Windows.Forms.Panel();
+            this.plC_Button246 = new MyUI.PLC_Button();
+            this.plC_CheckBox1 = new MyUI.PLC_CheckBox();
+            this.rJ_Lable203 = new MyUI.RJ_Lable();
+            this.plC_NumBox71 = new MyUI.PLC_NumBox();
+            this.rJ_Lable214 = new MyUI.RJ_Lable();
+            this.plC_Button252 = new MyUI.PLC_Button();
+            this.plC_Button253 = new MyUI.PLC_Button();
+            this.plC_RJ_Pannel12 = new MyUI.PLC_RJ_Pannel();
+            this.plC_Button227 = new MyUI.PLC_Button();
+            this.panel301 = new System.Windows.Forms.Panel();
+            this.rJ_Lable173 = new MyUI.RJ_Lable();
+            this.plC_NumBox50 = new MyUI.PLC_NumBox();
+            this.rJ_Lable174 = new MyUI.RJ_Lable();
+            this.plC_Button228 = new MyUI.PLC_Button();
+            this.panel302 = new System.Windows.Forms.Panel();
+            this.rJ_Lable175 = new MyUI.RJ_Lable();
+            this.plC_NumBox51 = new MyUI.PLC_NumBox();
+            this.plC_Button229 = new MyUI.PLC_Button();
+            this.panel303 = new System.Windows.Forms.Panel();
+            this.rJ_Lable176 = new MyUI.RJ_Lable();
+            this.plC_NumBox52 = new MyUI.PLC_NumBox();
+            this.plC_Button230 = new MyUI.PLC_Button();
+            this.panel304 = new System.Windows.Forms.Panel();
+            this.rJ_Lable177 = new MyUI.RJ_Lable();
+            this.plC_NumBox53 = new MyUI.PLC_NumBox();
+            this.plC_Button231 = new MyUI.PLC_Button();
+            this.panel305 = new System.Windows.Forms.Panel();
+            this.rJ_Lable178 = new MyUI.RJ_Lable();
+            this.plC_NumBox54 = new MyUI.PLC_NumBox();
+            this.panel306 = new System.Windows.Forms.Panel();
+            this.rJ_Lable180 = new MyUI.RJ_Lable();
+            this.plC_NumBox55 = new MyUI.PLC_NumBox();
             this.不良排除系統 = new System.Windows.Forms.TabPage();
+            this.plC_RJ_Pannel14 = new MyUI.PLC_RJ_Pannel();
+            this.plC_Button237 = new MyUI.PLC_Button();
+            this.panel313 = new System.Windows.Forms.Panel();
+            this.rJ_Lable188 = new MyUI.RJ_Lable();
+            this.plC_NumBox62 = new MyUI.PLC_NumBox();
+            this.rJ_Lable189 = new MyUI.RJ_Lable();
+            this.plC_Button238 = new MyUI.PLC_Button();
+            this.panel314 = new System.Windows.Forms.Panel();
+            this.rJ_Lable190 = new MyUI.RJ_Lable();
+            this.plC_NumBox63 = new MyUI.PLC_NumBox();
+            this.plC_Button239 = new MyUI.PLC_Button();
+            this.panel315 = new System.Windows.Forms.Panel();
+            this.rJ_Lable191 = new MyUI.RJ_Lable();
+            this.plC_NumBox64 = new MyUI.PLC_NumBox();
+            this.plC_Button240 = new MyUI.PLC_Button();
+            this.panel316 = new System.Windows.Forms.Panel();
+            this.rJ_Lable192 = new MyUI.RJ_Lable();
+            this.plC_NumBox65 = new MyUI.PLC_NumBox();
+            this.plC_Button241 = new MyUI.PLC_Button();
+            this.panel317 = new System.Windows.Forms.Panel();
+            this.rJ_Lable193 = new MyUI.RJ_Lable();
+            this.plC_NumBox66 = new MyUI.PLC_NumBox();
+            this.panel318 = new System.Windows.Forms.Panel();
+            this.rJ_Lable194 = new MyUI.RJ_Lable();
+            this.plC_NumBox67 = new MyUI.PLC_NumBox();
+            this.plC_RJ_Pannel13 = new MyUI.PLC_RJ_Pannel();
+            this.plC_Button232 = new MyUI.PLC_Button();
+            this.panel307 = new System.Windows.Forms.Panel();
+            this.rJ_Lable181 = new MyUI.RJ_Lable();
+            this.plC_NumBox56 = new MyUI.PLC_NumBox();
+            this.rJ_Lable182 = new MyUI.RJ_Lable();
+            this.plC_Button233 = new MyUI.PLC_Button();
+            this.panel308 = new System.Windows.Forms.Panel();
+            this.rJ_Lable183 = new MyUI.RJ_Lable();
+            this.plC_NumBox57 = new MyUI.PLC_NumBox();
+            this.plC_Button234 = new MyUI.PLC_Button();
+            this.panel309 = new System.Windows.Forms.Panel();
+            this.rJ_Lable184 = new MyUI.RJ_Lable();
+            this.plC_NumBox58 = new MyUI.PLC_NumBox();
+            this.plC_Button235 = new MyUI.PLC_Button();
+            this.panel310 = new System.Windows.Forms.Panel();
+            this.rJ_Lable185 = new MyUI.RJ_Lable();
+            this.plC_NumBox59 = new MyUI.PLC_NumBox();
+            this.plC_Button236 = new MyUI.PLC_Button();
+            this.panel311 = new System.Windows.Forms.Panel();
+            this.rJ_Lable186 = new MyUI.RJ_Lable();
+            this.plC_NumBox60 = new MyUI.PLC_NumBox();
+            this.panel312 = new System.Windows.Forms.Panel();
+            this.rJ_Lable187 = new MyUI.RJ_Lable();
+            this.plC_NumBox61 = new MyUI.PLC_NumBox();
             this.出盤系統 = new System.Windows.Forms.TabPage();
             this.plC_RJ_Pannel11 = new MyUI.PLC_RJ_Pannel();
+            this.plC_Button244 = new MyUI.PLC_Button();
+            this.panel322 = new System.Windows.Forms.Panel();
+            this.rJ_Lable204 = new MyUI.RJ_Lable();
+            this.rJ_Lable205 = new MyUI.RJ_Lable();
+            this.plC_NumBox74 = new MyUI.PLC_NumBox();
+            this.panel323 = new System.Windows.Forms.Panel();
+            this.rJ_Lable206 = new MyUI.RJ_Lable();
+            this.rJ_Lable207 = new MyUI.RJ_Lable();
+            this.plC_NumBox75 = new MyUI.PLC_NumBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.plC_Button196 = new MyUI.PLC_Button();
             this.panel265 = new System.Windows.Forms.Panel();
@@ -790,6 +932,8 @@
             this.rJ_Lable158 = new MyUI.RJ_Lable();
             this.plC_NumBox44 = new MyUI.PLC_NumBox();
             this.輸送系統 = new System.Windows.Forms.TabPage();
+            this.plC_Button242 = new MyUI.PLC_Button();
+            this.plC_Button243 = new MyUI.PLC_Button();
             this.panel246 = new System.Windows.Forms.Panel();
             this.rJ_Lable144 = new MyUI.RJ_Lable();
             this.rJ_Lable145 = new MyUI.RJ_Lable();
@@ -836,6 +980,20 @@
             this.plC_RJ_ScreenButtonEx4 = new MyUI.PLC_RJ_ScreenButtonEx();
             this.plC_RJ_ScreenButtonEx6 = new MyUI.PLC_RJ_ScreenButtonEx();
             this.參數設定 = new System.Windows.Forms.TabPage();
+            this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.richTextBox_EngineeringModel_設定Base64 = new System.Windows.Forms.RichTextBox();
+            this.panel332 = new System.Windows.Forms.Panel();
+            this.comboBox_EngineeringModel_檢測別名 = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel331 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.rJ_TextBox_EngineeringModel_型號名稱 = new MyUI.RJ_TextBox();
+            this.panel327 = new System.Windows.Forms.Panel();
+            this.rJ_Button_EngineeringModel_刪除 = new MyUI.RJ_Button();
+            this.rJ_Button_EngineeringModel_修改 = new MyUI.RJ_Button();
+            this.rJ_Button_EngineeringModel_新增 = new MyUI.RJ_Button();
+            this.sqL_DataGridView_EngineeringModel = new SQLUI.SQL_DataGridView();
             this.後台設定 = new System.Windows.Forms.TabPage();
             this.plC_ScreenPage_後台設定 = new MyUI.PLC_ScreenPage();
             this.PLC = new System.Windows.Forms.TabPage();
@@ -850,126 +1008,15 @@
             this.TABP_1230_1280 = new System.Windows.Forms.TabPage();
             this.c12302 = new SLDUI.C1230();
             this.c12301 = new SLDUI.C1230();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel_後台設定 = new System.Windows.Forms.Panel();
+            this.plC_RJ_ScreenButtonEx5 = new MyUI.PLC_RJ_ScreenButtonEx();
             this.plC_RJ_ScreenButtonEx7 = new MyUI.PLC_RJ_ScreenButtonEx();
             this.plC_RJ_ScreenButtonEx8 = new MyUI.PLC_RJ_ScreenButtonEx();
             this.plC_RJ_ScreenButtonEx9 = new MyUI.PLC_RJ_ScreenButtonEx();
             this.plC_AlarmFlow1 = new MyUI.PLC_AlarmFlow();
-            this.plC_RJ_Pannel12 = new MyUI.PLC_RJ_Pannel();
-            this.plC_Button227 = new MyUI.PLC_Button();
-            this.panel301 = new System.Windows.Forms.Panel();
-            this.rJ_Lable173 = new MyUI.RJ_Lable();
-            this.plC_NumBox50 = new MyUI.PLC_NumBox();
-            this.rJ_Lable174 = new MyUI.RJ_Lable();
-            this.plC_Button228 = new MyUI.PLC_Button();
-            this.panel302 = new System.Windows.Forms.Panel();
-            this.rJ_Lable175 = new MyUI.RJ_Lable();
-            this.plC_NumBox51 = new MyUI.PLC_NumBox();
-            this.plC_Button229 = new MyUI.PLC_Button();
-            this.panel303 = new System.Windows.Forms.Panel();
-            this.rJ_Lable176 = new MyUI.RJ_Lable();
-            this.plC_NumBox52 = new MyUI.PLC_NumBox();
-            this.plC_Button230 = new MyUI.PLC_Button();
-            this.panel304 = new System.Windows.Forms.Panel();
-            this.rJ_Lable177 = new MyUI.RJ_Lable();
-            this.plC_NumBox53 = new MyUI.PLC_NumBox();
-            this.plC_Button231 = new MyUI.PLC_Button();
-            this.panel305 = new System.Windows.Forms.Panel();
-            this.rJ_Lable178 = new MyUI.RJ_Lable();
-            this.plC_NumBox54 = new MyUI.PLC_NumBox();
-            this.panel306 = new System.Windows.Forms.Panel();
-            this.rJ_Lable180 = new MyUI.RJ_Lable();
-            this.plC_NumBox55 = new MyUI.PLC_NumBox();
-            this.plC_RJ_Pannel13 = new MyUI.PLC_RJ_Pannel();
-            this.plC_Button232 = new MyUI.PLC_Button();
-            this.panel307 = new System.Windows.Forms.Panel();
-            this.rJ_Lable181 = new MyUI.RJ_Lable();
-            this.plC_NumBox56 = new MyUI.PLC_NumBox();
-            this.rJ_Lable182 = new MyUI.RJ_Lable();
-            this.plC_Button233 = new MyUI.PLC_Button();
-            this.panel308 = new System.Windows.Forms.Panel();
-            this.rJ_Lable183 = new MyUI.RJ_Lable();
-            this.plC_NumBox57 = new MyUI.PLC_NumBox();
-            this.plC_Button234 = new MyUI.PLC_Button();
-            this.panel309 = new System.Windows.Forms.Panel();
-            this.rJ_Lable184 = new MyUI.RJ_Lable();
-            this.plC_NumBox58 = new MyUI.PLC_NumBox();
-            this.plC_Button235 = new MyUI.PLC_Button();
-            this.panel310 = new System.Windows.Forms.Panel();
-            this.rJ_Lable185 = new MyUI.RJ_Lable();
-            this.plC_NumBox59 = new MyUI.PLC_NumBox();
-            this.plC_Button236 = new MyUI.PLC_Button();
-            this.panel311 = new System.Windows.Forms.Panel();
-            this.rJ_Lable186 = new MyUI.RJ_Lable();
-            this.plC_NumBox60 = new MyUI.PLC_NumBox();
-            this.panel312 = new System.Windows.Forms.Panel();
-            this.rJ_Lable187 = new MyUI.RJ_Lable();
-            this.plC_NumBox61 = new MyUI.PLC_NumBox();
-            this.plC_RJ_Pannel14 = new MyUI.PLC_RJ_Pannel();
-            this.plC_Button237 = new MyUI.PLC_Button();
-            this.panel313 = new System.Windows.Forms.Panel();
-            this.rJ_Lable188 = new MyUI.RJ_Lable();
-            this.plC_NumBox62 = new MyUI.PLC_NumBox();
-            this.rJ_Lable189 = new MyUI.RJ_Lable();
-            this.plC_Button238 = new MyUI.PLC_Button();
-            this.panel314 = new System.Windows.Forms.Panel();
-            this.rJ_Lable190 = new MyUI.RJ_Lable();
-            this.plC_NumBox63 = new MyUI.PLC_NumBox();
-            this.plC_Button239 = new MyUI.PLC_Button();
-            this.panel315 = new System.Windows.Forms.Panel();
-            this.rJ_Lable191 = new MyUI.RJ_Lable();
-            this.plC_NumBox64 = new MyUI.PLC_NumBox();
-            this.plC_Button240 = new MyUI.PLC_Button();
-            this.panel316 = new System.Windows.Forms.Panel();
-            this.rJ_Lable192 = new MyUI.RJ_Lable();
-            this.plC_NumBox65 = new MyUI.PLC_NumBox();
-            this.plC_Button241 = new MyUI.PLC_Button();
-            this.panel317 = new System.Windows.Forms.Panel();
-            this.rJ_Lable193 = new MyUI.RJ_Lable();
-            this.plC_NumBox66 = new MyUI.PLC_NumBox();
-            this.panel318 = new System.Windows.Forms.Panel();
-            this.rJ_Lable194 = new MyUI.RJ_Lable();
-            this.plC_NumBox67 = new MyUI.PLC_NumBox();
-            this.plC_RJ_Pannel15 = new MyUI.PLC_RJ_Pannel();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.plC_Button247 = new MyUI.PLC_Button();
-            this.plC_Button248 = new MyUI.PLC_Button();
-            this.panel328 = new System.Windows.Forms.Panel();
-            this.rJ_Lable201 = new MyUI.RJ_Lable();
-            this.plC_NumBox69 = new MyUI.PLC_NumBox();
-            this.panel329 = new System.Windows.Forms.Panel();
-            this.rJ_Lable202 = new MyUI.RJ_Lable();
-            this.plC_NumBox70 = new MyUI.PLC_NumBox();
-            this.panel330 = new System.Windows.Forms.Panel();
-            this.rJ_Lable203 = new MyUI.RJ_Lable();
-            this.plC_NumBox71 = new MyUI.PLC_NumBox();
-            this.rJ_Lable214 = new MyUI.RJ_Lable();
-            this.plC_Button252 = new MyUI.PLC_Button();
-            this.plC_Button253 = new MyUI.PLC_Button();
-            this.panel319 = new System.Windows.Forms.Panel();
-            this.rJ_Lable195 = new MyUI.RJ_Lable();
-            this.plC_NumBox68 = new MyUI.PLC_NumBox();
-            this.rJ_Lable196 = new MyUI.RJ_Lable();
-            this.plC_Button242 = new MyUI.PLC_Button();
-            this.plC_Button243 = new MyUI.PLC_Button();
-            this.panel320 = new System.Windows.Forms.Panel();
-            this.rJ_Lable197 = new MyUI.RJ_Lable();
-            this.rJ_Lable198 = new MyUI.RJ_Lable();
-            this.plC_NumBox72 = new MyUI.PLC_NumBox();
-            this.panel321 = new System.Windows.Forms.Panel();
-            this.rJ_Lable199 = new MyUI.RJ_Lable();
-            this.rJ_Lable200 = new MyUI.RJ_Lable();
-            this.plC_NumBox73 = new MyUI.PLC_NumBox();
-            this.panel322 = new System.Windows.Forms.Panel();
-            this.rJ_Lable204 = new MyUI.RJ_Lable();
-            this.rJ_Lable205 = new MyUI.RJ_Lable();
-            this.plC_NumBox74 = new MyUI.PLC_NumBox();
-            this.panel323 = new System.Windows.Forms.Panel();
-            this.rJ_Lable206 = new MyUI.RJ_Lable();
-            this.rJ_Lable207 = new MyUI.RJ_Lable();
-            this.plC_NumBox75 = new MyUI.PLC_NumBox();
-            this.plC_Button244 = new MyUI.PLC_Button();
-            this.plC_Button245 = new MyUI.PLC_Button();
             this.panel_main.SuspendLayout();
             this.panel291.SuspendLayout();
             this.panel298.SuspendLayout();
@@ -981,6 +1028,12 @@
             this.panel292.SuspendLayout();
             this.rJ_Pannel1.SuspendLayout();
             this.plC_ScreenPage_main.SuspendLayout();
+            this.主畫面.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MainForm)).BeginInit();
+            this.panel334.SuspendLayout();
+            this.panel333.SuspendLayout();
             this.手動作業.SuspendLayout();
             this.plC_ScreenPage_輸出入.SuspendLayout();
             this.輸入.SuspendLayout();
@@ -1106,6 +1159,8 @@
             this.panel_軸控.SuspendLayout();
             this.入盤系統.SuspendLayout();
             this.plC_RJ_Pannel8.SuspendLayout();
+            this.panel321.SuspendLayout();
+            this.panel320.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.panel247.SuspendLayout();
             this.panel254.SuspendLayout();
@@ -1157,9 +1212,41 @@
             this.panel213.SuspendLayout();
             this.panel214.SuspendLayout();
             this.CCD系統.SuspendLayout();
+            this.plC_RJ_Pannel15.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.panel326.SuspendLayout();
+            this.panel325.SuspendLayout();
+            this.panel324.SuspendLayout();
+            this.panel319.SuspendLayout();
+            this.panel328.SuspendLayout();
+            this.panel329.SuspendLayout();
+            this.panel330.SuspendLayout();
+            this.plC_RJ_Pannel12.SuspendLayout();
+            this.panel301.SuspendLayout();
+            this.panel302.SuspendLayout();
+            this.panel303.SuspendLayout();
+            this.panel304.SuspendLayout();
+            this.panel305.SuspendLayout();
+            this.panel306.SuspendLayout();
             this.不良排除系統.SuspendLayout();
+            this.plC_RJ_Pannel14.SuspendLayout();
+            this.panel313.SuspendLayout();
+            this.panel314.SuspendLayout();
+            this.panel315.SuspendLayout();
+            this.panel316.SuspendLayout();
+            this.panel317.SuspendLayout();
+            this.panel318.SuspendLayout();
+            this.plC_RJ_Pannel13.SuspendLayout();
+            this.panel307.SuspendLayout();
+            this.panel308.SuspendLayout();
+            this.panel309.SuspendLayout();
+            this.panel310.SuspendLayout();
+            this.panel311.SuspendLayout();
+            this.panel312.SuspendLayout();
             this.出盤系統.SuspendLayout();
             this.plC_RJ_Pannel11.SuspendLayout();
+            this.panel322.SuspendLayout();
+            this.panel323.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.panel265.SuspendLayout();
             this.panel266.SuspendLayout();
@@ -1205,6 +1292,12 @@
             this.panel237.SuspendLayout();
             this.panel234.SuspendLayout();
             this.panel_輸出入.SuspendLayout();
+            this.參數設定.SuspendLayout();
+            this.tabControl2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.panel332.SuspendLayout();
+            this.panel331.SuspendLayout();
+            this.panel327.SuspendLayout();
             this.後台設定.SuspendLayout();
             this.plC_ScreenPage_後台設定.SuspendLayout();
             this.PLC.SuspendLayout();
@@ -1212,38 +1305,9 @@
             this.panel2.SuspendLayout();
             this.TABP_9016.SuspendLayout();
             this.TABP_1230_1280.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabControl1.SuspendLayout();
             this.panel_後台設定.SuspendLayout();
-            this.plC_RJ_Pannel12.SuspendLayout();
-            this.panel301.SuspendLayout();
-            this.panel302.SuspendLayout();
-            this.panel303.SuspendLayout();
-            this.panel304.SuspendLayout();
-            this.panel305.SuspendLayout();
-            this.panel306.SuspendLayout();
-            this.plC_RJ_Pannel13.SuspendLayout();
-            this.panel307.SuspendLayout();
-            this.panel308.SuspendLayout();
-            this.panel309.SuspendLayout();
-            this.panel310.SuspendLayout();
-            this.panel311.SuspendLayout();
-            this.panel312.SuspendLayout();
-            this.plC_RJ_Pannel14.SuspendLayout();
-            this.panel313.SuspendLayout();
-            this.panel314.SuspendLayout();
-            this.panel315.SuspendLayout();
-            this.panel316.SuspendLayout();
-            this.panel317.SuspendLayout();
-            this.panel318.SuspendLayout();
-            this.plC_RJ_Pannel15.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            this.panel328.SuspendLayout();
-            this.panel329.SuspendLayout();
-            this.panel330.SuspendLayout();
-            this.panel319.SuspendLayout();
-            this.panel320.SuspendLayout();
-            this.panel321.SuspendLayout();
-            this.panel322.SuspendLayout();
-            this.panel323.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_main
@@ -2042,11 +2106,161 @@
             // 主畫面
             // 
             this.主畫面.BackColor = System.Drawing.Color.White;
+            this.主畫面.Controls.Add(this.pictureBox2);
+            this.主畫面.Controls.Add(this.pictureBox1);
+            this.主畫面.Controls.Add(this.pictureBox_MainForm);
+            this.主畫面.Controls.Add(this.panel334);
+            this.主畫面.Controls.Add(this.panel333);
+            this.主畫面.Controls.Add(this.plC_Button_CCD測試一次);
+            this.主畫面.ForeColor = System.Drawing.Color.Black;
             this.主畫面.Location = new System.Drawing.Point(4, 25);
             this.主畫面.Name = "主畫面";
             this.主畫面.Size = new System.Drawing.Size(1878, 815);
             this.主畫面.TabIndex = 0;
             this.主畫面.Text = "主畫面";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(1215, 11);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 156;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(609, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 155;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox_MainForm
+            // 
+            this.pictureBox_MainForm.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox_MainForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox_MainForm.Location = new System.Drawing.Point(3, 11);
+            this.pictureBox_MainForm.Name = "pictureBox_MainForm";
+            this.pictureBox_MainForm.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox_MainForm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_MainForm.TabIndex = 154;
+            this.pictureBox_MainForm.TabStop = false;
+            // 
+            // panel334
+            // 
+            this.panel334.Controls.Add(this.rJ_TextBox_主畫面_檢測別名);
+            this.panel334.Controls.Add(this.label4);
+            this.panel334.Location = new System.Drawing.Point(412, 715);
+            this.panel334.Name = "panel334";
+            this.panel334.Size = new System.Drawing.Size(309, 88);
+            this.panel334.TabIndex = 153;
+            // 
+            // rJ_TextBox_主畫面_檢測別名
+            // 
+            this.rJ_TextBox_主畫面_檢測別名.BackColor = System.Drawing.SystemColors.Window;
+            this.rJ_TextBox_主畫面_檢測別名.BorderColor = System.Drawing.Color.DarkGray;
+            this.rJ_TextBox_主畫面_檢測別名.BorderFocusColor = System.Drawing.Color.SteelBlue;
+            this.rJ_TextBox_主畫面_檢測別名.BorderRadius = 5;
+            this.rJ_TextBox_主畫面_檢測別名.BorderSize = 1;
+            this.rJ_TextBox_主畫面_檢測別名.Enabled = false;
+            this.rJ_TextBox_主畫面_檢測別名.Font = new System.Drawing.Font("新細明體", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_TextBox_主畫面_檢測別名.ForeColor = System.Drawing.Color.Black;
+            this.rJ_TextBox_主畫面_檢測別名.GUID = "";
+            this.rJ_TextBox_主畫面_檢測別名.Location = new System.Drawing.Point(-2, 29);
+            this.rJ_TextBox_主畫面_檢測別名.Multiline = false;
+            this.rJ_TextBox_主畫面_檢測別名.Name = "rJ_TextBox_主畫面_檢測別名";
+            this.rJ_TextBox_主畫面_檢測別名.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.rJ_TextBox_主畫面_檢測別名.PassWordChar = false;
+            this.rJ_TextBox_主畫面_檢測別名.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rJ_TextBox_主畫面_檢測別名.PlaceholderText = "";
+            this.rJ_TextBox_主畫面_檢測別名.ShowTouchPannel = false;
+            this.rJ_TextBox_主畫面_檢測別名.Size = new System.Drawing.Size(297, 56);
+            this.rJ_TextBox_主畫面_檢測別名.TabIndex = 2;
+            this.rJ_TextBox_主畫面_檢測別名.TextAlgin = System.Windows.Forms.HorizontalAlignment.Left;
+            this.rJ_TextBox_主畫面_檢測別名.Texts = "";
+            this.rJ_TextBox_主畫面_檢測別名.UnderlineStyle = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label4.Location = new System.Drawing.Point(3, 3);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(95, 24);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "檢測別名 :";
+            // 
+            // panel333
+            // 
+            this.panel333.Controls.Add(this.comboBox_主畫面_型號選擇);
+            this.panel333.Controls.Add(this.label3);
+            this.panel333.Location = new System.Drawing.Point(15, 715);
+            this.panel333.Name = "panel333";
+            this.panel333.Size = new System.Drawing.Size(391, 88);
+            this.panel333.TabIndex = 152;
+            // 
+            // comboBox_主畫面_型號選擇
+            // 
+            this.comboBox_主畫面_型號選擇.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox_主畫面_型號選擇.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold);
+            this.comboBox_主畫面_型號選擇.FormattingEnabled = true;
+            this.comboBox_主畫面_型號選擇.Location = new System.Drawing.Point(7, 46);
+            this.comboBox_主畫面_型號選擇.Name = "comboBox_主畫面_型號選擇";
+            this.comboBox_主畫面_型號選擇.Size = new System.Drawing.Size(373, 39);
+            this.comboBox_主畫面_型號選擇.TabIndex = 127;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(3, 3);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(95, 24);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "型號選擇 :";
+            // 
+            // plC_Button_CCD測試一次
+            // 
+            this.plC_Button_CCD測試一次.Bool = false;
+            this.plC_Button_CCD測試一次.but_press = false;
+            this.plC_Button_CCD測試一次.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button_CCD測試一次.Location = new System.Drawing.Point(758, 731);
+            this.plC_Button_CCD測試一次.Margin = new System.Windows.Forms.Padding(4);
+            this.plC_Button_CCD測試一次.Name = "plC_Button_CCD測試一次";
+            this.plC_Button_CCD測試一次.OFF_文字內容 = "測試一次";
+            this.plC_Button_CCD測試一次.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button_CCD測試一次.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button_CCD測試一次.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button_CCD測試一次.ON_文字內容 = "測試一次";
+            this.plC_Button_CCD測試一次.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button_CCD測試一次.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button_CCD測試一次.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button_CCD測試一次.Size = new System.Drawing.Size(151, 69);
+            this.plC_Button_CCD測試一次.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button_CCD測試一次.TabIndex = 63;
+            this.plC_Button_CCD測試一次.事件驅動 = false;
+            this.plC_Button_CCD測試一次.字型鎖住 = true;
+            this.plC_Button_CCD測試一次.寫入位置註解 = "CCD測試一次";
+            this.plC_Button_CCD測試一次.寫入元件位置 = "M5010";
+            this.plC_Button_CCD測試一次.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button_CCD測試一次.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button_CCD測試一次.文字鎖住 = true;
+            this.plC_Button_CCD測試一次.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button_CCD測試一次.狀態OFF圖片")));
+            this.plC_Button_CCD測試一次.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button_CCD測試一次.狀態ON圖片")));
+            this.plC_Button_CCD測試一次.讀取位元反向 = false;
+            this.plC_Button_CCD測試一次.讀取位置註解 = "CCD測試一次";
+            this.plC_Button_CCD測試一次.讀取元件位置 = "M5010";
+            this.plC_Button_CCD測試一次.讀寫鎖住 = true;
+            this.plC_Button_CCD測試一次.起始狀態 = false;
+            this.plC_Button_CCD測試一次.音效 = true;
+            this.plC_Button_CCD測試一次.顯示 = false;
+            this.plC_Button_CCD測試一次.顯示狀態 = false;
             // 
             // 手動作業
             // 
@@ -11852,6 +12066,190 @@
             this.plC_RJ_Pannel8.Size = new System.Drawing.Size(839, 719);
             this.plC_RJ_Pannel8.TabIndex = 64;
             // 
+            // plC_Button245
+            // 
+            this.plC_Button245.Bool = false;
+            this.plC_Button245.but_press = false;
+            this.plC_Button245.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button245.Location = new System.Drawing.Point(263, 172);
+            this.plC_Button245.Margin = new System.Windows.Forms.Padding(33, 37, 33, 37);
+            this.plC_Button245.Name = "plC_Button245";
+            this.plC_Button245.OFF_文字內容 = "真空不檢查";
+            this.plC_Button245.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button245.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button245.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button245.ON_文字內容 = "真空不檢查";
+            this.plC_Button245.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button245.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button245.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button245.Size = new System.Drawing.Size(139, 63);
+            this.plC_Button245.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button245.TabIndex = 93;
+            this.plC_Button245.事件驅動 = false;
+            this.plC_Button245.字型鎖住 = true;
+            this.plC_Button245.寫入位置註解 = "入料馬達_送盤位置";
+            this.plC_Button245.寫入元件位置 = "S4500";
+            this.plC_Button245.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button245.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button245.文字鎖住 = true;
+            this.plC_Button245.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button245.狀態OFF圖片")));
+            this.plC_Button245.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button245.狀態ON圖片")));
+            this.plC_Button245.讀取位元反向 = false;
+            this.plC_Button245.讀取元件位置 = "S4500";
+            this.plC_Button245.讀寫鎖住 = true;
+            this.plC_Button245.起始狀態 = false;
+            this.plC_Button245.音效 = true;
+            this.plC_Button245.顯示 = false;
+            this.plC_Button245.顯示狀態 = false;
+            // 
+            // panel321
+            // 
+            this.panel321.Controls.Add(this.rJ_Lable199);
+            this.panel321.Controls.Add(this.rJ_Lable200);
+            this.panel321.Controls.Add(this.plC_NumBox73);
+            this.panel321.Location = new System.Drawing.Point(584, 88);
+            this.panel321.Name = "panel321";
+            this.panel321.Size = new System.Drawing.Size(222, 45);
+            this.panel321.TabIndex = 89;
+            // 
+            // rJ_Lable199
+            // 
+            this.rJ_Lable199.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable199.BackgroundColor = System.Drawing.Color.White;
+            this.rJ_Lable199.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Lable199.BorderRadius = 10;
+            this.rJ_Lable199.BorderSize = 0;
+            this.rJ_Lable199.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rJ_Lable199.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable199.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable199.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable199.GUID = "";
+            this.rJ_Lable199.Location = new System.Drawing.Point(196, 0);
+            this.rJ_Lable199.Name = "rJ_Lable199";
+            this.rJ_Lable199.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable199.ShadowSize = 0;
+            this.rJ_Lable199.Size = new System.Drawing.Size(26, 45);
+            this.rJ_Lable199.TabIndex = 4;
+            this.rJ_Lable199.Text = "s";
+            this.rJ_Lable199.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.rJ_Lable199.TextColor = System.Drawing.Color.Black;
+            // 
+            // rJ_Lable200
+            // 
+            this.rJ_Lable200.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable200.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable200.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable200.BorderRadius = 10;
+            this.rJ_Lable200.BorderSize = 1;
+            this.rJ_Lable200.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable200.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable200.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable200.GUID = "";
+            this.rJ_Lable200.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable200.Name = "rJ_Lable200";
+            this.rJ_Lable200.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable200.ShadowSize = 0;
+            this.rJ_Lable200.Size = new System.Drawing.Size(114, 42);
+            this.rJ_Lable200.TabIndex = 0;
+            this.rJ_Lable200.Text = "破真空延遲";
+            this.rJ_Lable200.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable200.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox73
+            // 
+            this.plC_NumBox73.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox73.Location = new System.Drawing.Point(122, 9);
+            this.plC_NumBox73.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox73.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox73.Name = "plC_NumBox73";
+            this.plC_NumBox73.ReadOnly = false;
+            this.plC_NumBox73.Size = new System.Drawing.Size(72, 30);
+            this.plC_NumBox73.TabIndex = 1;
+            this.plC_NumBox73.Value = 0;
+            this.plC_NumBox73.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox73.密碼欄位 = false;
+            this.plC_NumBox73.寫入元件位置 = "D152";
+            this.plC_NumBox73.小數點位置 = 3;
+            this.plC_NumBox73.微調數值 = 1;
+            this.plC_NumBox73.讀取元件位置 = "D152";
+            this.plC_NumBox73.音效 = true;
+            this.plC_NumBox73.顯示微調按鈕 = false;
+            this.plC_NumBox73.顯示螢幕小鍵盤 = true;
+            // 
+            // panel320
+            // 
+            this.panel320.Controls.Add(this.rJ_Lable197);
+            this.panel320.Controls.Add(this.rJ_Lable198);
+            this.panel320.Controls.Add(this.plC_NumBox72);
+            this.panel320.Location = new System.Drawing.Point(368, 88);
+            this.panel320.Name = "panel320";
+            this.panel320.Size = new System.Drawing.Size(222, 45);
+            this.panel320.TabIndex = 88;
+            // 
+            // rJ_Lable197
+            // 
+            this.rJ_Lable197.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable197.BackgroundColor = System.Drawing.Color.White;
+            this.rJ_Lable197.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Lable197.BorderRadius = 10;
+            this.rJ_Lable197.BorderSize = 0;
+            this.rJ_Lable197.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rJ_Lable197.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable197.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable197.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable197.GUID = "";
+            this.rJ_Lable197.Location = new System.Drawing.Point(196, 0);
+            this.rJ_Lable197.Name = "rJ_Lable197";
+            this.rJ_Lable197.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable197.ShadowSize = 0;
+            this.rJ_Lable197.Size = new System.Drawing.Size(26, 45);
+            this.rJ_Lable197.TabIndex = 4;
+            this.rJ_Lable197.Text = "s";
+            this.rJ_Lable197.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.rJ_Lable197.TextColor = System.Drawing.Color.Black;
+            // 
+            // rJ_Lable198
+            // 
+            this.rJ_Lable198.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable198.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable198.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable198.BorderRadius = 10;
+            this.rJ_Lable198.BorderSize = 1;
+            this.rJ_Lable198.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable198.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable198.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable198.GUID = "";
+            this.rJ_Lable198.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable198.Name = "rJ_Lable198";
+            this.rJ_Lable198.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable198.ShadowSize = 0;
+            this.rJ_Lable198.Size = new System.Drawing.Size(114, 42);
+            this.rJ_Lable198.TabIndex = 0;
+            this.rJ_Lable198.Text = "吸真空延遲";
+            this.rJ_Lable198.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable198.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox72
+            // 
+            this.plC_NumBox72.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox72.Location = new System.Drawing.Point(122, 9);
+            this.plC_NumBox72.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox72.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox72.Name = "plC_NumBox72";
+            this.plC_NumBox72.ReadOnly = false;
+            this.plC_NumBox72.Size = new System.Drawing.Size(72, 30);
+            this.plC_NumBox72.TabIndex = 1;
+            this.plC_NumBox72.Value = 0;
+            this.plC_NumBox72.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox72.密碼欄位 = false;
+            this.plC_NumBox72.寫入元件位置 = "D150";
+            this.plC_NumBox72.小數點位置 = 3;
+            this.plC_NumBox72.微調數值 = 1;
+            this.plC_NumBox72.讀取元件位置 = "D150";
+            this.plC_NumBox72.音效 = true;
+            this.plC_NumBox72.顯示微調按鈕 = false;
+            this.plC_NumBox72.顯示螢幕小鍵盤 = true;
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.plC_Button178);
@@ -14919,6 +15317,1419 @@
             this.CCD系統.TabIndex = 5;
             this.CCD系統.Text = "CCD系統";
             // 
+            // plC_RJ_Pannel15
+            // 
+            this.plC_RJ_Pannel15.BackColor = System.Drawing.Color.White;
+            this.plC_RJ_Pannel15.BackgroundColor = System.Drawing.Color.Transparent;
+            this.plC_RJ_Pannel15.BorderColor = System.Drawing.Color.Gainsboro;
+            this.plC_RJ_Pannel15.BorderRadius = 40;
+            this.plC_RJ_Pannel15.BorderSize = 2;
+            this.plC_RJ_Pannel15.Controls.Add(this.groupBox8);
+            this.plC_RJ_Pannel15.Controls.Add(this.rJ_Lable214);
+            this.plC_RJ_Pannel15.Controls.Add(this.plC_Button252);
+            this.plC_RJ_Pannel15.Controls.Add(this.plC_Button253);
+            this.plC_RJ_Pannel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.plC_RJ_Pannel15.ForeColor = System.Drawing.Color.White;
+            this.plC_RJ_Pannel15.IsSelected = false;
+            this.plC_RJ_Pannel15.Location = new System.Drawing.Point(0, 0);
+            this.plC_RJ_Pannel15.Name = "plC_RJ_Pannel15";
+            this.plC_RJ_Pannel15.Padding = new System.Windows.Forms.Padding(20, 20, 30, 20);
+            this.plC_RJ_Pannel15.ShadowColor = System.Drawing.Color.DimGray;
+            this.plC_RJ_Pannel15.ShadowSize = 3;
+            this.plC_RJ_Pannel15.Size = new System.Drawing.Size(1387, 719);
+            this.plC_RJ_Pannel15.TabIndex = 69;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.panel326);
+            this.groupBox8.Controls.Add(this.panel325);
+            this.groupBox8.Controls.Add(this.panel324);
+            this.groupBox8.Controls.Add(this.panel319);
+            this.groupBox8.Controls.Add(this.plC_Button247);
+            this.groupBox8.Controls.Add(this.plC_Button248);
+            this.groupBox8.Controls.Add(this.panel328);
+            this.groupBox8.Controls.Add(this.panel329);
+            this.groupBox8.Controls.Add(this.panel330);
+            this.groupBox8.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox8.Location = new System.Drawing.Point(27, 248);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(882, 415);
+            this.groupBox8.TabIndex = 66;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "送盤馬達";
+            // 
+            // panel326
+            // 
+            this.panel326.Controls.Add(this.plC_Button254);
+            this.panel326.Controls.Add(this.plC_CheckBox5);
+            this.panel326.Controls.Add(this.rJ_Lable210);
+            this.panel326.Controls.Add(this.plC_NumBox78);
+            this.panel326.Location = new System.Drawing.Point(26, 238);
+            this.panel326.Name = "panel326";
+            this.panel326.Size = new System.Drawing.Size(421, 45);
+            this.panel326.TabIndex = 78;
+            // 
+            // plC_Button254
+            // 
+            this.plC_Button254.Bool = false;
+            this.plC_Button254.but_press = false;
+            this.plC_Button254.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button254.Location = new System.Drawing.Point(341, 7);
+            this.plC_Button254.Margin = new System.Windows.Forms.Padding(20, 21, 20, 21);
+            this.plC_Button254.Name = "plC_Button254";
+            this.plC_Button254.OFF_文字內容 = "移動";
+            this.plC_Button254.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button254.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button254.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button254.ON_文字內容 = "移動";
+            this.plC_Button254.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button254.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button254.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button254.Size = new System.Drawing.Size(68, 33);
+            this.plC_Button254.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button254.TabIndex = 80;
+            this.plC_Button254.事件驅動 = false;
+            this.plC_Button254.字型鎖住 = true;
+            this.plC_Button254.寫入元件位置 = "S11080";
+            this.plC_Button254.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button254.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button254.文字鎖住 = true;
+            this.plC_Button254.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button254.狀態OFF圖片")));
+            this.plC_Button254.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button254.狀態ON圖片")));
+            this.plC_Button254.讀取位元反向 = false;
+            this.plC_Button254.讀取元件位置 = "S11090";
+            this.plC_Button254.讀寫鎖住 = true;
+            this.plC_Button254.起始狀態 = false;
+            this.plC_Button254.音效 = true;
+            this.plC_Button254.顯示 = false;
+            this.plC_Button254.顯示狀態 = false;
+            // 
+            // plC_CheckBox5
+            // 
+            this.plC_CheckBox5.AutoSize = true;
+            this.plC_CheckBox5.Bool = false;
+            this.plC_CheckBox5.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.plC_CheckBox5.ForeColor = System.Drawing.Color.Black;
+            this.plC_CheckBox5.Location = new System.Drawing.Point(273, 14);
+            this.plC_CheckBox5.Name = "plC_CheckBox5";
+            this.plC_CheckBox5.Size = new System.Drawing.Size(59, 20);
+            this.plC_CheckBox5.TabIndex = 80;
+            this.plC_CheckBox5.Text = "使用";
+            this.plC_CheckBox5.UseVisualStyleBackColor = true;
+            this.plC_CheckBox5.寫入位置註解 = "CCD位置5_致能";
+            this.plC_CheckBox5.寫入元件位置 = "S11084";
+            this.plC_CheckBox5.文字內容 = "使用";
+            this.plC_CheckBox5.文字字體 = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.plC_CheckBox5.文字顏色 = System.Drawing.Color.Black;
+            this.plC_CheckBox5.讀取元件位置 = "S11084";
+            this.plC_CheckBox5.讀寫鎖住 = false;
+            this.plC_CheckBox5.音效 = true;
+            // 
+            // rJ_Lable210
+            // 
+            this.rJ_Lable210.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable210.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable210.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable210.BorderRadius = 10;
+            this.rJ_Lable210.BorderSize = 1;
+            this.rJ_Lable210.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable210.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable210.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable210.GUID = "";
+            this.rJ_Lable210.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable210.Name = "rJ_Lable210";
+            this.rJ_Lable210.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable210.ShadowSize = 0;
+            this.rJ_Lable210.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable210.TabIndex = 0;
+            this.rJ_Lable210.Text = "位置5";
+            this.rJ_Lable210.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable210.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox78
+            // 
+            this.plC_NumBox78.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox78.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox78.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox78.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox78.Name = "plC_NumBox78";
+            this.plC_NumBox78.ReadOnly = false;
+            this.plC_NumBox78.Size = new System.Drawing.Size(123, 30);
+            this.plC_NumBox78.TabIndex = 1;
+            this.plC_NumBox78.Value = 0;
+            this.plC_NumBox78.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox78.密碼欄位 = false;
+            this.plC_NumBox78.寫入位置註解 = "CCD馬達_位置5";
+            this.plC_NumBox78.寫入元件位置 = "D11004";
+            this.plC_NumBox78.小數點位置 = 2;
+            this.plC_NumBox78.微調數值 = 1;
+            this.plC_NumBox78.讀取元件位置 = "D11004";
+            this.plC_NumBox78.音效 = true;
+            this.plC_NumBox78.顯示微調按鈕 = false;
+            this.plC_NumBox78.顯示螢幕小鍵盤 = true;
+            // 
+            // panel325
+            // 
+            this.panel325.Controls.Add(this.plC_CheckBox4);
+            this.panel325.Controls.Add(this.plC_Button251);
+            this.panel325.Controls.Add(this.rJ_Lable209);
+            this.panel325.Controls.Add(this.plC_NumBox77);
+            this.panel325.Location = new System.Drawing.Point(26, 187);
+            this.panel325.Name = "panel325";
+            this.panel325.Size = new System.Drawing.Size(421, 45);
+            this.panel325.TabIndex = 77;
+            // 
+            // plC_CheckBox4
+            // 
+            this.plC_CheckBox4.AutoSize = true;
+            this.plC_CheckBox4.Bool = false;
+            this.plC_CheckBox4.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.plC_CheckBox4.ForeColor = System.Drawing.Color.Black;
+            this.plC_CheckBox4.Location = new System.Drawing.Point(273, 14);
+            this.plC_CheckBox4.Name = "plC_CheckBox4";
+            this.plC_CheckBox4.Size = new System.Drawing.Size(59, 20);
+            this.plC_CheckBox4.TabIndex = 80;
+            this.plC_CheckBox4.Text = "使用";
+            this.plC_CheckBox4.UseVisualStyleBackColor = true;
+            this.plC_CheckBox4.寫入位置註解 = "CCD位置4_致能";
+            this.plC_CheckBox4.寫入元件位置 = "S11064";
+            this.plC_CheckBox4.文字內容 = "使用";
+            this.plC_CheckBox4.文字字體 = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.plC_CheckBox4.文字顏色 = System.Drawing.Color.Black;
+            this.plC_CheckBox4.讀取元件位置 = "S11064";
+            this.plC_CheckBox4.讀寫鎖住 = false;
+            this.plC_CheckBox4.音效 = true;
+            // 
+            // plC_Button251
+            // 
+            this.plC_Button251.Bool = false;
+            this.plC_Button251.but_press = false;
+            this.plC_Button251.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button251.Location = new System.Drawing.Point(341, 7);
+            this.plC_Button251.Margin = new System.Windows.Forms.Padding(20, 21, 20, 21);
+            this.plC_Button251.Name = "plC_Button251";
+            this.plC_Button251.OFF_文字內容 = "移動";
+            this.plC_Button251.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button251.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button251.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button251.ON_文字內容 = "移動";
+            this.plC_Button251.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button251.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button251.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button251.Size = new System.Drawing.Size(68, 33);
+            this.plC_Button251.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button251.TabIndex = 80;
+            this.plC_Button251.事件驅動 = false;
+            this.plC_Button251.字型鎖住 = true;
+            this.plC_Button251.寫入元件位置 = "S11060";
+            this.plC_Button251.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button251.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button251.文字鎖住 = true;
+            this.plC_Button251.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button251.狀態OFF圖片")));
+            this.plC_Button251.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button251.狀態ON圖片")));
+            this.plC_Button251.讀取位元反向 = false;
+            this.plC_Button251.讀取元件位置 = "S11070";
+            this.plC_Button251.讀寫鎖住 = true;
+            this.plC_Button251.起始狀態 = false;
+            this.plC_Button251.音效 = true;
+            this.plC_Button251.顯示 = false;
+            this.plC_Button251.顯示狀態 = false;
+            // 
+            // rJ_Lable209
+            // 
+            this.rJ_Lable209.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable209.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable209.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable209.BorderRadius = 10;
+            this.rJ_Lable209.BorderSize = 1;
+            this.rJ_Lable209.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable209.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable209.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable209.GUID = "";
+            this.rJ_Lable209.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable209.Name = "rJ_Lable209";
+            this.rJ_Lable209.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable209.ShadowSize = 0;
+            this.rJ_Lable209.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable209.TabIndex = 0;
+            this.rJ_Lable209.Text = "位置4";
+            this.rJ_Lable209.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable209.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox77
+            // 
+            this.plC_NumBox77.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox77.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox77.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox77.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox77.Name = "plC_NumBox77";
+            this.plC_NumBox77.ReadOnly = false;
+            this.plC_NumBox77.Size = new System.Drawing.Size(123, 30);
+            this.plC_NumBox77.TabIndex = 1;
+            this.plC_NumBox77.Value = 0;
+            this.plC_NumBox77.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox77.密碼欄位 = false;
+            this.plC_NumBox77.寫入位置註解 = "CCD馬達_位置4";
+            this.plC_NumBox77.寫入元件位置 = "D11003";
+            this.plC_NumBox77.小數點位置 = 2;
+            this.plC_NumBox77.微調數值 = 1;
+            this.plC_NumBox77.讀取元件位置 = "D11003";
+            this.plC_NumBox77.音效 = true;
+            this.plC_NumBox77.顯示微調按鈕 = false;
+            this.plC_NumBox77.顯示螢幕小鍵盤 = true;
+            // 
+            // panel324
+            // 
+            this.panel324.Controls.Add(this.plC_CheckBox3);
+            this.panel324.Controls.Add(this.rJ_Lable208);
+            this.panel324.Controls.Add(this.plC_Button250);
+            this.panel324.Controls.Add(this.plC_NumBox76);
+            this.panel324.Location = new System.Drawing.Point(26, 136);
+            this.panel324.Name = "panel324";
+            this.panel324.Size = new System.Drawing.Size(421, 45);
+            this.panel324.TabIndex = 76;
+            // 
+            // plC_CheckBox3
+            // 
+            this.plC_CheckBox3.AutoSize = true;
+            this.plC_CheckBox3.Bool = false;
+            this.plC_CheckBox3.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.plC_CheckBox3.ForeColor = System.Drawing.Color.Black;
+            this.plC_CheckBox3.Location = new System.Drawing.Point(273, 14);
+            this.plC_CheckBox3.Name = "plC_CheckBox3";
+            this.plC_CheckBox3.Size = new System.Drawing.Size(59, 20);
+            this.plC_CheckBox3.TabIndex = 80;
+            this.plC_CheckBox3.Text = "使用";
+            this.plC_CheckBox3.UseVisualStyleBackColor = true;
+            this.plC_CheckBox3.寫入位置註解 = "CCD位置3_致能";
+            this.plC_CheckBox3.寫入元件位置 = "S11044";
+            this.plC_CheckBox3.文字內容 = "使用";
+            this.plC_CheckBox3.文字字體 = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.plC_CheckBox3.文字顏色 = System.Drawing.Color.Black;
+            this.plC_CheckBox3.讀取元件位置 = "S11044";
+            this.plC_CheckBox3.讀寫鎖住 = false;
+            this.plC_CheckBox3.音效 = true;
+            // 
+            // rJ_Lable208
+            // 
+            this.rJ_Lable208.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable208.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable208.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable208.BorderRadius = 10;
+            this.rJ_Lable208.BorderSize = 1;
+            this.rJ_Lable208.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable208.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable208.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable208.GUID = "";
+            this.rJ_Lable208.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable208.Name = "rJ_Lable208";
+            this.rJ_Lable208.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable208.ShadowSize = 0;
+            this.rJ_Lable208.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable208.TabIndex = 0;
+            this.rJ_Lable208.Text = "位置3";
+            this.rJ_Lable208.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable208.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_Button250
+            // 
+            this.plC_Button250.Bool = false;
+            this.plC_Button250.but_press = false;
+            this.plC_Button250.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button250.Location = new System.Drawing.Point(341, 7);
+            this.plC_Button250.Margin = new System.Windows.Forms.Padding(20, 21, 20, 21);
+            this.plC_Button250.Name = "plC_Button250";
+            this.plC_Button250.OFF_文字內容 = "移動";
+            this.plC_Button250.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button250.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button250.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button250.ON_文字內容 = "移動";
+            this.plC_Button250.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button250.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button250.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button250.Size = new System.Drawing.Size(68, 33);
+            this.plC_Button250.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button250.TabIndex = 81;
+            this.plC_Button250.事件驅動 = false;
+            this.plC_Button250.字型鎖住 = true;
+            this.plC_Button250.寫入元件位置 = "S11040";
+            this.plC_Button250.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button250.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button250.文字鎖住 = true;
+            this.plC_Button250.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button250.狀態OFF圖片")));
+            this.plC_Button250.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button250.狀態ON圖片")));
+            this.plC_Button250.讀取位元反向 = false;
+            this.plC_Button250.讀取元件位置 = "S11050";
+            this.plC_Button250.讀寫鎖住 = true;
+            this.plC_Button250.起始狀態 = false;
+            this.plC_Button250.音效 = true;
+            this.plC_Button250.顯示 = false;
+            this.plC_Button250.顯示狀態 = false;
+            // 
+            // plC_NumBox76
+            // 
+            this.plC_NumBox76.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox76.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox76.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox76.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox76.Name = "plC_NumBox76";
+            this.plC_NumBox76.ReadOnly = false;
+            this.plC_NumBox76.Size = new System.Drawing.Size(123, 30);
+            this.plC_NumBox76.TabIndex = 1;
+            this.plC_NumBox76.Value = 0;
+            this.plC_NumBox76.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox76.密碼欄位 = false;
+            this.plC_NumBox76.寫入位置註解 = "CCD馬達_位置3";
+            this.plC_NumBox76.寫入元件位置 = "D11002";
+            this.plC_NumBox76.小數點位置 = 2;
+            this.plC_NumBox76.微調數值 = 1;
+            this.plC_NumBox76.讀取元件位置 = "D11002";
+            this.plC_NumBox76.音效 = true;
+            this.plC_NumBox76.顯示微調按鈕 = false;
+            this.plC_NumBox76.顯示螢幕小鍵盤 = true;
+            // 
+            // panel319
+            // 
+            this.panel319.Controls.Add(this.rJ_Lable196);
+            this.panel319.Controls.Add(this.rJ_Lable195);
+            this.panel319.Controls.Add(this.plC_NumBox68);
+            this.panel319.Location = new System.Drawing.Point(26, 340);
+            this.panel319.Name = "panel319";
+            this.panel319.Size = new System.Drawing.Size(301, 45);
+            this.panel319.TabIndex = 67;
+            // 
+            // rJ_Lable196
+            // 
+            this.rJ_Lable196.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable196.BackgroundColor = System.Drawing.Color.White;
+            this.rJ_Lable196.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Lable196.BorderRadius = 10;
+            this.rJ_Lable196.BorderSize = 0;
+            this.rJ_Lable196.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rJ_Lable196.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable196.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable196.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable196.GUID = "";
+            this.rJ_Lable196.Location = new System.Drawing.Point(275, 0);
+            this.rJ_Lable196.Name = "rJ_Lable196";
+            this.rJ_Lable196.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable196.ShadowSize = 0;
+            this.rJ_Lable196.Size = new System.Drawing.Size(26, 45);
+            this.rJ_Lable196.TabIndex = 5;
+            this.rJ_Lable196.Text = "s";
+            this.rJ_Lable196.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.rJ_Lable196.TextColor = System.Drawing.Color.Black;
+            // 
+            // rJ_Lable195
+            // 
+            this.rJ_Lable195.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable195.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable195.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable195.BorderRadius = 10;
+            this.rJ_Lable195.BorderSize = 1;
+            this.rJ_Lable195.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable195.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable195.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable195.GUID = "";
+            this.rJ_Lable195.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable195.Name = "rJ_Lable195";
+            this.rJ_Lable195.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable195.ShadowSize = 0;
+            this.rJ_Lable195.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable195.TabIndex = 0;
+            this.rJ_Lable195.Text = "拍照延遲";
+            this.rJ_Lable195.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable195.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox68
+            // 
+            this.plC_NumBox68.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox68.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox68.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox68.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox68.Name = "plC_NumBox68";
+            this.plC_NumBox68.ReadOnly = false;
+            this.plC_NumBox68.Size = new System.Drawing.Size(123, 30);
+            this.plC_NumBox68.TabIndex = 1;
+            this.plC_NumBox68.Value = 0;
+            this.plC_NumBox68.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox68.密碼欄位 = false;
+            this.plC_NumBox68.寫入位置註解 = "CCD拍照延遲";
+            this.plC_NumBox68.寫入元件位置 = "D11020";
+            this.plC_NumBox68.小數點位置 = 3;
+            this.plC_NumBox68.微調數值 = 1;
+            this.plC_NumBox68.讀取元件位置 = "D11020";
+            this.plC_NumBox68.音效 = true;
+            this.plC_NumBox68.顯示微調按鈕 = false;
+            this.plC_NumBox68.顯示螢幕小鍵盤 = true;
+            // 
+            // plC_Button247
+            // 
+            this.plC_Button247.Bool = false;
+            this.plC_Button247.but_press = false;
+            this.plC_Button247.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button247.Location = new System.Drawing.Point(1063, 616);
+            this.plC_Button247.Margin = new System.Windows.Forms.Padding(33, 37, 33, 37);
+            this.plC_Button247.Name = "plC_Button247";
+            this.plC_Button247.OFF_文字內容 = "送盤位置";
+            this.plC_Button247.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button247.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button247.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button247.ON_文字內容 = "送盤位置";
+            this.plC_Button247.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button247.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button247.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button247.Size = new System.Drawing.Size(180, 110);
+            this.plC_Button247.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button247.TabIndex = 75;
+            this.plC_Button247.事件驅動 = false;
+            this.plC_Button247.字型鎖住 = true;
+            this.plC_Button247.寫入位置註解 = "入料馬達_送盤位置";
+            this.plC_Button247.寫入元件位置 = "S10020";
+            this.plC_Button247.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button247.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button247.文字鎖住 = true;
+            this.plC_Button247.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button247.狀態OFF圖片")));
+            this.plC_Button247.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button247.狀態ON圖片")));
+            this.plC_Button247.讀取位元反向 = false;
+            this.plC_Button247.讀取元件位置 = "S10030";
+            this.plC_Button247.讀寫鎖住 = true;
+            this.plC_Button247.起始狀態 = false;
+            this.plC_Button247.音效 = true;
+            this.plC_Button247.顯示 = false;
+            this.plC_Button247.顯示狀態 = false;
+            // 
+            // plC_Button248
+            // 
+            this.plC_Button248.Bool = false;
+            this.plC_Button248.but_press = false;
+            this.plC_Button248.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button248.Location = new System.Drawing.Point(1260, 614);
+            this.plC_Button248.Margin = new System.Windows.Forms.Padding(20, 21, 20, 21);
+            this.plC_Button248.Name = "plC_Button248";
+            this.plC_Button248.OFF_文字內容 = "取盤位置";
+            this.plC_Button248.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button248.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button248.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button248.ON_文字內容 = "取盤位置";
+            this.plC_Button248.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button248.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button248.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button248.Size = new System.Drawing.Size(180, 110);
+            this.plC_Button248.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button248.TabIndex = 74;
+            this.plC_Button248.事件驅動 = false;
+            this.plC_Button248.字型鎖住 = true;
+            this.plC_Button248.寫入位置註解 = "送盤馬達_取盤位置";
+            this.plC_Button248.寫入元件位置 = "S10000";
+            this.plC_Button248.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button248.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button248.文字鎖住 = true;
+            this.plC_Button248.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button248.狀態OFF圖片")));
+            this.plC_Button248.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button248.狀態ON圖片")));
+            this.plC_Button248.讀取位元反向 = false;
+            this.plC_Button248.讀取元件位置 = "S10010";
+            this.plC_Button248.讀寫鎖住 = true;
+            this.plC_Button248.起始狀態 = false;
+            this.plC_Button248.音效 = true;
+            this.plC_Button248.顯示 = false;
+            this.plC_Button248.顯示狀態 = false;
+            // 
+            // panel328
+            // 
+            this.panel328.Controls.Add(this.rJ_Lable201);
+            this.panel328.Controls.Add(this.plC_NumBox69);
+            this.panel328.Location = new System.Drawing.Point(26, 289);
+            this.panel328.Name = "panel328";
+            this.panel328.Size = new System.Drawing.Size(329, 45);
+            this.panel328.TabIndex = 73;
+            // 
+            // rJ_Lable201
+            // 
+            this.rJ_Lable201.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable201.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable201.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable201.BorderRadius = 10;
+            this.rJ_Lable201.BorderSize = 1;
+            this.rJ_Lable201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable201.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable201.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable201.GUID = "";
+            this.rJ_Lable201.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable201.Name = "rJ_Lable201";
+            this.rJ_Lable201.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable201.ShadowSize = 0;
+            this.rJ_Lable201.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable201.TabIndex = 0;
+            this.rJ_Lable201.Text = "運轉速度";
+            this.rJ_Lable201.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable201.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox69
+            // 
+            this.plC_NumBox69.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox69.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox69.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox69.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox69.Name = "plC_NumBox69";
+            this.plC_NumBox69.ReadOnly = false;
+            this.plC_NumBox69.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox69.TabIndex = 1;
+            this.plC_NumBox69.Value = 0;
+            this.plC_NumBox69.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox69.密碼欄位 = false;
+            this.plC_NumBox69.寫入元件位置 = "D15124";
+            this.plC_NumBox69.小數點位置 = 0;
+            this.plC_NumBox69.微調數值 = 1;
+            this.plC_NumBox69.讀取元件位置 = "D15124";
+            this.plC_NumBox69.音效 = true;
+            this.plC_NumBox69.顯示微調按鈕 = false;
+            this.plC_NumBox69.顯示螢幕小鍵盤 = true;
+            // 
+            // panel329
+            // 
+            this.panel329.Controls.Add(this.plC_CheckBox2);
+            this.panel329.Controls.Add(this.rJ_Lable202);
+            this.panel329.Controls.Add(this.plC_NumBox70);
+            this.panel329.Controls.Add(this.plC_Button249);
+            this.panel329.Location = new System.Drawing.Point(26, 85);
+            this.panel329.Name = "panel329";
+            this.panel329.Size = new System.Drawing.Size(421, 45);
+            this.panel329.TabIndex = 72;
+            // 
+            // plC_CheckBox2
+            // 
+            this.plC_CheckBox2.AutoSize = true;
+            this.plC_CheckBox2.Bool = false;
+            this.plC_CheckBox2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.plC_CheckBox2.ForeColor = System.Drawing.Color.Black;
+            this.plC_CheckBox2.Location = new System.Drawing.Point(273, 14);
+            this.plC_CheckBox2.Name = "plC_CheckBox2";
+            this.plC_CheckBox2.Size = new System.Drawing.Size(59, 20);
+            this.plC_CheckBox2.TabIndex = 80;
+            this.plC_CheckBox2.Text = "使用";
+            this.plC_CheckBox2.UseVisualStyleBackColor = true;
+            this.plC_CheckBox2.寫入位置註解 = "CCD位置2_致能";
+            this.plC_CheckBox2.寫入元件位置 = "S11024";
+            this.plC_CheckBox2.文字內容 = "使用";
+            this.plC_CheckBox2.文字字體 = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.plC_CheckBox2.文字顏色 = System.Drawing.Color.Black;
+            this.plC_CheckBox2.讀取元件位置 = "S11024";
+            this.plC_CheckBox2.讀寫鎖住 = false;
+            this.plC_CheckBox2.音效 = true;
+            // 
+            // rJ_Lable202
+            // 
+            this.rJ_Lable202.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable202.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable202.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable202.BorderRadius = 10;
+            this.rJ_Lable202.BorderSize = 1;
+            this.rJ_Lable202.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable202.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable202.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable202.GUID = "";
+            this.rJ_Lable202.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable202.Name = "rJ_Lable202";
+            this.rJ_Lable202.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable202.ShadowSize = 0;
+            this.rJ_Lable202.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable202.TabIndex = 0;
+            this.rJ_Lable202.Text = "位置2";
+            this.rJ_Lable202.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable202.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox70
+            // 
+            this.plC_NumBox70.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox70.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox70.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox70.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox70.Name = "plC_NumBox70";
+            this.plC_NumBox70.ReadOnly = false;
+            this.plC_NumBox70.Size = new System.Drawing.Size(123, 30);
+            this.plC_NumBox70.TabIndex = 1;
+            this.plC_NumBox70.Value = 0;
+            this.plC_NumBox70.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox70.密碼欄位 = false;
+            this.plC_NumBox70.寫入位置註解 = "CCD馬達_位置2";
+            this.plC_NumBox70.寫入元件位置 = "D11001";
+            this.plC_NumBox70.小數點位置 = 2;
+            this.plC_NumBox70.微調數值 = 1;
+            this.plC_NumBox70.讀取元件位置 = "D11001";
+            this.plC_NumBox70.音效 = true;
+            this.plC_NumBox70.顯示微調按鈕 = false;
+            this.plC_NumBox70.顯示螢幕小鍵盤 = true;
+            // 
+            // plC_Button249
+            // 
+            this.plC_Button249.Bool = false;
+            this.plC_Button249.but_press = false;
+            this.plC_Button249.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button249.Location = new System.Drawing.Point(341, 7);
+            this.plC_Button249.Margin = new System.Windows.Forms.Padding(20, 21, 20, 21);
+            this.plC_Button249.Name = "plC_Button249";
+            this.plC_Button249.OFF_文字內容 = "移動";
+            this.plC_Button249.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button249.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button249.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button249.ON_文字內容 = "移動";
+            this.plC_Button249.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button249.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button249.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button249.Size = new System.Drawing.Size(68, 33);
+            this.plC_Button249.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button249.TabIndex = 80;
+            this.plC_Button249.事件驅動 = false;
+            this.plC_Button249.字型鎖住 = true;
+            this.plC_Button249.寫入元件位置 = "S11020";
+            this.plC_Button249.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button249.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button249.文字鎖住 = true;
+            this.plC_Button249.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button249.狀態OFF圖片")));
+            this.plC_Button249.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button249.狀態ON圖片")));
+            this.plC_Button249.讀取位元反向 = false;
+            this.plC_Button249.讀取元件位置 = "S11030";
+            this.plC_Button249.讀寫鎖住 = true;
+            this.plC_Button249.起始狀態 = false;
+            this.plC_Button249.音效 = true;
+            this.plC_Button249.顯示 = false;
+            this.plC_Button249.顯示狀態 = false;
+            // 
+            // panel330
+            // 
+            this.panel330.Controls.Add(this.plC_Button246);
+            this.panel330.Controls.Add(this.plC_CheckBox1);
+            this.panel330.Controls.Add(this.rJ_Lable203);
+            this.panel330.Controls.Add(this.plC_NumBox71);
+            this.panel330.Location = new System.Drawing.Point(26, 34);
+            this.panel330.Name = "panel330";
+            this.panel330.Size = new System.Drawing.Size(421, 45);
+            this.panel330.TabIndex = 66;
+            // 
+            // plC_Button246
+            // 
+            this.plC_Button246.Bool = false;
+            this.plC_Button246.but_press = false;
+            this.plC_Button246.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button246.Location = new System.Drawing.Point(341, 6);
+            this.plC_Button246.Margin = new System.Windows.Forms.Padding(12);
+            this.plC_Button246.Name = "plC_Button246";
+            this.plC_Button246.OFF_文字內容 = "移動";
+            this.plC_Button246.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button246.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button246.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button246.ON_文字內容 = "移動";
+            this.plC_Button246.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button246.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button246.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button246.Size = new System.Drawing.Size(68, 33);
+            this.plC_Button246.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button246.TabIndex = 79;
+            this.plC_Button246.事件驅動 = false;
+            this.plC_Button246.字型鎖住 = true;
+            this.plC_Button246.寫入元件位置 = "S11000";
+            this.plC_Button246.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button246.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button246.文字鎖住 = true;
+            this.plC_Button246.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button246.狀態OFF圖片")));
+            this.plC_Button246.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button246.狀態ON圖片")));
+            this.plC_Button246.讀取位元反向 = false;
+            this.plC_Button246.讀取元件位置 = "S11010";
+            this.plC_Button246.讀寫鎖住 = true;
+            this.plC_Button246.起始狀態 = false;
+            this.plC_Button246.音效 = true;
+            this.plC_Button246.顯示 = false;
+            this.plC_Button246.顯示狀態 = false;
+            // 
+            // plC_CheckBox1
+            // 
+            this.plC_CheckBox1.AutoSize = true;
+            this.plC_CheckBox1.Bool = false;
+            this.plC_CheckBox1.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.plC_CheckBox1.ForeColor = System.Drawing.Color.Black;
+            this.plC_CheckBox1.Location = new System.Drawing.Point(273, 14);
+            this.plC_CheckBox1.Name = "plC_CheckBox1";
+            this.plC_CheckBox1.Size = new System.Drawing.Size(59, 20);
+            this.plC_CheckBox1.TabIndex = 79;
+            this.plC_CheckBox1.Text = "使用";
+            this.plC_CheckBox1.UseVisualStyleBackColor = true;
+            this.plC_CheckBox1.寫入位置註解 = "CCD位置1_致能";
+            this.plC_CheckBox1.寫入元件位置 = "S11004";
+            this.plC_CheckBox1.文字內容 = "使用";
+            this.plC_CheckBox1.文字字體 = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.plC_CheckBox1.文字顏色 = System.Drawing.Color.Black;
+            this.plC_CheckBox1.讀取元件位置 = "S11004";
+            this.plC_CheckBox1.讀寫鎖住 = false;
+            this.plC_CheckBox1.音效 = true;
+            // 
+            // rJ_Lable203
+            // 
+            this.rJ_Lable203.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable203.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable203.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable203.BorderRadius = 10;
+            this.rJ_Lable203.BorderSize = 1;
+            this.rJ_Lable203.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable203.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable203.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable203.GUID = "";
+            this.rJ_Lable203.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable203.Name = "rJ_Lable203";
+            this.rJ_Lable203.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable203.ShadowSize = 0;
+            this.rJ_Lable203.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable203.TabIndex = 0;
+            this.rJ_Lable203.Text = "位置1";
+            this.rJ_Lable203.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable203.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox71
+            // 
+            this.plC_NumBox71.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox71.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox71.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox71.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox71.Name = "plC_NumBox71";
+            this.plC_NumBox71.ReadOnly = false;
+            this.plC_NumBox71.Size = new System.Drawing.Size(123, 30);
+            this.plC_NumBox71.TabIndex = 1;
+            this.plC_NumBox71.Value = 0;
+            this.plC_NumBox71.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox71.密碼欄位 = false;
+            this.plC_NumBox71.寫入位置註解 = "CCD馬達_位置1";
+            this.plC_NumBox71.寫入元件位置 = "D11000";
+            this.plC_NumBox71.小數點位置 = 2;
+            this.plC_NumBox71.微調數值 = 1;
+            this.plC_NumBox71.讀取元件位置 = "D11000";
+            this.plC_NumBox71.音效 = true;
+            this.plC_NumBox71.顯示微調按鈕 = false;
+            this.plC_NumBox71.顯示螢幕小鍵盤 = true;
+            // 
+            // rJ_Lable214
+            // 
+            this.rJ_Lable214.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable214.BackgroundColor = System.Drawing.Color.Gray;
+            this.rJ_Lable214.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Lable214.BorderRadius = 10;
+            this.rJ_Lable214.BorderSize = 0;
+            this.rJ_Lable214.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rJ_Lable214.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable214.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable214.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable214.GUID = "";
+            this.rJ_Lable214.Location = new System.Drawing.Point(20, 20);
+            this.rJ_Lable214.Name = "rJ_Lable214";
+            this.rJ_Lable214.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable214.ShadowSize = 0;
+            this.rJ_Lable214.Size = new System.Drawing.Size(1337, 65);
+            this.rJ_Lable214.TabIndex = 60;
+            this.rJ_Lable214.Text = "系統操作";
+            this.rJ_Lable214.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable214.TextColor = System.Drawing.Color.White;
+            // 
+            // plC_Button252
+            // 
+            this.plC_Button252.Bool = false;
+            this.plC_Button252.but_press = false;
+            this.plC_Button252.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button252.Location = new System.Drawing.Point(27, 172);
+            this.plC_Button252.Margin = new System.Windows.Forms.Padding(4);
+            this.plC_Button252.Name = "plC_Button252";
+            this.plC_Button252.OFF_文字內容 = "一行程";
+            this.plC_Button252.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button252.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button252.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button252.ON_文字內容 = "一行程";
+            this.plC_Button252.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button252.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button252.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button252.Size = new System.Drawing.Size(202, 64);
+            this.plC_Button252.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button252.TabIndex = 63;
+            this.plC_Button252.事件驅動 = false;
+            this.plC_Button252.字型鎖住 = true;
+            this.plC_Button252.寫入元件位置 = "S650";
+            this.plC_Button252.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button252.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button252.文字鎖住 = true;
+            this.plC_Button252.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button252.狀態OFF圖片")));
+            this.plC_Button252.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button252.狀態ON圖片")));
+            this.plC_Button252.讀取位元反向 = false;
+            this.plC_Button252.讀取元件位置 = "S651";
+            this.plC_Button252.讀寫鎖住 = true;
+            this.plC_Button252.起始狀態 = false;
+            this.plC_Button252.音效 = true;
+            this.plC_Button252.顯示 = false;
+            this.plC_Button252.顯示狀態 = false;
+            // 
+            // plC_Button253
+            // 
+            this.plC_Button253.Bool = false;
+            this.plC_Button253.but_press = false;
+            this.plC_Button253.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button253.Location = new System.Drawing.Point(27, 99);
+            this.plC_Button253.Margin = new System.Windows.Forms.Padding(4);
+            this.plC_Button253.Name = "plC_Button253";
+            this.plC_Button253.OFF_文字內容 = "單步執行";
+            this.plC_Button253.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button253.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button253.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button253.ON_文字內容 = "單步執行";
+            this.plC_Button253.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button253.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button253.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button253.Size = new System.Drawing.Size(202, 64);
+            this.plC_Button253.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button253.TabIndex = 62;
+            this.plC_Button253.事件驅動 = false;
+            this.plC_Button253.字型鎖住 = true;
+            this.plC_Button253.寫入元件位置 = "S640";
+            this.plC_Button253.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button253.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button253.文字鎖住 = true;
+            this.plC_Button253.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button253.狀態OFF圖片")));
+            this.plC_Button253.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button253.狀態ON圖片")));
+            this.plC_Button253.讀取位元反向 = false;
+            this.plC_Button253.讀取元件位置 = "S641";
+            this.plC_Button253.讀寫鎖住 = true;
+            this.plC_Button253.起始狀態 = false;
+            this.plC_Button253.音效 = true;
+            this.plC_Button253.顯示 = false;
+            this.plC_Button253.顯示狀態 = false;
+            // 
+            // plC_RJ_Pannel12
+            // 
+            this.plC_RJ_Pannel12.BackColor = System.Drawing.Color.White;
+            this.plC_RJ_Pannel12.BackgroundColor = System.Drawing.Color.Transparent;
+            this.plC_RJ_Pannel12.BorderColor = System.Drawing.Color.Gainsboro;
+            this.plC_RJ_Pannel12.BorderRadius = 40;
+            this.plC_RJ_Pannel12.BorderSize = 2;
+            this.plC_RJ_Pannel12.Controls.Add(this.plC_Button227);
+            this.plC_RJ_Pannel12.Controls.Add(this.panel301);
+            this.plC_RJ_Pannel12.Controls.Add(this.rJ_Lable174);
+            this.plC_RJ_Pannel12.Controls.Add(this.plC_Button228);
+            this.plC_RJ_Pannel12.Controls.Add(this.panel302);
+            this.plC_RJ_Pannel12.Controls.Add(this.plC_Button229);
+            this.plC_RJ_Pannel12.Controls.Add(this.panel303);
+            this.plC_RJ_Pannel12.Controls.Add(this.plC_Button230);
+            this.plC_RJ_Pannel12.Controls.Add(this.panel304);
+            this.plC_RJ_Pannel12.Controls.Add(this.plC_Button231);
+            this.plC_RJ_Pannel12.Controls.Add(this.panel305);
+            this.plC_RJ_Pannel12.Controls.Add(this.panel306);
+            this.plC_RJ_Pannel12.Dock = System.Windows.Forms.DockStyle.Right;
+            this.plC_RJ_Pannel12.ForeColor = System.Drawing.Color.White;
+            this.plC_RJ_Pannel12.IsSelected = false;
+            this.plC_RJ_Pannel12.Location = new System.Drawing.Point(1387, 0);
+            this.plC_RJ_Pannel12.Name = "plC_RJ_Pannel12";
+            this.plC_RJ_Pannel12.Padding = new System.Windows.Forms.Padding(20, 20, 30, 20);
+            this.plC_RJ_Pannel12.ShadowColor = System.Drawing.Color.DimGray;
+            this.plC_RJ_Pannel12.ShadowSize = 3;
+            this.plC_RJ_Pannel12.Size = new System.Drawing.Size(483, 719);
+            this.plC_RJ_Pannel12.TabIndex = 68;
+            // 
+            // plC_Button227
+            // 
+            this.plC_Button227.Bool = false;
+            this.plC_Button227.but_press = false;
+            this.plC_Button227.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button227.Location = new System.Drawing.Point(320, 523);
+            this.plC_Button227.Margin = new System.Windows.Forms.Padding(1);
+            this.plC_Button227.Name = "plC_Button227";
+            this.plC_Button227.OFF_文字內容 = "未復歸";
+            this.plC_Button227.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button227.OFF_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button227.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button227.ON_文字內容 = "復歸完成";
+            this.plC_Button227.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button227.ON_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button227.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button227.Size = new System.Drawing.Size(135, 55);
+            this.plC_Button227.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_黃;
+            this.plC_Button227.TabIndex = 61;
+            this.plC_Button227.事件驅動 = false;
+            this.plC_Button227.字型鎖住 = true;
+            this.plC_Button227.寫入位置註解 = "CCD盤步進復歸完成";
+            this.plC_Button227.寫入元件位置 = "M4051";
+            this.plC_Button227.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button227.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button227.文字鎖住 = false;
+            this.plC_Button227.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button227.狀態OFF圖片")));
+            this.plC_Button227.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button227.狀態ON圖片")));
+            this.plC_Button227.讀取位元反向 = false;
+            this.plC_Button227.讀取元件位置 = "M4051";
+            this.plC_Button227.讀寫鎖住 = true;
+            this.plC_Button227.起始狀態 = false;
+            this.plC_Button227.音效 = true;
+            this.plC_Button227.顯示 = false;
+            this.plC_Button227.顯示狀態 = false;
+            // 
+            // panel301
+            // 
+            this.panel301.Controls.Add(this.rJ_Lable173);
+            this.panel301.Controls.Add(this.plC_NumBox50);
+            this.panel301.Location = new System.Drawing.Point(41, 410);
+            this.panel301.Name = "panel301";
+            this.panel301.Size = new System.Drawing.Size(292, 45);
+            this.panel301.TabIndex = 60;
+            // 
+            // rJ_Lable173
+            // 
+            this.rJ_Lable173.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable173.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable173.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable173.BorderRadius = 10;
+            this.rJ_Lable173.BorderSize = 1;
+            this.rJ_Lable173.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable173.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable173.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable173.GUID = "";
+            this.rJ_Lable173.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable173.Name = "rJ_Lable173";
+            this.rJ_Lable173.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable173.ShadowSize = 0;
+            this.rJ_Lable173.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable173.TabIndex = 0;
+            this.rJ_Lable173.Text = "偏移距離";
+            this.rJ_Lable173.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable173.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox50
+            // 
+            this.plC_NumBox50.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox50.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox50.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox50.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox50.Name = "plC_NumBox50";
+            this.plC_NumBox50.ReadOnly = false;
+            this.plC_NumBox50.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox50.TabIndex = 1;
+            this.plC_NumBox50.Value = 0;
+            this.plC_NumBox50.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox50.密碼欄位 = false;
+            this.plC_NumBox50.寫入元件位置 = "D15136";
+            this.plC_NumBox50.小數點位置 = 2;
+            this.plC_NumBox50.微調數值 = 1;
+            this.plC_NumBox50.讀取元件位置 = "D15136";
+            this.plC_NumBox50.音效 = true;
+            this.plC_NumBox50.顯示微調按鈕 = false;
+            this.plC_NumBox50.顯示螢幕小鍵盤 = true;
+            // 
+            // rJ_Lable174
+            // 
+            this.rJ_Lable174.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable174.BackgroundColor = System.Drawing.Color.Gray;
+            this.rJ_Lable174.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Lable174.BorderRadius = 10;
+            this.rJ_Lable174.BorderSize = 0;
+            this.rJ_Lable174.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rJ_Lable174.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable174.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable174.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable174.GUID = "";
+            this.rJ_Lable174.Location = new System.Drawing.Point(20, 20);
+            this.rJ_Lable174.Name = "rJ_Lable174";
+            this.rJ_Lable174.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable174.ShadowSize = 0;
+            this.rJ_Lable174.Size = new System.Drawing.Size(433, 65);
+            this.rJ_Lable174.TabIndex = 59;
+            this.rJ_Lable174.Text = "CCD馬達";
+            this.rJ_Lable174.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable174.TextColor = System.Drawing.Color.White;
+            // 
+            // plC_Button228
+            // 
+            this.plC_Button228.Bool = false;
+            this.plC_Button228.but_press = false;
+            this.plC_Button228.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button228.Location = new System.Drawing.Point(41, 101);
+            this.plC_Button228.Margin = new System.Windows.Forms.Padding(4);
+            this.plC_Button228.Name = "plC_Button228";
+            this.plC_Button228.OFF_文字內容 = "原點";
+            this.plC_Button228.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
+            this.plC_Button228.OFF_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button228.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button228.ON_文字內容 = "原點";
+            this.plC_Button228.ON_文字字體 = new System.Drawing.Font("新細明體", 9F);
+            this.plC_Button228.ON_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button228.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button228.Size = new System.Drawing.Size(50, 47);
+            this.plC_Button228.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_綠;
+            this.plC_Button228.TabIndex = 35;
+            this.plC_Button228.事件驅動 = false;
+            this.plC_Button228.字型鎖住 = false;
+            this.plC_Button228.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button228.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button228.文字鎖住 = true;
+            this.plC_Button228.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button228.狀態OFF圖片")));
+            this.plC_Button228.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button228.狀態ON圖片")));
+            this.plC_Button228.讀取位元反向 = false;
+            this.plC_Button228.讀取元件位置 = "X44";
+            this.plC_Button228.讀寫鎖住 = false;
+            this.plC_Button228.起始狀態 = false;
+            this.plC_Button228.音效 = true;
+            this.plC_Button228.顯示 = false;
+            this.plC_Button228.顯示狀態 = false;
+            // 
+            // panel302
+            // 
+            this.panel302.Controls.Add(this.rJ_Lable175);
+            this.panel302.Controls.Add(this.plC_NumBox51);
+            this.panel302.Location = new System.Drawing.Point(41, 359);
+            this.panel302.Name = "panel302";
+            this.panel302.Size = new System.Drawing.Size(292, 45);
+            this.panel302.TabIndex = 41;
+            // 
+            // rJ_Lable175
+            // 
+            this.rJ_Lable175.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable175.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable175.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable175.BorderRadius = 10;
+            this.rJ_Lable175.BorderSize = 1;
+            this.rJ_Lable175.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable175.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable175.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable175.GUID = "";
+            this.rJ_Lable175.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable175.Name = "rJ_Lable175";
+            this.rJ_Lable175.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable175.ShadowSize = 0;
+            this.rJ_Lable175.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable175.TabIndex = 0;
+            this.rJ_Lable175.Text = "減速度";
+            this.rJ_Lable175.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable175.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox51
+            // 
+            this.plC_NumBox51.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox51.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox51.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox51.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox51.Name = "plC_NumBox51";
+            this.plC_NumBox51.ReadOnly = false;
+            this.plC_NumBox51.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox51.TabIndex = 1;
+            this.plC_NumBox51.Value = 0;
+            this.plC_NumBox51.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox51.密碼欄位 = false;
+            this.plC_NumBox51.寫入元件位置 = "D15110";
+            this.plC_NumBox51.小數點位置 = 0;
+            this.plC_NumBox51.微調數值 = 1;
+            this.plC_NumBox51.讀取元件位置 = "D15110";
+            this.plC_NumBox51.音效 = true;
+            this.plC_NumBox51.顯示微調按鈕 = false;
+            this.plC_NumBox51.顯示螢幕小鍵盤 = true;
+            // 
+            // plC_Button229
+            // 
+            this.plC_Button229.Bool = false;
+            this.plC_Button229.but_press = false;
+            this.plC_Button229.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button229.Location = new System.Drawing.Point(41, 473);
+            this.plC_Button229.Margin = new System.Windows.Forms.Padding(4);
+            this.plC_Button229.Name = "plC_Button229";
+            this.plC_Button229.OFF_文字內容 = "JOG+";
+            this.plC_Button229.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button229.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button229.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button229.ON_文字內容 = "JOG+";
+            this.plC_Button229.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button229.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button229.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button229.Size = new System.Drawing.Size(135, 43);
+            this.plC_Button229.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button229.TabIndex = 33;
+            this.plC_Button229.事件驅動 = false;
+            this.plC_Button229.字型鎖住 = true;
+            this.plC_Button229.寫入元件位置 = "S15110";
+            this.plC_Button229.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button229.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button229.文字鎖住 = true;
+            this.plC_Button229.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button229.狀態OFF圖片")));
+            this.plC_Button229.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button229.狀態ON圖片")));
+            this.plC_Button229.讀取位元反向 = false;
+            this.plC_Button229.讀取元件位置 = "S15110";
+            this.plC_Button229.讀寫鎖住 = true;
+            this.plC_Button229.起始狀態 = false;
+            this.plC_Button229.音效 = true;
+            this.plC_Button229.顯示 = false;
+            this.plC_Button229.顯示狀態 = false;
+            // 
+            // panel303
+            // 
+            this.panel303.Controls.Add(this.rJ_Lable176);
+            this.panel303.Controls.Add(this.plC_NumBox52);
+            this.panel303.Location = new System.Drawing.Point(41, 308);
+            this.panel303.Name = "panel303";
+            this.panel303.Size = new System.Drawing.Size(292, 45);
+            this.panel303.TabIndex = 40;
+            // 
+            // rJ_Lable176
+            // 
+            this.rJ_Lable176.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable176.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable176.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable176.BorderRadius = 10;
+            this.rJ_Lable176.BorderSize = 1;
+            this.rJ_Lable176.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable176.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable176.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable176.GUID = "";
+            this.rJ_Lable176.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable176.Name = "rJ_Lable176";
+            this.rJ_Lable176.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable176.ShadowSize = 0;
+            this.rJ_Lable176.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable176.TabIndex = 0;
+            this.rJ_Lable176.Text = "加速度";
+            this.rJ_Lable176.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable176.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox52
+            // 
+            this.plC_NumBox52.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox52.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox52.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox52.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox52.Name = "plC_NumBox52";
+            this.plC_NumBox52.ReadOnly = false;
+            this.plC_NumBox52.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox52.TabIndex = 1;
+            this.plC_NumBox52.Value = 0;
+            this.plC_NumBox52.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox52.密碼欄位 = false;
+            this.plC_NumBox52.寫入元件位置 = "D15108";
+            this.plC_NumBox52.小數點位置 = 0;
+            this.plC_NumBox52.微調數值 = 1;
+            this.plC_NumBox52.讀取元件位置 = "D15108";
+            this.plC_NumBox52.音效 = true;
+            this.plC_NumBox52.顯示微調按鈕 = false;
+            this.plC_NumBox52.顯示螢幕小鍵盤 = true;
+            // 
+            // plC_Button230
+            // 
+            this.plC_Button230.Bool = false;
+            this.plC_Button230.but_press = false;
+            this.plC_Button230.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button230.Location = new System.Drawing.Point(181, 473);
+            this.plC_Button230.Margin = new System.Windows.Forms.Padding(2);
+            this.plC_Button230.Name = "plC_Button230";
+            this.plC_Button230.OFF_文字內容 = "JOG-";
+            this.plC_Button230.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button230.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button230.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button230.ON_文字內容 = "JOG-";
+            this.plC_Button230.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button230.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button230.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button230.Size = new System.Drawing.Size(135, 43);
+            this.plC_Button230.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button230.TabIndex = 34;
+            this.plC_Button230.事件驅動 = false;
+            this.plC_Button230.字型鎖住 = true;
+            this.plC_Button230.寫入元件位置 = "S15111";
+            this.plC_Button230.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button230.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button230.文字鎖住 = true;
+            this.plC_Button230.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button230.狀態OFF圖片")));
+            this.plC_Button230.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button230.狀態ON圖片")));
+            this.plC_Button230.讀取位元反向 = false;
+            this.plC_Button230.讀取元件位置 = "S15111";
+            this.plC_Button230.讀寫鎖住 = true;
+            this.plC_Button230.起始狀態 = false;
+            this.plC_Button230.音效 = true;
+            this.plC_Button230.顯示 = false;
+            this.plC_Button230.顯示狀態 = false;
+            // 
+            // panel304
+            // 
+            this.panel304.Controls.Add(this.rJ_Lable177);
+            this.panel304.Controls.Add(this.plC_NumBox53);
+            this.panel304.Location = new System.Drawing.Point(41, 257);
+            this.panel304.Name = "panel304";
+            this.panel304.Size = new System.Drawing.Size(292, 45);
+            this.panel304.TabIndex = 39;
+            // 
+            // rJ_Lable177
+            // 
+            this.rJ_Lable177.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable177.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable177.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable177.BorderRadius = 10;
+            this.rJ_Lable177.BorderSize = 1;
+            this.rJ_Lable177.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable177.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable177.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable177.GUID = "";
+            this.rJ_Lable177.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable177.Name = "rJ_Lable177";
+            this.rJ_Lable177.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable177.ShadowSize = 0;
+            this.rJ_Lable177.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable177.TabIndex = 0;
+            this.rJ_Lable177.Text = "運轉速度";
+            this.rJ_Lable177.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable177.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox53
+            // 
+            this.plC_NumBox53.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox53.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox53.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox53.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox53.Name = "plC_NumBox53";
+            this.plC_NumBox53.ReadOnly = false;
+            this.plC_NumBox53.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox53.TabIndex = 1;
+            this.plC_NumBox53.Value = 0;
+            this.plC_NumBox53.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox53.密碼欄位 = false;
+            this.plC_NumBox53.寫入元件位置 = "D15124";
+            this.plC_NumBox53.小數點位置 = 0;
+            this.plC_NumBox53.微調數值 = 1;
+            this.plC_NumBox53.讀取元件位置 = "D15124";
+            this.plC_NumBox53.音效 = true;
+            this.plC_NumBox53.顯示微調按鈕 = false;
+            this.plC_NumBox53.顯示螢幕小鍵盤 = true;
+            // 
+            // plC_Button231
+            // 
+            this.plC_Button231.Bool = false;
+            this.plC_Button231.but_press = false;
+            this.plC_Button231.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button231.Location = new System.Drawing.Point(320, 473);
+            this.plC_Button231.Margin = new System.Windows.Forms.Padding(1);
+            this.plC_Button231.Name = "plC_Button231";
+            this.plC_Button231.OFF_文字內容 = "復歸";
+            this.plC_Button231.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button231.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button231.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button231.ON_文字內容 = "復歸";
+            this.plC_Button231.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button231.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button231.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button231.Size = new System.Drawing.Size(135, 43);
+            this.plC_Button231.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button231.TabIndex = 36;
+            this.plC_Button231.事件驅動 = false;
+            this.plC_Button231.字型鎖住 = true;
+            this.plC_Button231.寫入元件位置 = "S15140";
+            this.plC_Button231.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button231.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button231.文字鎖住 = true;
+            this.plC_Button231.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button231.狀態OFF圖片")));
+            this.plC_Button231.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button231.狀態ON圖片")));
+            this.plC_Button231.讀取位元反向 = false;
+            this.plC_Button231.讀取元件位置 = "S15150";
+            this.plC_Button231.讀寫鎖住 = true;
+            this.plC_Button231.起始狀態 = false;
+            this.plC_Button231.音效 = true;
+            this.plC_Button231.顯示 = false;
+            this.plC_Button231.顯示狀態 = false;
+            // 
+            // panel305
+            // 
+            this.panel305.Controls.Add(this.rJ_Lable178);
+            this.panel305.Controls.Add(this.plC_NumBox54);
+            this.panel305.Location = new System.Drawing.Point(41, 206);
+            this.panel305.Name = "panel305";
+            this.panel305.Size = new System.Drawing.Size(292, 45);
+            this.panel305.TabIndex = 38;
+            // 
+            // rJ_Lable178
+            // 
+            this.rJ_Lable178.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable178.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable178.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable178.BorderRadius = 10;
+            this.rJ_Lable178.BorderSize = 1;
+            this.rJ_Lable178.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable178.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable178.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable178.GUID = "";
+            this.rJ_Lable178.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable178.Name = "rJ_Lable178";
+            this.rJ_Lable178.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable178.ShadowSize = 0;
+            this.rJ_Lable178.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable178.TabIndex = 0;
+            this.rJ_Lable178.Text = "JOG速度";
+            this.rJ_Lable178.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable178.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox54
+            // 
+            this.plC_NumBox54.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox54.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox54.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox54.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox54.Name = "plC_NumBox54";
+            this.plC_NumBox54.ReadOnly = false;
+            this.plC_NumBox54.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox54.TabIndex = 1;
+            this.plC_NumBox54.Value = 0;
+            this.plC_NumBox54.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox54.密碼欄位 = false;
+            this.plC_NumBox54.寫入元件位置 = "D15106";
+            this.plC_NumBox54.小數點位置 = 0;
+            this.plC_NumBox54.微調數值 = 1;
+            this.plC_NumBox54.讀取元件位置 = "D15106";
+            this.plC_NumBox54.音效 = true;
+            this.plC_NumBox54.顯示微調按鈕 = false;
+            this.plC_NumBox54.顯示螢幕小鍵盤 = true;
+            // 
+            // panel306
+            // 
+            this.panel306.Controls.Add(this.rJ_Lable180);
+            this.panel306.Controls.Add(this.plC_NumBox55);
+            this.panel306.Location = new System.Drawing.Point(41, 155);
+            this.panel306.Name = "panel306";
+            this.panel306.Size = new System.Drawing.Size(292, 45);
+            this.panel306.TabIndex = 37;
+            // 
+            // rJ_Lable180
+            // 
+            this.rJ_Lable180.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable180.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable180.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable180.BorderRadius = 10;
+            this.rJ_Lable180.BorderSize = 1;
+            this.rJ_Lable180.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable180.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable180.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable180.GUID = "";
+            this.rJ_Lable180.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable180.Name = "rJ_Lable180";
+            this.rJ_Lable180.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable180.ShadowSize = 0;
+            this.rJ_Lable180.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable180.TabIndex = 0;
+            this.rJ_Lable180.Text = "現在位置";
+            this.rJ_Lable180.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable180.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox55
+            // 
+            this.plC_NumBox55.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox55.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox55.mBackColor = System.Drawing.SystemColors.Control;
+            this.plC_NumBox55.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox55.Name = "plC_NumBox55";
+            this.plC_NumBox55.ReadOnly = true;
+            this.plC_NumBox55.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox55.TabIndex = 1;
+            this.plC_NumBox55.Value = 0;
+            this.plC_NumBox55.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox55.密碼欄位 = false;
+            this.plC_NumBox55.小數點位置 = 2;
+            this.plC_NumBox55.微調數值 = 1;
+            this.plC_NumBox55.讀取元件位置 = "D15100";
+            this.plC_NumBox55.音效 = true;
+            this.plC_NumBox55.顯示微調按鈕 = false;
+            this.plC_NumBox55.顯示螢幕小鍵盤 = false;
+            // 
             // 不良排除系統
             // 
             this.不良排除系統.BackColor = System.Drawing.Color.White;
@@ -14929,6 +16740,1070 @@
             this.不良排除系統.Size = new System.Drawing.Size(1870, 719);
             this.不良排除系統.TabIndex = 6;
             this.不良排除系統.Text = "不良排除系統";
+            // 
+            // plC_RJ_Pannel14
+            // 
+            this.plC_RJ_Pannel14.BackColor = System.Drawing.Color.White;
+            this.plC_RJ_Pannel14.BackgroundColor = System.Drawing.Color.Transparent;
+            this.plC_RJ_Pannel14.BorderColor = System.Drawing.Color.Gainsboro;
+            this.plC_RJ_Pannel14.BorderRadius = 40;
+            this.plC_RJ_Pannel14.BorderSize = 2;
+            this.plC_RJ_Pannel14.Controls.Add(this.plC_Button237);
+            this.plC_RJ_Pannel14.Controls.Add(this.panel313);
+            this.plC_RJ_Pannel14.Controls.Add(this.rJ_Lable189);
+            this.plC_RJ_Pannel14.Controls.Add(this.plC_Button238);
+            this.plC_RJ_Pannel14.Controls.Add(this.panel314);
+            this.plC_RJ_Pannel14.Controls.Add(this.plC_Button239);
+            this.plC_RJ_Pannel14.Controls.Add(this.panel315);
+            this.plC_RJ_Pannel14.Controls.Add(this.plC_Button240);
+            this.plC_RJ_Pannel14.Controls.Add(this.panel316);
+            this.plC_RJ_Pannel14.Controls.Add(this.plC_Button241);
+            this.plC_RJ_Pannel14.Controls.Add(this.panel317);
+            this.plC_RJ_Pannel14.Controls.Add(this.panel318);
+            this.plC_RJ_Pannel14.Dock = System.Windows.Forms.DockStyle.Right;
+            this.plC_RJ_Pannel14.ForeColor = System.Drawing.Color.White;
+            this.plC_RJ_Pannel14.IsSelected = false;
+            this.plC_RJ_Pannel14.Location = new System.Drawing.Point(904, 0);
+            this.plC_RJ_Pannel14.Name = "plC_RJ_Pannel14";
+            this.plC_RJ_Pannel14.Padding = new System.Windows.Forms.Padding(20, 20, 30, 20);
+            this.plC_RJ_Pannel14.ShadowColor = System.Drawing.Color.DimGray;
+            this.plC_RJ_Pannel14.ShadowSize = 3;
+            this.plC_RJ_Pannel14.Size = new System.Drawing.Size(483, 719);
+            this.plC_RJ_Pannel14.TabIndex = 70;
+            // 
+            // plC_Button237
+            // 
+            this.plC_Button237.Bool = false;
+            this.plC_Button237.but_press = false;
+            this.plC_Button237.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button237.Location = new System.Drawing.Point(320, 523);
+            this.plC_Button237.Margin = new System.Windows.Forms.Padding(1);
+            this.plC_Button237.Name = "plC_Button237";
+            this.plC_Button237.OFF_文字內容 = "未復歸";
+            this.plC_Button237.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button237.OFF_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button237.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button237.ON_文字內容 = "復歸完成";
+            this.plC_Button237.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button237.ON_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button237.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button237.Size = new System.Drawing.Size(135, 55);
+            this.plC_Button237.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_黃;
+            this.plC_Button237.TabIndex = 61;
+            this.plC_Button237.事件驅動 = false;
+            this.plC_Button237.字型鎖住 = true;
+            this.plC_Button237.寫入位置註解 = "不良排除X步進復歸完成";
+            this.plC_Button237.寫入元件位置 = "M4052";
+            this.plC_Button237.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button237.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button237.文字鎖住 = false;
+            this.plC_Button237.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button237.狀態OFF圖片")));
+            this.plC_Button237.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button237.狀態ON圖片")));
+            this.plC_Button237.讀取位元反向 = false;
+            this.plC_Button237.讀取元件位置 = "M4052";
+            this.plC_Button237.讀寫鎖住 = true;
+            this.plC_Button237.起始狀態 = false;
+            this.plC_Button237.音效 = true;
+            this.plC_Button237.顯示 = false;
+            this.plC_Button237.顯示狀態 = false;
+            // 
+            // panel313
+            // 
+            this.panel313.Controls.Add(this.rJ_Lable188);
+            this.panel313.Controls.Add(this.plC_NumBox62);
+            this.panel313.Location = new System.Drawing.Point(41, 410);
+            this.panel313.Name = "panel313";
+            this.panel313.Size = new System.Drawing.Size(292, 45);
+            this.panel313.TabIndex = 60;
+            // 
+            // rJ_Lable188
+            // 
+            this.rJ_Lable188.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable188.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable188.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable188.BorderRadius = 10;
+            this.rJ_Lable188.BorderSize = 1;
+            this.rJ_Lable188.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable188.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable188.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable188.GUID = "";
+            this.rJ_Lable188.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable188.Name = "rJ_Lable188";
+            this.rJ_Lable188.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable188.ShadowSize = 0;
+            this.rJ_Lable188.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable188.TabIndex = 0;
+            this.rJ_Lable188.Text = "偏移距離";
+            this.rJ_Lable188.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable188.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox62
+            // 
+            this.plC_NumBox62.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox62.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox62.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox62.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox62.Name = "plC_NumBox62";
+            this.plC_NumBox62.ReadOnly = false;
+            this.plC_NumBox62.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox62.TabIndex = 1;
+            this.plC_NumBox62.Value = 0;
+            this.plC_NumBox62.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox62.密碼欄位 = false;
+            this.plC_NumBox62.寫入元件位置 = "D15236";
+            this.plC_NumBox62.小數點位置 = 0;
+            this.plC_NumBox62.微調數值 = 1;
+            this.plC_NumBox62.讀取元件位置 = "D15236";
+            this.plC_NumBox62.音效 = true;
+            this.plC_NumBox62.顯示微調按鈕 = false;
+            this.plC_NumBox62.顯示螢幕小鍵盤 = true;
+            // 
+            // rJ_Lable189
+            // 
+            this.rJ_Lable189.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable189.BackgroundColor = System.Drawing.Color.Gray;
+            this.rJ_Lable189.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Lable189.BorderRadius = 10;
+            this.rJ_Lable189.BorderSize = 0;
+            this.rJ_Lable189.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rJ_Lable189.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable189.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable189.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable189.GUID = "";
+            this.rJ_Lable189.Location = new System.Drawing.Point(20, 20);
+            this.rJ_Lable189.Name = "rJ_Lable189";
+            this.rJ_Lable189.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable189.ShadowSize = 0;
+            this.rJ_Lable189.Size = new System.Drawing.Size(433, 65);
+            this.rJ_Lable189.TabIndex = 59;
+            this.rJ_Lable189.Text = "X軸馬達";
+            this.rJ_Lable189.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable189.TextColor = System.Drawing.Color.White;
+            // 
+            // plC_Button238
+            // 
+            this.plC_Button238.Bool = false;
+            this.plC_Button238.but_press = false;
+            this.plC_Button238.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button238.Location = new System.Drawing.Point(41, 101);
+            this.plC_Button238.Margin = new System.Windows.Forms.Padding(4);
+            this.plC_Button238.Name = "plC_Button238";
+            this.plC_Button238.OFF_文字內容 = "原點";
+            this.plC_Button238.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
+            this.plC_Button238.OFF_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button238.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button238.ON_文字內容 = "原點";
+            this.plC_Button238.ON_文字字體 = new System.Drawing.Font("新細明體", 9F);
+            this.plC_Button238.ON_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button238.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button238.Size = new System.Drawing.Size(50, 47);
+            this.plC_Button238.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_綠;
+            this.plC_Button238.TabIndex = 35;
+            this.plC_Button238.事件驅動 = false;
+            this.plC_Button238.字型鎖住 = false;
+            this.plC_Button238.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button238.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button238.文字鎖住 = true;
+            this.plC_Button238.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button238.狀態OFF圖片")));
+            this.plC_Button238.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button238.狀態ON圖片")));
+            this.plC_Button238.讀取位元反向 = false;
+            this.plC_Button238.讀取元件位置 = "X42";
+            this.plC_Button238.讀寫鎖住 = false;
+            this.plC_Button238.起始狀態 = false;
+            this.plC_Button238.音效 = true;
+            this.plC_Button238.顯示 = false;
+            this.plC_Button238.顯示狀態 = false;
+            // 
+            // panel314
+            // 
+            this.panel314.Controls.Add(this.rJ_Lable190);
+            this.panel314.Controls.Add(this.plC_NumBox63);
+            this.panel314.Location = new System.Drawing.Point(41, 359);
+            this.panel314.Name = "panel314";
+            this.panel314.Size = new System.Drawing.Size(292, 45);
+            this.panel314.TabIndex = 41;
+            // 
+            // rJ_Lable190
+            // 
+            this.rJ_Lable190.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable190.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable190.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable190.BorderRadius = 10;
+            this.rJ_Lable190.BorderSize = 1;
+            this.rJ_Lable190.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable190.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable190.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable190.GUID = "";
+            this.rJ_Lable190.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable190.Name = "rJ_Lable190";
+            this.rJ_Lable190.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable190.ShadowSize = 0;
+            this.rJ_Lable190.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable190.TabIndex = 0;
+            this.rJ_Lable190.Text = "減速度";
+            this.rJ_Lable190.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable190.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox63
+            // 
+            this.plC_NumBox63.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox63.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox63.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox63.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox63.Name = "plC_NumBox63";
+            this.plC_NumBox63.ReadOnly = false;
+            this.plC_NumBox63.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox63.TabIndex = 1;
+            this.plC_NumBox63.Value = 0;
+            this.plC_NumBox63.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox63.密碼欄位 = false;
+            this.plC_NumBox63.寫入元件位置 = "D15210";
+            this.plC_NumBox63.小數點位置 = 0;
+            this.plC_NumBox63.微調數值 = 1;
+            this.plC_NumBox63.讀取元件位置 = "D15210";
+            this.plC_NumBox63.音效 = true;
+            this.plC_NumBox63.顯示微調按鈕 = false;
+            this.plC_NumBox63.顯示螢幕小鍵盤 = true;
+            // 
+            // plC_Button239
+            // 
+            this.plC_Button239.Bool = false;
+            this.plC_Button239.but_press = false;
+            this.plC_Button239.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button239.Location = new System.Drawing.Point(41, 473);
+            this.plC_Button239.Margin = new System.Windows.Forms.Padding(4);
+            this.plC_Button239.Name = "plC_Button239";
+            this.plC_Button239.OFF_文字內容 = "JOG+";
+            this.plC_Button239.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button239.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button239.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button239.ON_文字內容 = "JOG+";
+            this.plC_Button239.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button239.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button239.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button239.Size = new System.Drawing.Size(135, 43);
+            this.plC_Button239.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button239.TabIndex = 33;
+            this.plC_Button239.事件驅動 = false;
+            this.plC_Button239.字型鎖住 = true;
+            this.plC_Button239.寫入元件位置 = "S15210";
+            this.plC_Button239.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button239.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button239.文字鎖住 = true;
+            this.plC_Button239.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button239.狀態OFF圖片")));
+            this.plC_Button239.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button239.狀態ON圖片")));
+            this.plC_Button239.讀取位元反向 = false;
+            this.plC_Button239.讀取元件位置 = "S15210";
+            this.plC_Button239.讀寫鎖住 = true;
+            this.plC_Button239.起始狀態 = false;
+            this.plC_Button239.音效 = true;
+            this.plC_Button239.顯示 = false;
+            this.plC_Button239.顯示狀態 = false;
+            // 
+            // panel315
+            // 
+            this.panel315.Controls.Add(this.rJ_Lable191);
+            this.panel315.Controls.Add(this.plC_NumBox64);
+            this.panel315.Location = new System.Drawing.Point(41, 308);
+            this.panel315.Name = "panel315";
+            this.panel315.Size = new System.Drawing.Size(292, 45);
+            this.panel315.TabIndex = 40;
+            // 
+            // rJ_Lable191
+            // 
+            this.rJ_Lable191.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable191.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable191.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable191.BorderRadius = 10;
+            this.rJ_Lable191.BorderSize = 1;
+            this.rJ_Lable191.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable191.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable191.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable191.GUID = "";
+            this.rJ_Lable191.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable191.Name = "rJ_Lable191";
+            this.rJ_Lable191.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable191.ShadowSize = 0;
+            this.rJ_Lable191.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable191.TabIndex = 0;
+            this.rJ_Lable191.Text = "加速度";
+            this.rJ_Lable191.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable191.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox64
+            // 
+            this.plC_NumBox64.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox64.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox64.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox64.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox64.Name = "plC_NumBox64";
+            this.plC_NumBox64.ReadOnly = false;
+            this.plC_NumBox64.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox64.TabIndex = 1;
+            this.plC_NumBox64.Value = 0;
+            this.plC_NumBox64.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox64.密碼欄位 = false;
+            this.plC_NumBox64.寫入元件位置 = "D15208";
+            this.plC_NumBox64.小數點位置 = 0;
+            this.plC_NumBox64.微調數值 = 1;
+            this.plC_NumBox64.讀取元件位置 = "D15208";
+            this.plC_NumBox64.音效 = true;
+            this.plC_NumBox64.顯示微調按鈕 = false;
+            this.plC_NumBox64.顯示螢幕小鍵盤 = true;
+            // 
+            // plC_Button240
+            // 
+            this.plC_Button240.Bool = false;
+            this.plC_Button240.but_press = false;
+            this.plC_Button240.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button240.Location = new System.Drawing.Point(181, 473);
+            this.plC_Button240.Margin = new System.Windows.Forms.Padding(2);
+            this.plC_Button240.Name = "plC_Button240";
+            this.plC_Button240.OFF_文字內容 = "JOG-";
+            this.plC_Button240.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button240.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button240.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button240.ON_文字內容 = "JOG-";
+            this.plC_Button240.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button240.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button240.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button240.Size = new System.Drawing.Size(135, 43);
+            this.plC_Button240.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button240.TabIndex = 34;
+            this.plC_Button240.事件驅動 = false;
+            this.plC_Button240.字型鎖住 = true;
+            this.plC_Button240.寫入元件位置 = "S15211";
+            this.plC_Button240.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button240.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button240.文字鎖住 = true;
+            this.plC_Button240.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button240.狀態OFF圖片")));
+            this.plC_Button240.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button240.狀態ON圖片")));
+            this.plC_Button240.讀取位元反向 = false;
+            this.plC_Button240.讀取元件位置 = "S15211";
+            this.plC_Button240.讀寫鎖住 = true;
+            this.plC_Button240.起始狀態 = false;
+            this.plC_Button240.音效 = true;
+            this.plC_Button240.顯示 = false;
+            this.plC_Button240.顯示狀態 = false;
+            // 
+            // panel316
+            // 
+            this.panel316.Controls.Add(this.rJ_Lable192);
+            this.panel316.Controls.Add(this.plC_NumBox65);
+            this.panel316.Location = new System.Drawing.Point(41, 257);
+            this.panel316.Name = "panel316";
+            this.panel316.Size = new System.Drawing.Size(292, 45);
+            this.panel316.TabIndex = 39;
+            // 
+            // rJ_Lable192
+            // 
+            this.rJ_Lable192.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable192.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable192.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable192.BorderRadius = 10;
+            this.rJ_Lable192.BorderSize = 1;
+            this.rJ_Lable192.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable192.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable192.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable192.GUID = "";
+            this.rJ_Lable192.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable192.Name = "rJ_Lable192";
+            this.rJ_Lable192.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable192.ShadowSize = 0;
+            this.rJ_Lable192.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable192.TabIndex = 0;
+            this.rJ_Lable192.Text = "運轉速度";
+            this.rJ_Lable192.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable192.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox65
+            // 
+            this.plC_NumBox65.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox65.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox65.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox65.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox65.Name = "plC_NumBox65";
+            this.plC_NumBox65.ReadOnly = false;
+            this.plC_NumBox65.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox65.TabIndex = 1;
+            this.plC_NumBox65.Value = 0;
+            this.plC_NumBox65.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox65.密碼欄位 = false;
+            this.plC_NumBox65.寫入元件位置 = "D15224";
+            this.plC_NumBox65.小數點位置 = 0;
+            this.plC_NumBox65.微調數值 = 1;
+            this.plC_NumBox65.讀取元件位置 = "D15224";
+            this.plC_NumBox65.音效 = true;
+            this.plC_NumBox65.顯示微調按鈕 = false;
+            this.plC_NumBox65.顯示螢幕小鍵盤 = true;
+            // 
+            // plC_Button241
+            // 
+            this.plC_Button241.Bool = false;
+            this.plC_Button241.but_press = false;
+            this.plC_Button241.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button241.Location = new System.Drawing.Point(320, 473);
+            this.plC_Button241.Margin = new System.Windows.Forms.Padding(1);
+            this.plC_Button241.Name = "plC_Button241";
+            this.plC_Button241.OFF_文字內容 = "復歸";
+            this.plC_Button241.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button241.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button241.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button241.ON_文字內容 = "復歸";
+            this.plC_Button241.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button241.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button241.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button241.Size = new System.Drawing.Size(135, 43);
+            this.plC_Button241.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button241.TabIndex = 36;
+            this.plC_Button241.事件驅動 = false;
+            this.plC_Button241.字型鎖住 = true;
+            this.plC_Button241.寫入元件位置 = "S15240";
+            this.plC_Button241.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button241.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button241.文字鎖住 = true;
+            this.plC_Button241.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button241.狀態OFF圖片")));
+            this.plC_Button241.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button241.狀態ON圖片")));
+            this.plC_Button241.讀取位元反向 = false;
+            this.plC_Button241.讀取元件位置 = "S15240";
+            this.plC_Button241.讀寫鎖住 = true;
+            this.plC_Button241.起始狀態 = false;
+            this.plC_Button241.音效 = true;
+            this.plC_Button241.顯示 = false;
+            this.plC_Button241.顯示狀態 = false;
+            // 
+            // panel317
+            // 
+            this.panel317.Controls.Add(this.rJ_Lable193);
+            this.panel317.Controls.Add(this.plC_NumBox66);
+            this.panel317.Location = new System.Drawing.Point(41, 206);
+            this.panel317.Name = "panel317";
+            this.panel317.Size = new System.Drawing.Size(292, 45);
+            this.panel317.TabIndex = 38;
+            // 
+            // rJ_Lable193
+            // 
+            this.rJ_Lable193.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable193.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable193.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable193.BorderRadius = 10;
+            this.rJ_Lable193.BorderSize = 1;
+            this.rJ_Lable193.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable193.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable193.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable193.GUID = "";
+            this.rJ_Lable193.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable193.Name = "rJ_Lable193";
+            this.rJ_Lable193.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable193.ShadowSize = 0;
+            this.rJ_Lable193.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable193.TabIndex = 0;
+            this.rJ_Lable193.Text = "JOG速度";
+            this.rJ_Lable193.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable193.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox66
+            // 
+            this.plC_NumBox66.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox66.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox66.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox66.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox66.Name = "plC_NumBox66";
+            this.plC_NumBox66.ReadOnly = false;
+            this.plC_NumBox66.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox66.TabIndex = 1;
+            this.plC_NumBox66.Value = 0;
+            this.plC_NumBox66.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox66.密碼欄位 = false;
+            this.plC_NumBox66.寫入元件位置 = "D15206";
+            this.plC_NumBox66.小數點位置 = 0;
+            this.plC_NumBox66.微調數值 = 1;
+            this.plC_NumBox66.讀取元件位置 = "D15206";
+            this.plC_NumBox66.音效 = true;
+            this.plC_NumBox66.顯示微調按鈕 = false;
+            this.plC_NumBox66.顯示螢幕小鍵盤 = true;
+            // 
+            // panel318
+            // 
+            this.panel318.Controls.Add(this.rJ_Lable194);
+            this.panel318.Controls.Add(this.plC_NumBox67);
+            this.panel318.Location = new System.Drawing.Point(41, 155);
+            this.panel318.Name = "panel318";
+            this.panel318.Size = new System.Drawing.Size(292, 45);
+            this.panel318.TabIndex = 37;
+            // 
+            // rJ_Lable194
+            // 
+            this.rJ_Lable194.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable194.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable194.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable194.BorderRadius = 10;
+            this.rJ_Lable194.BorderSize = 1;
+            this.rJ_Lable194.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable194.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable194.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable194.GUID = "";
+            this.rJ_Lable194.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable194.Name = "rJ_Lable194";
+            this.rJ_Lable194.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable194.ShadowSize = 0;
+            this.rJ_Lable194.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable194.TabIndex = 0;
+            this.rJ_Lable194.Text = "現在位置";
+            this.rJ_Lable194.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable194.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox67
+            // 
+            this.plC_NumBox67.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox67.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox67.mBackColor = System.Drawing.SystemColors.Control;
+            this.plC_NumBox67.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox67.Name = "plC_NumBox67";
+            this.plC_NumBox67.ReadOnly = true;
+            this.plC_NumBox67.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox67.TabIndex = 1;
+            this.plC_NumBox67.Value = 0;
+            this.plC_NumBox67.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox67.密碼欄位 = false;
+            this.plC_NumBox67.小數點位置 = 0;
+            this.plC_NumBox67.微調數值 = 1;
+            this.plC_NumBox67.讀取元件位置 = "D15200";
+            this.plC_NumBox67.音效 = true;
+            this.plC_NumBox67.顯示微調按鈕 = false;
+            this.plC_NumBox67.顯示螢幕小鍵盤 = false;
+            // 
+            // plC_RJ_Pannel13
+            // 
+            this.plC_RJ_Pannel13.BackColor = System.Drawing.Color.White;
+            this.plC_RJ_Pannel13.BackgroundColor = System.Drawing.Color.Transparent;
+            this.plC_RJ_Pannel13.BorderColor = System.Drawing.Color.Gainsboro;
+            this.plC_RJ_Pannel13.BorderRadius = 40;
+            this.plC_RJ_Pannel13.BorderSize = 2;
+            this.plC_RJ_Pannel13.Controls.Add(this.plC_Button232);
+            this.plC_RJ_Pannel13.Controls.Add(this.panel307);
+            this.plC_RJ_Pannel13.Controls.Add(this.rJ_Lable182);
+            this.plC_RJ_Pannel13.Controls.Add(this.plC_Button233);
+            this.plC_RJ_Pannel13.Controls.Add(this.panel308);
+            this.plC_RJ_Pannel13.Controls.Add(this.plC_Button234);
+            this.plC_RJ_Pannel13.Controls.Add(this.panel309);
+            this.plC_RJ_Pannel13.Controls.Add(this.plC_Button235);
+            this.plC_RJ_Pannel13.Controls.Add(this.panel310);
+            this.plC_RJ_Pannel13.Controls.Add(this.plC_Button236);
+            this.plC_RJ_Pannel13.Controls.Add(this.panel311);
+            this.plC_RJ_Pannel13.Controls.Add(this.panel312);
+            this.plC_RJ_Pannel13.Dock = System.Windows.Forms.DockStyle.Right;
+            this.plC_RJ_Pannel13.ForeColor = System.Drawing.Color.White;
+            this.plC_RJ_Pannel13.IsSelected = false;
+            this.plC_RJ_Pannel13.Location = new System.Drawing.Point(1387, 0);
+            this.plC_RJ_Pannel13.Name = "plC_RJ_Pannel13";
+            this.plC_RJ_Pannel13.Padding = new System.Windows.Forms.Padding(20, 20, 30, 20);
+            this.plC_RJ_Pannel13.ShadowColor = System.Drawing.Color.DimGray;
+            this.plC_RJ_Pannel13.ShadowSize = 3;
+            this.plC_RJ_Pannel13.Size = new System.Drawing.Size(483, 719);
+            this.plC_RJ_Pannel13.TabIndex = 69;
+            // 
+            // plC_Button232
+            // 
+            this.plC_Button232.Bool = false;
+            this.plC_Button232.but_press = false;
+            this.plC_Button232.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button232.Location = new System.Drawing.Point(320, 523);
+            this.plC_Button232.Margin = new System.Windows.Forms.Padding(1);
+            this.plC_Button232.Name = "plC_Button232";
+            this.plC_Button232.OFF_文字內容 = "未復歸";
+            this.plC_Button232.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button232.OFF_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button232.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button232.ON_文字內容 = "復歸完成";
+            this.plC_Button232.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button232.ON_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button232.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button232.Size = new System.Drawing.Size(135, 55);
+            this.plC_Button232.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_黃;
+            this.plC_Button232.TabIndex = 61;
+            this.plC_Button232.事件驅動 = false;
+            this.plC_Button232.字型鎖住 = true;
+            this.plC_Button232.寫入位置註解 = "不良排除Y步進復歸完成";
+            this.plC_Button232.寫入元件位置 = "M4053";
+            this.plC_Button232.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button232.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button232.文字鎖住 = false;
+            this.plC_Button232.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button232.狀態OFF圖片")));
+            this.plC_Button232.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button232.狀態ON圖片")));
+            this.plC_Button232.讀取位元反向 = false;
+            this.plC_Button232.讀取元件位置 = "M4053";
+            this.plC_Button232.讀寫鎖住 = true;
+            this.plC_Button232.起始狀態 = false;
+            this.plC_Button232.音效 = true;
+            this.plC_Button232.顯示 = false;
+            this.plC_Button232.顯示狀態 = false;
+            // 
+            // panel307
+            // 
+            this.panel307.Controls.Add(this.rJ_Lable181);
+            this.panel307.Controls.Add(this.plC_NumBox56);
+            this.panel307.Location = new System.Drawing.Point(41, 410);
+            this.panel307.Name = "panel307";
+            this.panel307.Size = new System.Drawing.Size(292, 45);
+            this.panel307.TabIndex = 60;
+            // 
+            // rJ_Lable181
+            // 
+            this.rJ_Lable181.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable181.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable181.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable181.BorderRadius = 10;
+            this.rJ_Lable181.BorderSize = 1;
+            this.rJ_Lable181.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable181.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable181.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable181.GUID = "";
+            this.rJ_Lable181.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable181.Name = "rJ_Lable181";
+            this.rJ_Lable181.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable181.ShadowSize = 0;
+            this.rJ_Lable181.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable181.TabIndex = 0;
+            this.rJ_Lable181.Text = "偏移距離";
+            this.rJ_Lable181.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable181.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox56
+            // 
+            this.plC_NumBox56.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox56.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox56.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox56.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox56.Name = "plC_NumBox56";
+            this.plC_NumBox56.ReadOnly = false;
+            this.plC_NumBox56.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox56.TabIndex = 1;
+            this.plC_NumBox56.Value = 0;
+            this.plC_NumBox56.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox56.密碼欄位 = false;
+            this.plC_NumBox56.寫入元件位置 = "D15336";
+            this.plC_NumBox56.小數點位置 = 0;
+            this.plC_NumBox56.微調數值 = 1;
+            this.plC_NumBox56.讀取元件位置 = "D15336";
+            this.plC_NumBox56.音效 = true;
+            this.plC_NumBox56.顯示微調按鈕 = false;
+            this.plC_NumBox56.顯示螢幕小鍵盤 = true;
+            // 
+            // rJ_Lable182
+            // 
+            this.rJ_Lable182.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable182.BackgroundColor = System.Drawing.Color.Gray;
+            this.rJ_Lable182.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Lable182.BorderRadius = 10;
+            this.rJ_Lable182.BorderSize = 0;
+            this.rJ_Lable182.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rJ_Lable182.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable182.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable182.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable182.GUID = "";
+            this.rJ_Lable182.Location = new System.Drawing.Point(20, 20);
+            this.rJ_Lable182.Name = "rJ_Lable182";
+            this.rJ_Lable182.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable182.ShadowSize = 0;
+            this.rJ_Lable182.Size = new System.Drawing.Size(433, 65);
+            this.rJ_Lable182.TabIndex = 59;
+            this.rJ_Lable182.Text = "Y軸馬達";
+            this.rJ_Lable182.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable182.TextColor = System.Drawing.Color.White;
+            // 
+            // plC_Button233
+            // 
+            this.plC_Button233.Bool = false;
+            this.plC_Button233.but_press = false;
+            this.plC_Button233.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button233.Location = new System.Drawing.Point(41, 101);
+            this.plC_Button233.Margin = new System.Windows.Forms.Padding(4);
+            this.plC_Button233.Name = "plC_Button233";
+            this.plC_Button233.OFF_文字內容 = "原點";
+            this.plC_Button233.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
+            this.plC_Button233.OFF_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button233.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button233.ON_文字內容 = "原點";
+            this.plC_Button233.ON_文字字體 = new System.Drawing.Font("新細明體", 9F);
+            this.plC_Button233.ON_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button233.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button233.Size = new System.Drawing.Size(50, 47);
+            this.plC_Button233.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_綠;
+            this.plC_Button233.TabIndex = 35;
+            this.plC_Button233.事件驅動 = false;
+            this.plC_Button233.字型鎖住 = false;
+            this.plC_Button233.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button233.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button233.文字鎖住 = true;
+            this.plC_Button233.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button233.狀態OFF圖片")));
+            this.plC_Button233.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button233.狀態ON圖片")));
+            this.plC_Button233.讀取位元反向 = false;
+            this.plC_Button233.讀取元件位置 = "X41";
+            this.plC_Button233.讀寫鎖住 = false;
+            this.plC_Button233.起始狀態 = false;
+            this.plC_Button233.音效 = true;
+            this.plC_Button233.顯示 = false;
+            this.plC_Button233.顯示狀態 = false;
+            // 
+            // panel308
+            // 
+            this.panel308.Controls.Add(this.rJ_Lable183);
+            this.panel308.Controls.Add(this.plC_NumBox57);
+            this.panel308.Location = new System.Drawing.Point(41, 359);
+            this.panel308.Name = "panel308";
+            this.panel308.Size = new System.Drawing.Size(292, 45);
+            this.panel308.TabIndex = 41;
+            // 
+            // rJ_Lable183
+            // 
+            this.rJ_Lable183.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable183.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable183.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable183.BorderRadius = 10;
+            this.rJ_Lable183.BorderSize = 1;
+            this.rJ_Lable183.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable183.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable183.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable183.GUID = "";
+            this.rJ_Lable183.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable183.Name = "rJ_Lable183";
+            this.rJ_Lable183.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable183.ShadowSize = 0;
+            this.rJ_Lable183.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable183.TabIndex = 0;
+            this.rJ_Lable183.Text = "減速度";
+            this.rJ_Lable183.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable183.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox57
+            // 
+            this.plC_NumBox57.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox57.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox57.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox57.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox57.Name = "plC_NumBox57";
+            this.plC_NumBox57.ReadOnly = false;
+            this.plC_NumBox57.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox57.TabIndex = 1;
+            this.plC_NumBox57.Value = 0;
+            this.plC_NumBox57.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox57.密碼欄位 = false;
+            this.plC_NumBox57.寫入元件位置 = "D15310";
+            this.plC_NumBox57.小數點位置 = 0;
+            this.plC_NumBox57.微調數值 = 1;
+            this.plC_NumBox57.讀取元件位置 = "D15310";
+            this.plC_NumBox57.音效 = true;
+            this.plC_NumBox57.顯示微調按鈕 = false;
+            this.plC_NumBox57.顯示螢幕小鍵盤 = true;
+            // 
+            // plC_Button234
+            // 
+            this.plC_Button234.Bool = false;
+            this.plC_Button234.but_press = false;
+            this.plC_Button234.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button234.Location = new System.Drawing.Point(41, 473);
+            this.plC_Button234.Margin = new System.Windows.Forms.Padding(4);
+            this.plC_Button234.Name = "plC_Button234";
+            this.plC_Button234.OFF_文字內容 = "JOG+";
+            this.plC_Button234.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button234.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button234.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button234.ON_文字內容 = "JOG+";
+            this.plC_Button234.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button234.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button234.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button234.Size = new System.Drawing.Size(135, 43);
+            this.plC_Button234.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button234.TabIndex = 33;
+            this.plC_Button234.事件驅動 = false;
+            this.plC_Button234.字型鎖住 = true;
+            this.plC_Button234.寫入元件位置 = "S15310";
+            this.plC_Button234.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button234.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button234.文字鎖住 = true;
+            this.plC_Button234.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button234.狀態OFF圖片")));
+            this.plC_Button234.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button234.狀態ON圖片")));
+            this.plC_Button234.讀取位元反向 = false;
+            this.plC_Button234.讀取元件位置 = "S15310";
+            this.plC_Button234.讀寫鎖住 = true;
+            this.plC_Button234.起始狀態 = false;
+            this.plC_Button234.音效 = true;
+            this.plC_Button234.顯示 = false;
+            this.plC_Button234.顯示狀態 = false;
+            // 
+            // panel309
+            // 
+            this.panel309.Controls.Add(this.rJ_Lable184);
+            this.panel309.Controls.Add(this.plC_NumBox58);
+            this.panel309.Location = new System.Drawing.Point(41, 308);
+            this.panel309.Name = "panel309";
+            this.panel309.Size = new System.Drawing.Size(292, 45);
+            this.panel309.TabIndex = 40;
+            // 
+            // rJ_Lable184
+            // 
+            this.rJ_Lable184.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable184.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable184.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable184.BorderRadius = 10;
+            this.rJ_Lable184.BorderSize = 1;
+            this.rJ_Lable184.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable184.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable184.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable184.GUID = "";
+            this.rJ_Lable184.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable184.Name = "rJ_Lable184";
+            this.rJ_Lable184.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable184.ShadowSize = 0;
+            this.rJ_Lable184.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable184.TabIndex = 0;
+            this.rJ_Lable184.Text = "加速度";
+            this.rJ_Lable184.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable184.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox58
+            // 
+            this.plC_NumBox58.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox58.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox58.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox58.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox58.Name = "plC_NumBox58";
+            this.plC_NumBox58.ReadOnly = false;
+            this.plC_NumBox58.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox58.TabIndex = 1;
+            this.plC_NumBox58.Value = 0;
+            this.plC_NumBox58.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox58.密碼欄位 = false;
+            this.plC_NumBox58.寫入元件位置 = "D15308";
+            this.plC_NumBox58.小數點位置 = 0;
+            this.plC_NumBox58.微調數值 = 1;
+            this.plC_NumBox58.讀取元件位置 = "D15308";
+            this.plC_NumBox58.音效 = true;
+            this.plC_NumBox58.顯示微調按鈕 = false;
+            this.plC_NumBox58.顯示螢幕小鍵盤 = true;
+            // 
+            // plC_Button235
+            // 
+            this.plC_Button235.Bool = false;
+            this.plC_Button235.but_press = false;
+            this.plC_Button235.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button235.Location = new System.Drawing.Point(181, 473);
+            this.plC_Button235.Margin = new System.Windows.Forms.Padding(2);
+            this.plC_Button235.Name = "plC_Button235";
+            this.plC_Button235.OFF_文字內容 = "JOG-";
+            this.plC_Button235.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button235.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button235.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button235.ON_文字內容 = "JOG-";
+            this.plC_Button235.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button235.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button235.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button235.Size = new System.Drawing.Size(135, 43);
+            this.plC_Button235.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button235.TabIndex = 34;
+            this.plC_Button235.事件驅動 = false;
+            this.plC_Button235.字型鎖住 = true;
+            this.plC_Button235.寫入元件位置 = "S15311";
+            this.plC_Button235.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button235.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button235.文字鎖住 = true;
+            this.plC_Button235.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button235.狀態OFF圖片")));
+            this.plC_Button235.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button235.狀態ON圖片")));
+            this.plC_Button235.讀取位元反向 = false;
+            this.plC_Button235.讀取元件位置 = "S15311";
+            this.plC_Button235.讀寫鎖住 = true;
+            this.plC_Button235.起始狀態 = false;
+            this.plC_Button235.音效 = true;
+            this.plC_Button235.顯示 = false;
+            this.plC_Button235.顯示狀態 = false;
+            // 
+            // panel310
+            // 
+            this.panel310.Controls.Add(this.rJ_Lable185);
+            this.panel310.Controls.Add(this.plC_NumBox59);
+            this.panel310.Location = new System.Drawing.Point(41, 257);
+            this.panel310.Name = "panel310";
+            this.panel310.Size = new System.Drawing.Size(292, 45);
+            this.panel310.TabIndex = 39;
+            // 
+            // rJ_Lable185
+            // 
+            this.rJ_Lable185.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable185.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable185.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable185.BorderRadius = 10;
+            this.rJ_Lable185.BorderSize = 1;
+            this.rJ_Lable185.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable185.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable185.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable185.GUID = "";
+            this.rJ_Lable185.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable185.Name = "rJ_Lable185";
+            this.rJ_Lable185.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable185.ShadowSize = 0;
+            this.rJ_Lable185.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable185.TabIndex = 0;
+            this.rJ_Lable185.Text = "運轉速度";
+            this.rJ_Lable185.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable185.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox59
+            // 
+            this.plC_NumBox59.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox59.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox59.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox59.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox59.Name = "plC_NumBox59";
+            this.plC_NumBox59.ReadOnly = false;
+            this.plC_NumBox59.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox59.TabIndex = 1;
+            this.plC_NumBox59.Value = 0;
+            this.plC_NumBox59.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox59.密碼欄位 = false;
+            this.plC_NumBox59.寫入元件位置 = "D15324";
+            this.plC_NumBox59.小數點位置 = 0;
+            this.plC_NumBox59.微調數值 = 1;
+            this.plC_NumBox59.讀取元件位置 = "D15324";
+            this.plC_NumBox59.音效 = true;
+            this.plC_NumBox59.顯示微調按鈕 = false;
+            this.plC_NumBox59.顯示螢幕小鍵盤 = true;
+            // 
+            // plC_Button236
+            // 
+            this.plC_Button236.Bool = false;
+            this.plC_Button236.but_press = false;
+            this.plC_Button236.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button236.Location = new System.Drawing.Point(320, 473);
+            this.plC_Button236.Margin = new System.Windows.Forms.Padding(1);
+            this.plC_Button236.Name = "plC_Button236";
+            this.plC_Button236.OFF_文字內容 = "復歸";
+            this.plC_Button236.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button236.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button236.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button236.ON_文字內容 = "復歸";
+            this.plC_Button236.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button236.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button236.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button236.Size = new System.Drawing.Size(135, 43);
+            this.plC_Button236.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button236.TabIndex = 36;
+            this.plC_Button236.事件驅動 = false;
+            this.plC_Button236.字型鎖住 = true;
+            this.plC_Button236.寫入元件位置 = "S15340";
+            this.plC_Button236.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button236.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button236.文字鎖住 = true;
+            this.plC_Button236.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button236.狀態OFF圖片")));
+            this.plC_Button236.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button236.狀態ON圖片")));
+            this.plC_Button236.讀取位元反向 = false;
+            this.plC_Button236.讀取元件位置 = "S15350";
+            this.plC_Button236.讀寫鎖住 = true;
+            this.plC_Button236.起始狀態 = false;
+            this.plC_Button236.音效 = true;
+            this.plC_Button236.顯示 = false;
+            this.plC_Button236.顯示狀態 = false;
+            // 
+            // panel311
+            // 
+            this.panel311.Controls.Add(this.rJ_Lable186);
+            this.panel311.Controls.Add(this.plC_NumBox60);
+            this.panel311.Location = new System.Drawing.Point(41, 206);
+            this.panel311.Name = "panel311";
+            this.panel311.Size = new System.Drawing.Size(292, 45);
+            this.panel311.TabIndex = 38;
+            // 
+            // rJ_Lable186
+            // 
+            this.rJ_Lable186.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable186.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable186.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable186.BorderRadius = 10;
+            this.rJ_Lable186.BorderSize = 1;
+            this.rJ_Lable186.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable186.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable186.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable186.GUID = "";
+            this.rJ_Lable186.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable186.Name = "rJ_Lable186";
+            this.rJ_Lable186.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable186.ShadowSize = 0;
+            this.rJ_Lable186.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable186.TabIndex = 0;
+            this.rJ_Lable186.Text = "JOG速度";
+            this.rJ_Lable186.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable186.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox60
+            // 
+            this.plC_NumBox60.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox60.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox60.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox60.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox60.Name = "plC_NumBox60";
+            this.plC_NumBox60.ReadOnly = false;
+            this.plC_NumBox60.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox60.TabIndex = 1;
+            this.plC_NumBox60.Value = 0;
+            this.plC_NumBox60.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox60.密碼欄位 = false;
+            this.plC_NumBox60.寫入元件位置 = "D15306";
+            this.plC_NumBox60.小數點位置 = 0;
+            this.plC_NumBox60.微調數值 = 1;
+            this.plC_NumBox60.讀取元件位置 = "D15306";
+            this.plC_NumBox60.音效 = true;
+            this.plC_NumBox60.顯示微調按鈕 = false;
+            this.plC_NumBox60.顯示螢幕小鍵盤 = true;
+            // 
+            // panel312
+            // 
+            this.panel312.Controls.Add(this.rJ_Lable187);
+            this.panel312.Controls.Add(this.plC_NumBox61);
+            this.panel312.Location = new System.Drawing.Point(41, 155);
+            this.panel312.Name = "panel312";
+            this.panel312.Size = new System.Drawing.Size(292, 45);
+            this.panel312.TabIndex = 37;
+            // 
+            // rJ_Lable187
+            // 
+            this.rJ_Lable187.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable187.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable187.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable187.BorderRadius = 10;
+            this.rJ_Lable187.BorderSize = 1;
+            this.rJ_Lable187.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable187.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable187.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable187.GUID = "";
+            this.rJ_Lable187.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable187.Name = "rJ_Lable187";
+            this.rJ_Lable187.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable187.ShadowSize = 0;
+            this.rJ_Lable187.Size = new System.Drawing.Size(133, 42);
+            this.rJ_Lable187.TabIndex = 0;
+            this.rJ_Lable187.Text = "現在位置";
+            this.rJ_Lable187.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable187.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox61
+            // 
+            this.plC_NumBox61.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox61.Location = new System.Drawing.Point(144, 10);
+            this.plC_NumBox61.mBackColor = System.Drawing.SystemColors.Control;
+            this.plC_NumBox61.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox61.Name = "plC_NumBox61";
+            this.plC_NumBox61.ReadOnly = true;
+            this.plC_NumBox61.Size = new System.Drawing.Size(123, 32);
+            this.plC_NumBox61.TabIndex = 1;
+            this.plC_NumBox61.Value = 0;
+            this.plC_NumBox61.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox61.密碼欄位 = false;
+            this.plC_NumBox61.小數點位置 = 0;
+            this.plC_NumBox61.微調數值 = 1;
+            this.plC_NumBox61.讀取元件位置 = "D15300";
+            this.plC_NumBox61.音效 = true;
+            this.plC_NumBox61.顯示微調按鈕 = false;
+            this.plC_NumBox61.顯示螢幕小鍵盤 = false;
             // 
             // 出盤系統
             // 
@@ -14968,6 +17843,190 @@
             this.plC_RJ_Pannel11.ShadowSize = 3;
             this.plC_RJ_Pannel11.Size = new System.Drawing.Size(839, 719);
             this.plC_RJ_Pannel11.TabIndex = 69;
+            // 
+            // plC_Button244
+            // 
+            this.plC_Button244.Bool = false;
+            this.plC_Button244.but_press = false;
+            this.plC_Button244.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button244.Location = new System.Drawing.Point(23, 587);
+            this.plC_Button244.Margin = new System.Windows.Forms.Padding(33, 37, 33, 37);
+            this.plC_Button244.Name = "plC_Button244";
+            this.plC_Button244.OFF_文字內容 = "真空不檢查";
+            this.plC_Button244.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button244.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button244.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button244.ON_文字內容 = "真空不檢查";
+            this.plC_Button244.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button244.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button244.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button244.Size = new System.Drawing.Size(194, 63);
+            this.plC_Button244.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button244.TabIndex = 92;
+            this.plC_Button244.事件驅動 = false;
+            this.plC_Button244.字型鎖住 = true;
+            this.plC_Button244.寫入位置註解 = "入料馬達_送盤位置";
+            this.plC_Button244.寫入元件位置 = "S4501";
+            this.plC_Button244.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
+            this.plC_Button244.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button244.文字鎖住 = true;
+            this.plC_Button244.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button244.狀態OFF圖片")));
+            this.plC_Button244.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button244.狀態ON圖片")));
+            this.plC_Button244.讀取位元反向 = false;
+            this.plC_Button244.讀取元件位置 = "S4501";
+            this.plC_Button244.讀寫鎖住 = true;
+            this.plC_Button244.起始狀態 = false;
+            this.plC_Button244.音效 = true;
+            this.plC_Button244.顯示 = false;
+            this.plC_Button244.顯示狀態 = false;
+            // 
+            // panel322
+            // 
+            this.panel322.Controls.Add(this.rJ_Lable204);
+            this.panel322.Controls.Add(this.rJ_Lable205);
+            this.panel322.Controls.Add(this.plC_NumBox74);
+            this.panel322.Location = new System.Drawing.Point(23, 531);
+            this.panel322.Name = "panel322";
+            this.panel322.Size = new System.Drawing.Size(222, 45);
+            this.panel322.TabIndex = 91;
+            // 
+            // rJ_Lable204
+            // 
+            this.rJ_Lable204.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable204.BackgroundColor = System.Drawing.Color.White;
+            this.rJ_Lable204.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Lable204.BorderRadius = 10;
+            this.rJ_Lable204.BorderSize = 0;
+            this.rJ_Lable204.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rJ_Lable204.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable204.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable204.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable204.GUID = "";
+            this.rJ_Lable204.Location = new System.Drawing.Point(196, 0);
+            this.rJ_Lable204.Name = "rJ_Lable204";
+            this.rJ_Lable204.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable204.ShadowSize = 0;
+            this.rJ_Lable204.Size = new System.Drawing.Size(26, 45);
+            this.rJ_Lable204.TabIndex = 4;
+            this.rJ_Lable204.Text = "s";
+            this.rJ_Lable204.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.rJ_Lable204.TextColor = System.Drawing.Color.Black;
+            // 
+            // rJ_Lable205
+            // 
+            this.rJ_Lable205.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable205.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable205.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable205.BorderRadius = 10;
+            this.rJ_Lable205.BorderSize = 1;
+            this.rJ_Lable205.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable205.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable205.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable205.GUID = "";
+            this.rJ_Lable205.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable205.Name = "rJ_Lable205";
+            this.rJ_Lable205.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable205.ShadowSize = 0;
+            this.rJ_Lable205.Size = new System.Drawing.Size(114, 42);
+            this.rJ_Lable205.TabIndex = 0;
+            this.rJ_Lable205.Text = "破真空延遲";
+            this.rJ_Lable205.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable205.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox74
+            // 
+            this.plC_NumBox74.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox74.Location = new System.Drawing.Point(122, 9);
+            this.plC_NumBox74.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox74.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox74.Name = "plC_NumBox74";
+            this.plC_NumBox74.ReadOnly = false;
+            this.plC_NumBox74.Size = new System.Drawing.Size(72, 30);
+            this.plC_NumBox74.TabIndex = 1;
+            this.plC_NumBox74.Value = 0;
+            this.plC_NumBox74.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox74.密碼欄位 = false;
+            this.plC_NumBox74.寫入元件位置 = "D157";
+            this.plC_NumBox74.小數點位置 = 3;
+            this.plC_NumBox74.微調數值 = 1;
+            this.plC_NumBox74.讀取元件位置 = "D157";
+            this.plC_NumBox74.音效 = true;
+            this.plC_NumBox74.顯示微調按鈕 = false;
+            this.plC_NumBox74.顯示螢幕小鍵盤 = true;
+            // 
+            // panel323
+            // 
+            this.panel323.Controls.Add(this.rJ_Lable206);
+            this.panel323.Controls.Add(this.rJ_Lable207);
+            this.panel323.Controls.Add(this.plC_NumBox75);
+            this.panel323.Location = new System.Drawing.Point(23, 480);
+            this.panel323.Name = "panel323";
+            this.panel323.Size = new System.Drawing.Size(222, 45);
+            this.panel323.TabIndex = 90;
+            // 
+            // rJ_Lable206
+            // 
+            this.rJ_Lable206.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable206.BackgroundColor = System.Drawing.Color.White;
+            this.rJ_Lable206.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Lable206.BorderRadius = 10;
+            this.rJ_Lable206.BorderSize = 0;
+            this.rJ_Lable206.Dock = System.Windows.Forms.DockStyle.Right;
+            this.rJ_Lable206.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable206.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable206.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable206.GUID = "";
+            this.rJ_Lable206.Location = new System.Drawing.Point(196, 0);
+            this.rJ_Lable206.Name = "rJ_Lable206";
+            this.rJ_Lable206.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable206.ShadowSize = 0;
+            this.rJ_Lable206.Size = new System.Drawing.Size(26, 45);
+            this.rJ_Lable206.TabIndex = 4;
+            this.rJ_Lable206.Text = "s";
+            this.rJ_Lable206.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.rJ_Lable206.TextColor = System.Drawing.Color.Black;
+            // 
+            // rJ_Lable207
+            // 
+            this.rJ_Lable207.BackColor = System.Drawing.Color.White;
+            this.rJ_Lable207.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable207.BorderColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable207.BorderRadius = 10;
+            this.rJ_Lable207.BorderSize = 1;
+            this.rJ_Lable207.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Lable207.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Lable207.ForeColor = System.Drawing.Color.Transparent;
+            this.rJ_Lable207.GUID = "";
+            this.rJ_Lable207.Location = new System.Drawing.Point(3, 1);
+            this.rJ_Lable207.Name = "rJ_Lable207";
+            this.rJ_Lable207.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Lable207.ShadowSize = 0;
+            this.rJ_Lable207.Size = new System.Drawing.Size(114, 42);
+            this.rJ_Lable207.TabIndex = 0;
+            this.rJ_Lable207.Text = "吸真空延遲";
+            this.rJ_Lable207.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rJ_Lable207.TextColor = System.Drawing.Color.Black;
+            // 
+            // plC_NumBox75
+            // 
+            this.plC_NumBox75.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.plC_NumBox75.Location = new System.Drawing.Point(122, 9);
+            this.plC_NumBox75.mBackColor = System.Drawing.Color.White;
+            this.plC_NumBox75.mForeColor = System.Drawing.SystemColors.WindowText;
+            this.plC_NumBox75.Name = "plC_NumBox75";
+            this.plC_NumBox75.ReadOnly = false;
+            this.plC_NumBox75.Size = new System.Drawing.Size(72, 30);
+            this.plC_NumBox75.TabIndex = 1;
+            this.plC_NumBox75.Value = 0;
+            this.plC_NumBox75.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
+            this.plC_NumBox75.密碼欄位 = false;
+            this.plC_NumBox75.寫入元件位置 = "D155";
+            this.plC_NumBox75.小數點位置 = 3;
+            this.plC_NumBox75.微調數值 = 1;
+            this.plC_NumBox75.讀取元件位置 = "D155";
+            this.plC_NumBox75.音效 = true;
+            this.plC_NumBox75.顯示微調按鈕 = false;
+            this.plC_NumBox75.顯示螢幕小鍵盤 = true;
             // 
             // groupBox5
             // 
@@ -17378,6 +20437,76 @@
             this.輸送系統.TabIndex = 8;
             this.輸送系統.Text = "輸送系統";
             // 
+            // plC_Button242
+            // 
+            this.plC_Button242.Bool = false;
+            this.plC_Button242.but_press = false;
+            this.plC_Button242.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button242.Location = new System.Drawing.Point(4, 77);
+            this.plC_Button242.Margin = new System.Windows.Forms.Padding(4);
+            this.plC_Button242.Name = "plC_Button242";
+            this.plC_Button242.OFF_文字內容 = "一行程";
+            this.plC_Button242.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button242.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button242.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button242.ON_文字內容 = "一行程";
+            this.plC_Button242.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button242.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button242.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button242.Size = new System.Drawing.Size(202, 64);
+            this.plC_Button242.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button242.TabIndex = 82;
+            this.plC_Button242.事件驅動 = false;
+            this.plC_Button242.字型鎖住 = true;
+            this.plC_Button242.寫入元件位置 = "S710";
+            this.plC_Button242.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button242.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button242.文字鎖住 = true;
+            this.plC_Button242.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button242.狀態OFF圖片")));
+            this.plC_Button242.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button242.狀態ON圖片")));
+            this.plC_Button242.讀取位元反向 = false;
+            this.plC_Button242.讀取元件位置 = "S711";
+            this.plC_Button242.讀寫鎖住 = true;
+            this.plC_Button242.起始狀態 = false;
+            this.plC_Button242.音效 = true;
+            this.plC_Button242.顯示 = false;
+            this.plC_Button242.顯示狀態 = false;
+            // 
+            // plC_Button243
+            // 
+            this.plC_Button243.Bool = false;
+            this.plC_Button243.but_press = false;
+            this.plC_Button243.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
+            this.plC_Button243.Location = new System.Drawing.Point(4, 4);
+            this.plC_Button243.Margin = new System.Windows.Forms.Padding(4);
+            this.plC_Button243.Name = "plC_Button243";
+            this.plC_Button243.OFF_文字內容 = "單步執行";
+            this.plC_Button243.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button243.OFF_文字顏色 = System.Drawing.Color.Black;
+            this.plC_Button243.OFF_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button243.ON_文字內容 = "單步執行";
+            this.plC_Button243.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
+            this.plC_Button243.ON_文字顏色 = System.Drawing.Color.White;
+            this.plC_Button243.ON_背景顏色 = System.Drawing.SystemColors.Control;
+            this.plC_Button243.Size = new System.Drawing.Size(202, 64);
+            this.plC_Button243.Style = MyUI.PLC_Button.StyleEnum.經典;
+            this.plC_Button243.TabIndex = 81;
+            this.plC_Button243.事件驅動 = false;
+            this.plC_Button243.字型鎖住 = true;
+            this.plC_Button243.寫入元件位置 = "S700";
+            this.plC_Button243.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
+            this.plC_Button243.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
+            this.plC_Button243.文字鎖住 = true;
+            this.plC_Button243.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button243.狀態OFF圖片")));
+            this.plC_Button243.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button243.狀態ON圖片")));
+            this.plC_Button243.讀取位元反向 = false;
+            this.plC_Button243.讀取元件位置 = "S701";
+            this.plC_Button243.讀寫鎖住 = true;
+            this.plC_Button243.起始狀態 = false;
+            this.plC_Button243.音效 = true;
+            this.plC_Button243.顯示 = false;
+            this.plC_Button243.顯示狀態 = false;
+            // 
             // panel246
             // 
             this.panel246.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -18608,11 +21737,288 @@
             // 參數設定
             // 
             this.參數設定.BackColor = System.Drawing.Color.White;
+            this.參數設定.Controls.Add(this.tabControl2);
             this.參數設定.Location = new System.Drawing.Point(4, 25);
             this.參數設定.Name = "參數設定";
             this.參數設定.Size = new System.Drawing.Size(1878, 815);
             this.參數設定.TabIndex = 3;
             this.參數設定.Text = "參數設定";
+            // 
+            // tabControl2
+            // 
+            this.tabControl2.Controls.Add(this.tabPage3);
+            this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl2.Location = new System.Drawing.Point(0, 0);
+            this.tabControl2.Name = "tabControl2";
+            this.tabControl2.SelectedIndex = 0;
+            this.tabControl2.Size = new System.Drawing.Size(1878, 815);
+            this.tabControl2.TabIndex = 1;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.richTextBox_EngineeringModel_設定Base64);
+            this.tabPage3.Controls.Add(this.panel332);
+            this.tabPage3.Controls.Add(this.panel331);
+            this.tabPage3.Controls.Add(this.panel327);
+            this.tabPage3.Controls.Add(this.sqL_DataGridView_EngineeringModel);
+            this.tabPage3.ForeColor = System.Drawing.Color.Black;
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1870, 789);
+            this.tabPage3.TabIndex = 0;
+            this.tabPage3.Text = "EngineeringModel";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox_EngineeringModel_設定Base64
+            // 
+            this.richTextBox_EngineeringModel_設定Base64.Location = new System.Drawing.Point(528, 577);
+            this.richTextBox_EngineeringModel_設定Base64.Name = "richTextBox_EngineeringModel_設定Base64";
+            this.richTextBox_EngineeringModel_設定Base64.Size = new System.Drawing.Size(581, 96);
+            this.richTextBox_EngineeringModel_設定Base64.TabIndex = 152;
+            this.richTextBox_EngineeringModel_設定Base64.Text = "";
+            this.richTextBox_EngineeringModel_設定Base64.Visible = false;
+            // 
+            // panel332
+            // 
+            this.panel332.Controls.Add(this.comboBox_EngineeringModel_檢測別名);
+            this.panel332.Controls.Add(this.label2);
+            this.panel332.Location = new System.Drawing.Point(20, 662);
+            this.panel332.Name = "panel332";
+            this.panel332.Size = new System.Drawing.Size(502, 88);
+            this.panel332.TabIndex = 151;
+            // 
+            // comboBox_EngineeringModel_檢測別名
+            // 
+            this.comboBox_EngineeringModel_檢測別名.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox_EngineeringModel_檢測別名.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold);
+            this.comboBox_EngineeringModel_檢測別名.FormattingEnabled = true;
+            this.comboBox_EngineeringModel_檢測別名.Location = new System.Drawing.Point(31, 30);
+            this.comboBox_EngineeringModel_檢測別名.Name = "comboBox_EngineeringModel_檢測別名";
+            this.comboBox_EngineeringModel_檢測別名.Size = new System.Drawing.Size(373, 39);
+            this.comboBox_EngineeringModel_檢測別名.TabIndex = 127;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Location = new System.Drawing.Point(36, 3);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(95, 24);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "檢測別名 :";
+            // 
+            // panel331
+            // 
+            this.panel331.Controls.Add(this.label1);
+            this.panel331.Controls.Add(this.rJ_TextBox_EngineeringModel_型號名稱);
+            this.panel331.Location = new System.Drawing.Point(20, 568);
+            this.panel331.Name = "panel331";
+            this.panel331.Size = new System.Drawing.Size(502, 88);
+            this.panel331.TabIndex = 150;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(36, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(95, 24);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "型號名稱 :";
+            // 
+            // rJ_TextBox_EngineeringModel_型號名稱
+            // 
+            this.rJ_TextBox_EngineeringModel_型號名稱.BackColor = System.Drawing.SystemColors.Window;
+            this.rJ_TextBox_EngineeringModel_型號名稱.BorderColor = System.Drawing.Color.DarkGray;
+            this.rJ_TextBox_EngineeringModel_型號名稱.BorderFocusColor = System.Drawing.Color.SteelBlue;
+            this.rJ_TextBox_EngineeringModel_型號名稱.BorderRadius = 5;
+            this.rJ_TextBox_EngineeringModel_型號名稱.BorderSize = 1;
+            this.rJ_TextBox_EngineeringModel_型號名稱.Font = new System.Drawing.Font("新細明體", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_TextBox_EngineeringModel_型號名稱.ForeColor = System.Drawing.Color.Black;
+            this.rJ_TextBox_EngineeringModel_型號名稱.GUID = "";
+            this.rJ_TextBox_EngineeringModel_型號名稱.Location = new System.Drawing.Point(31, 25);
+            this.rJ_TextBox_EngineeringModel_型號名稱.Multiline = false;
+            this.rJ_TextBox_EngineeringModel_型號名稱.Name = "rJ_TextBox_EngineeringModel_型號名稱";
+            this.rJ_TextBox_EngineeringModel_型號名稱.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.rJ_TextBox_EngineeringModel_型號名稱.PassWordChar = false;
+            this.rJ_TextBox_EngineeringModel_型號名稱.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rJ_TextBox_EngineeringModel_型號名稱.PlaceholderText = "";
+            this.rJ_TextBox_EngineeringModel_型號名稱.ShowTouchPannel = false;
+            this.rJ_TextBox_EngineeringModel_型號名稱.Size = new System.Drawing.Size(373, 56);
+            this.rJ_TextBox_EngineeringModel_型號名稱.TabIndex = 0;
+            this.rJ_TextBox_EngineeringModel_型號名稱.TextAlgin = System.Windows.Forms.HorizontalAlignment.Left;
+            this.rJ_TextBox_EngineeringModel_型號名稱.Texts = "";
+            this.rJ_TextBox_EngineeringModel_型號名稱.UnderlineStyle = true;
+            // 
+            // panel327
+            // 
+            this.panel327.Controls.Add(this.rJ_Button_EngineeringModel_刪除);
+            this.panel327.Controls.Add(this.rJ_Button_EngineeringModel_修改);
+            this.panel327.Controls.Add(this.rJ_Button_EngineeringModel_新增);
+            this.panel327.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel327.Location = new System.Drawing.Point(3, 480);
+            this.panel327.Name = "panel327";
+            this.panel327.Size = new System.Drawing.Size(1864, 73);
+            this.panel327.TabIndex = 149;
+            // 
+            // rJ_Button_EngineeringModel_刪除
+            // 
+            this.rJ_Button_EngineeringModel_刪除.AutoResetState = false;
+            this.rJ_Button_EngineeringModel_刪除.BackColor = System.Drawing.Color.Transparent;
+            this.rJ_Button_EngineeringModel_刪除.BackgroundColor = System.Drawing.Color.White;
+            this.rJ_Button_EngineeringModel_刪除.BorderColor = System.Drawing.Color.Crimson;
+            this.rJ_Button_EngineeringModel_刪除.BorderRadius = 20;
+            this.rJ_Button_EngineeringModel_刪除.BorderSize = 2;
+            this.rJ_Button_EngineeringModel_刪除.buttonType = MyUI.RJ_Button.ButtonType.Push;
+            this.rJ_Button_EngineeringModel_刪除.DisenableColor = System.Drawing.Color.Gray;
+            this.rJ_Button_EngineeringModel_刪除.Dock = System.Windows.Forms.DockStyle.Left;
+            this.rJ_Button_EngineeringModel_刪除.FlatAppearance.BorderSize = 0;
+            this.rJ_Button_EngineeringModel_刪除.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Button_EngineeringModel_刪除.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Button_EngineeringModel_刪除.ForeColor = System.Drawing.Color.Black;
+            this.rJ_Button_EngineeringModel_刪除.GUID = "";
+            this.rJ_Button_EngineeringModel_刪除.Image_padding = new System.Windows.Forms.Padding(0);
+            this.rJ_Button_EngineeringModel_刪除.Location = new System.Drawing.Point(250, 0);
+            this.rJ_Button_EngineeringModel_刪除.Name = "rJ_Button_EngineeringModel_刪除";
+            this.rJ_Button_EngineeringModel_刪除.ProhibitionBorderLineWidth = 1;
+            this.rJ_Button_EngineeringModel_刪除.ProhibitionLineWidth = 4;
+            this.rJ_Button_EngineeringModel_刪除.ProhibitionSymbolSize = 30;
+            this.rJ_Button_EngineeringModel_刪除.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Button_EngineeringModel_刪除.ShadowSize = 3;
+            this.rJ_Button_EngineeringModel_刪除.ShowLoadingForm = false;
+            this.rJ_Button_EngineeringModel_刪除.Size = new System.Drawing.Size(125, 73);
+            this.rJ_Button_EngineeringModel_刪除.State = false;
+            this.rJ_Button_EngineeringModel_刪除.TabIndex = 152;
+            this.rJ_Button_EngineeringModel_刪除.Text = "刪除";
+            this.rJ_Button_EngineeringModel_刪除.TextColor = System.Drawing.Color.Black;
+            this.rJ_Button_EngineeringModel_刪除.TextHeight = 0;
+            this.rJ_Button_EngineeringModel_刪除.UseVisualStyleBackColor = false;
+            // 
+            // rJ_Button_EngineeringModel_修改
+            // 
+            this.rJ_Button_EngineeringModel_修改.AutoResetState = false;
+            this.rJ_Button_EngineeringModel_修改.BackColor = System.Drawing.Color.Transparent;
+            this.rJ_Button_EngineeringModel_修改.BackgroundColor = System.Drawing.Color.Black;
+            this.rJ_Button_EngineeringModel_修改.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Button_EngineeringModel_修改.BorderRadius = 20;
+            this.rJ_Button_EngineeringModel_修改.BorderSize = 0;
+            this.rJ_Button_EngineeringModel_修改.buttonType = MyUI.RJ_Button.ButtonType.Push;
+            this.rJ_Button_EngineeringModel_修改.DisenableColor = System.Drawing.Color.Gray;
+            this.rJ_Button_EngineeringModel_修改.Dock = System.Windows.Forms.DockStyle.Left;
+            this.rJ_Button_EngineeringModel_修改.FlatAppearance.BorderSize = 0;
+            this.rJ_Button_EngineeringModel_修改.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Button_EngineeringModel_修改.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Button_EngineeringModel_修改.ForeColor = System.Drawing.Color.White;
+            this.rJ_Button_EngineeringModel_修改.GUID = "";
+            this.rJ_Button_EngineeringModel_修改.Image_padding = new System.Windows.Forms.Padding(0);
+            this.rJ_Button_EngineeringModel_修改.Location = new System.Drawing.Point(125, 0);
+            this.rJ_Button_EngineeringModel_修改.Name = "rJ_Button_EngineeringModel_修改";
+            this.rJ_Button_EngineeringModel_修改.ProhibitionBorderLineWidth = 1;
+            this.rJ_Button_EngineeringModel_修改.ProhibitionLineWidth = 4;
+            this.rJ_Button_EngineeringModel_修改.ProhibitionSymbolSize = 30;
+            this.rJ_Button_EngineeringModel_修改.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Button_EngineeringModel_修改.ShadowSize = 3;
+            this.rJ_Button_EngineeringModel_修改.ShowLoadingForm = false;
+            this.rJ_Button_EngineeringModel_修改.Size = new System.Drawing.Size(125, 73);
+            this.rJ_Button_EngineeringModel_修改.State = false;
+            this.rJ_Button_EngineeringModel_修改.TabIndex = 151;
+            this.rJ_Button_EngineeringModel_修改.Text = "修改";
+            this.rJ_Button_EngineeringModel_修改.TextColor = System.Drawing.Color.White;
+            this.rJ_Button_EngineeringModel_修改.TextHeight = 0;
+            this.rJ_Button_EngineeringModel_修改.UseVisualStyleBackColor = false;
+            // 
+            // rJ_Button_EngineeringModel_新增
+            // 
+            this.rJ_Button_EngineeringModel_新增.AutoResetState = false;
+            this.rJ_Button_EngineeringModel_新增.BackColor = System.Drawing.Color.Transparent;
+            this.rJ_Button_EngineeringModel_新增.BackgroundColor = System.Drawing.Color.Black;
+            this.rJ_Button_EngineeringModel_新增.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Button_EngineeringModel_新增.BorderRadius = 20;
+            this.rJ_Button_EngineeringModel_新增.BorderSize = 0;
+            this.rJ_Button_EngineeringModel_新增.buttonType = MyUI.RJ_Button.ButtonType.Push;
+            this.rJ_Button_EngineeringModel_新增.DisenableColor = System.Drawing.Color.Gray;
+            this.rJ_Button_EngineeringModel_新增.Dock = System.Windows.Forms.DockStyle.Left;
+            this.rJ_Button_EngineeringModel_新增.FlatAppearance.BorderSize = 0;
+            this.rJ_Button_EngineeringModel_新增.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Button_EngineeringModel_新增.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Button_EngineeringModel_新增.ForeColor = System.Drawing.Color.White;
+            this.rJ_Button_EngineeringModel_新增.GUID = "";
+            this.rJ_Button_EngineeringModel_新增.Image_padding = new System.Windows.Forms.Padding(0);
+            this.rJ_Button_EngineeringModel_新增.Location = new System.Drawing.Point(0, 0);
+            this.rJ_Button_EngineeringModel_新增.Name = "rJ_Button_EngineeringModel_新增";
+            this.rJ_Button_EngineeringModel_新增.ProhibitionBorderLineWidth = 1;
+            this.rJ_Button_EngineeringModel_新增.ProhibitionLineWidth = 4;
+            this.rJ_Button_EngineeringModel_新增.ProhibitionSymbolSize = 30;
+            this.rJ_Button_EngineeringModel_新增.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Button_EngineeringModel_新增.ShadowSize = 3;
+            this.rJ_Button_EngineeringModel_新增.ShowLoadingForm = false;
+            this.rJ_Button_EngineeringModel_新增.Size = new System.Drawing.Size(125, 73);
+            this.rJ_Button_EngineeringModel_新增.State = false;
+            this.rJ_Button_EngineeringModel_新增.TabIndex = 148;
+            this.rJ_Button_EngineeringModel_新增.Text = "新增";
+            this.rJ_Button_EngineeringModel_新增.TextColor = System.Drawing.Color.White;
+            this.rJ_Button_EngineeringModel_新增.TextHeight = 0;
+            this.rJ_Button_EngineeringModel_新增.UseVisualStyleBackColor = false;
+            // 
+            // sqL_DataGridView_EngineeringModel
+            // 
+            this.sqL_DataGridView_EngineeringModel.AutoSelectToDeep = true;
+            this.sqL_DataGridView_EngineeringModel.backColor = System.Drawing.Color.LightBlue;
+            this.sqL_DataGridView_EngineeringModel.BorderColor = System.Drawing.Color.LightBlue;
+            this.sqL_DataGridView_EngineeringModel.BorderRadius = 0;
+            this.sqL_DataGridView_EngineeringModel.BorderSize = 2;
+            this.sqL_DataGridView_EngineeringModel.CellBorderColor = System.Drawing.Color.Gainsboro;
+            this.sqL_DataGridView_EngineeringModel.cellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Single;
+            this.sqL_DataGridView_EngineeringModel.cellStylBackColor = System.Drawing.Color.LightBlue;
+            this.sqL_DataGridView_EngineeringModel.cellStyleFont = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.sqL_DataGridView_EngineeringModel.cellStylForeColor = System.Drawing.Color.Black;
+            this.sqL_DataGridView_EngineeringModel.checkedRowBackColor = System.Drawing.Color.YellowGreen;
+            this.sqL_DataGridView_EngineeringModel.columnHeaderBackColor = System.Drawing.Color.SkyBlue;
+            this.sqL_DataGridView_EngineeringModel.columnHeaderBorderColor = System.Drawing.Color.DimGray;
+            this.sqL_DataGridView_EngineeringModel.columnHeaderFont = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.sqL_DataGridView_EngineeringModel.columnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.sqL_DataGridView_EngineeringModel.columnHeadersHeight = 18;
+            this.sqL_DataGridView_EngineeringModel.columnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.sqL_DataGridView_EngineeringModel.DataGridViewAutoSizeColumnMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.sqL_DataGridView_EngineeringModel.DataKeyEnable = false;
+            this.sqL_DataGridView_EngineeringModel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.sqL_DataGridView_EngineeringModel.Font = new System.Drawing.Font("新細明體", 12F);
+            this.sqL_DataGridView_EngineeringModel.ImageBox = false;
+            this.sqL_DataGridView_EngineeringModel.Location = new System.Drawing.Point(3, 3);
+            this.sqL_DataGridView_EngineeringModel.Margin = new System.Windows.Forms.Padding(6);
+            this.sqL_DataGridView_EngineeringModel.Name = "sqL_DataGridView_EngineeringModel";
+            this.sqL_DataGridView_EngineeringModel.OnlineState = SQLUI.SQL_DataGridView.OnlineEnum.Online;
+            this.sqL_DataGridView_EngineeringModel.Password = "user82822040";
+            this.sqL_DataGridView_EngineeringModel.Port = ((uint)(3306u));
+            this.sqL_DataGridView_EngineeringModel.rowBorderStyleOption = SQLUI.SQL_DataGridView.RowBorderStyleOption.All;
+            this.sqL_DataGridView_EngineeringModel.rowHeaderBackColor = System.Drawing.Color.LightBlue;
+            this.sqL_DataGridView_EngineeringModel.rowHeaderBorderStyleOption = SQLUI.SQL_DataGridView.RowBorderStyleOption.All;
+            this.sqL_DataGridView_EngineeringModel.rowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.sqL_DataGridView_EngineeringModel.RowsColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.sqL_DataGridView_EngineeringModel.RowsHeight = 60;
+            this.sqL_DataGridView_EngineeringModel.SaveFileName = "SQL_DataGridView";
+            this.sqL_DataGridView_EngineeringModel.selectedBorderSize = 0;
+            this.sqL_DataGridView_EngineeringModel.selectedRowBackColor = System.Drawing.Color.Blue;
+            this.sqL_DataGridView_EngineeringModel.selectedRowBorderColor = System.Drawing.Color.Blue;
+            this.sqL_DataGridView_EngineeringModel.selectedRowForeColor = System.Drawing.Color.White;
+            this.sqL_DataGridView_EngineeringModel.Server = "localhost";
+            this.sqL_DataGridView_EngineeringModel.Size = new System.Drawing.Size(1864, 477);
+            this.sqL_DataGridView_EngineeringModel.SSLMode = MySql.Data.MySqlClient.MySqlSslMode.None;
+            this.sqL_DataGridView_EngineeringModel.TabIndex = 45;
+            this.sqL_DataGridView_EngineeringModel.TableName = "trading";
+            this.sqL_DataGridView_EngineeringModel.UserName = "root";
+            this.sqL_DataGridView_EngineeringModel.可拖曳欄位寬度 = true;
+            this.sqL_DataGridView_EngineeringModel.可選擇多列 = true;
+            this.sqL_DataGridView_EngineeringModel.單格樣式 = System.Windows.Forms.DataGridViewCellBorderStyle.Single;
+            this.sqL_DataGridView_EngineeringModel.自動換行 = true;
+            this.sqL_DataGridView_EngineeringModel.表單字體 = new System.Drawing.Font("新細明體", 12F);
+            this.sqL_DataGridView_EngineeringModel.邊框樣式 = System.Windows.Forms.BorderStyle.None;
+            this.sqL_DataGridView_EngineeringModel.顯示CheckBox = false;
+            this.sqL_DataGridView_EngineeringModel.顯示首列 = true;
+            this.sqL_DataGridView_EngineeringModel.顯示首行 = true;
+            this.sqL_DataGridView_EngineeringModel.首列樣式 = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.sqL_DataGridView_EngineeringModel.首行樣式 = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             // 
             // 後台設定
             // 
@@ -18633,6 +22039,7 @@
             this.plC_ScreenPage_後台設定.Controls.Add(this.PLC);
             this.plC_ScreenPage_後台設定.Controls.Add(this.TABP_9016);
             this.plC_ScreenPage_後台設定.Controls.Add(this.TABP_1230_1280);
+            this.plC_ScreenPage_後台設定.Controls.Add(this.tabPage1);
             this.plC_ScreenPage_後台設定.Dock = System.Windows.Forms.DockStyle.Fill;
             this.plC_ScreenPage_後台設定.ForekColor = System.Drawing.Color.Black;
             this.plC_ScreenPage_後台設定.ItemSize = new System.Drawing.Size(54, 21);
@@ -18773,8 +22180,39 @@
             this.c12301.TabIndex = 0;
             this.c12301.設備名稱 = "C1230-001";
             // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.tabControl1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Size = new System.Drawing.Size(1870, 719);
+            this.tabPage1.TabIndex = 3;
+            this.tabPage1.Text = "DB";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(1870, 719);
+            this.tabControl1.TabIndex = 0;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1862, 693);
+            this.tabPage2.TabIndex = 0;
+            this.tabPage2.Text = "工建料號";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
             // panel_後台設定
             // 
+            this.panel_後台設定.Controls.Add(this.plC_RJ_ScreenButtonEx5);
             this.panel_後台設定.Controls.Add(this.plC_RJ_ScreenButtonEx7);
             this.panel_後台設定.Controls.Add(this.plC_RJ_ScreenButtonEx8);
             this.panel_後台設定.Controls.Add(this.plC_RJ_ScreenButtonEx9);
@@ -18783,6 +22221,65 @@
             this.panel_後台設定.Name = "panel_後台設定";
             this.panel_後台設定.Size = new System.Drawing.Size(1878, 67);
             this.panel_後台設定.TabIndex = 2;
+            // 
+            // plC_RJ_ScreenButtonEx5
+            // 
+            this.plC_RJ_ScreenButtonEx5.AutoResetState = false;
+            this.plC_RJ_ScreenButtonEx5.BackColor = System.Drawing.Color.Transparent;
+            this.plC_RJ_ScreenButtonEx5.BackgroundColor = System.Drawing.Color.White;
+            this.plC_RJ_ScreenButtonEx5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.plC_RJ_ScreenButtonEx5.BorderColor = System.Drawing.Color.DimGray;
+            this.plC_RJ_ScreenButtonEx5.BorderRadius = 40;
+            this.plC_RJ_ScreenButtonEx5.BorderSize = 1;
+            this.plC_RJ_ScreenButtonEx5.but_press = false;
+            this.plC_RJ_ScreenButtonEx5.buttonType = MyUI.RJ_Button.ButtonType.Push;
+            this.plC_RJ_ScreenButtonEx5.DisenableColor = System.Drawing.Color.DimGray;
+            this.plC_RJ_ScreenButtonEx5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.plC_RJ_ScreenButtonEx5.FlatAppearance.BorderSize = 0;
+            this.plC_RJ_ScreenButtonEx5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.plC_RJ_ScreenButtonEx5.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.plC_RJ_ScreenButtonEx5.ForeColor = System.Drawing.Color.Black;
+            this.plC_RJ_ScreenButtonEx5.GUID = "";
+            this.plC_RJ_ScreenButtonEx5.Image_padding = new System.Windows.Forms.Padding(0);
+            this.plC_RJ_ScreenButtonEx5.Location = new System.Drawing.Point(414, 0);
+            this.plC_RJ_ScreenButtonEx5.Name = "plC_RJ_ScreenButtonEx5";
+            this.plC_RJ_ScreenButtonEx5.OffFont = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
+            this.plC_RJ_ScreenButtonEx5.OffForeColor = System.Drawing.Color.White;
+            this.plC_RJ_ScreenButtonEx5.OffIconColor = System.Drawing.Color.White;
+            this.plC_RJ_ScreenButtonEx5.OffText = "iConText";
+            this.plC_RJ_ScreenButtonEx5.OnFont = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
+            this.plC_RJ_ScreenButtonEx5.OnForeColor = System.Drawing.Color.White;
+            this.plC_RJ_ScreenButtonEx5.OnIconColor = System.Drawing.Color.LemonChiffon;
+            this.plC_RJ_ScreenButtonEx5.OnText = "iConText";
+            this.plC_RJ_ScreenButtonEx5.ProhibitionBorderLineWidth = 1;
+            this.plC_RJ_ScreenButtonEx5.ProhibitionLineWidth = 4;
+            this.plC_RJ_ScreenButtonEx5.ProhibitionSymbolSize = 25;
+            this.plC_RJ_ScreenButtonEx5.ShadowColor = System.Drawing.Color.DimGray;
+            this.plC_RJ_ScreenButtonEx5.ShadowSize = 3;
+            this.plC_RJ_ScreenButtonEx5.ShowLoadingForm = false;
+            this.plC_RJ_ScreenButtonEx5.Size = new System.Drawing.Size(138, 67);
+            this.plC_RJ_ScreenButtonEx5.State = false;
+            this.plC_RJ_ScreenButtonEx5.TabIndex = 165;
+            this.plC_RJ_ScreenButtonEx5.Text = "DB";
+            this.plC_RJ_ScreenButtonEx5.TextColor = System.Drawing.Color.Black;
+            this.plC_RJ_ScreenButtonEx5.TextHeight = 0;
+            this.plC_RJ_ScreenButtonEx5.UseVisualStyleBackColor = false;
+            this.plC_RJ_ScreenButtonEx5.字元長度 = MyUI.PLC_RJ_ScreenButtonEx.WordLengthEnum.單字元;
+            this.plC_RJ_ScreenButtonEx5.寫入位置註解 = "";
+            this.plC_RJ_ScreenButtonEx5.寫入元件位置 = "";
+            this.plC_RJ_ScreenButtonEx5.按鈕型態 = MyUI.PLC_RJ_ScreenButtonEx.StatusEnum.保持型;
+            this.plC_RJ_ScreenButtonEx5.控制位址 = "D0";
+            this.plC_RJ_ScreenButtonEx5.換頁選擇方式 = MyUI.PLC_RJ_ScreenButtonEx.換頁選擇方式Enum.名稱;
+            this.plC_RJ_ScreenButtonEx5.致能讀取位置 = "";
+            this.plC_RJ_ScreenButtonEx5.讀取位元反向 = false;
+            this.plC_RJ_ScreenButtonEx5.讀取位置註解 = "";
+            this.plC_RJ_ScreenButtonEx5.讀取元件位置 = "";
+            this.plC_RJ_ScreenButtonEx5.音效 = true;
+            this.plC_RJ_ScreenButtonEx5.頁面名稱 = "DB";
+            this.plC_RJ_ScreenButtonEx5.頁面編號 = 0;
+            this.plC_RJ_ScreenButtonEx5.顯示方式 = MyUI.PLC_RJ_ScreenButtonEx.StateEnum.顯示為OFF;
+            this.plC_RJ_ScreenButtonEx5.顯示狀態 = false;
+            this.plC_RJ_ScreenButtonEx5.顯示讀取位置 = "";
             // 
             // plC_RJ_ScreenButtonEx7
             // 
@@ -18975,2472 +22472,6 @@
             this.plC_AlarmFlow1.警報編輯 = ((System.Collections.Generic.List<string>)(resources.GetObject("plC_AlarmFlow1.警報編輯")));
             this.plC_AlarmFlow1.顯示警報編號 = true;
             // 
-            // plC_RJ_Pannel12
-            // 
-            this.plC_RJ_Pannel12.BackColor = System.Drawing.Color.White;
-            this.plC_RJ_Pannel12.BackgroundColor = System.Drawing.Color.Transparent;
-            this.plC_RJ_Pannel12.BorderColor = System.Drawing.Color.Gainsboro;
-            this.plC_RJ_Pannel12.BorderRadius = 40;
-            this.plC_RJ_Pannel12.BorderSize = 2;
-            this.plC_RJ_Pannel12.Controls.Add(this.plC_Button227);
-            this.plC_RJ_Pannel12.Controls.Add(this.panel301);
-            this.plC_RJ_Pannel12.Controls.Add(this.rJ_Lable174);
-            this.plC_RJ_Pannel12.Controls.Add(this.plC_Button228);
-            this.plC_RJ_Pannel12.Controls.Add(this.panel302);
-            this.plC_RJ_Pannel12.Controls.Add(this.plC_Button229);
-            this.plC_RJ_Pannel12.Controls.Add(this.panel303);
-            this.plC_RJ_Pannel12.Controls.Add(this.plC_Button230);
-            this.plC_RJ_Pannel12.Controls.Add(this.panel304);
-            this.plC_RJ_Pannel12.Controls.Add(this.plC_Button231);
-            this.plC_RJ_Pannel12.Controls.Add(this.panel305);
-            this.plC_RJ_Pannel12.Controls.Add(this.panel306);
-            this.plC_RJ_Pannel12.Dock = System.Windows.Forms.DockStyle.Right;
-            this.plC_RJ_Pannel12.ForeColor = System.Drawing.Color.White;
-            this.plC_RJ_Pannel12.IsSelected = false;
-            this.plC_RJ_Pannel12.Location = new System.Drawing.Point(1387, 0);
-            this.plC_RJ_Pannel12.Name = "plC_RJ_Pannel12";
-            this.plC_RJ_Pannel12.Padding = new System.Windows.Forms.Padding(20, 20, 30, 20);
-            this.plC_RJ_Pannel12.ShadowColor = System.Drawing.Color.DimGray;
-            this.plC_RJ_Pannel12.ShadowSize = 3;
-            this.plC_RJ_Pannel12.Size = new System.Drawing.Size(483, 719);
-            this.plC_RJ_Pannel12.TabIndex = 68;
-            // 
-            // plC_Button227
-            // 
-            this.plC_Button227.Bool = false;
-            this.plC_Button227.but_press = false;
-            this.plC_Button227.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button227.Location = new System.Drawing.Point(320, 523);
-            this.plC_Button227.Margin = new System.Windows.Forms.Padding(1);
-            this.plC_Button227.Name = "plC_Button227";
-            this.plC_Button227.OFF_文字內容 = "未復歸";
-            this.plC_Button227.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button227.OFF_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button227.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button227.ON_文字內容 = "復歸完成";
-            this.plC_Button227.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button227.ON_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button227.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button227.Size = new System.Drawing.Size(135, 55);
-            this.plC_Button227.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_黃;
-            this.plC_Button227.TabIndex = 61;
-            this.plC_Button227.事件驅動 = false;
-            this.plC_Button227.字型鎖住 = true;
-            this.plC_Button227.寫入位置註解 = "CCD盤步進復歸完成";
-            this.plC_Button227.寫入元件位置 = "M4051";
-            this.plC_Button227.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
-            this.plC_Button227.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button227.文字鎖住 = false;
-            this.plC_Button227.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button227.狀態OFF圖片")));
-            this.plC_Button227.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button227.狀態ON圖片")));
-            this.plC_Button227.讀取位元反向 = false;
-            this.plC_Button227.讀取元件位置 = "M4051";
-            this.plC_Button227.讀寫鎖住 = true;
-            this.plC_Button227.起始狀態 = false;
-            this.plC_Button227.音效 = true;
-            this.plC_Button227.顯示 = false;
-            this.plC_Button227.顯示狀態 = false;
-            // 
-            // panel301
-            // 
-            this.panel301.Controls.Add(this.rJ_Lable173);
-            this.panel301.Controls.Add(this.plC_NumBox50);
-            this.panel301.Location = new System.Drawing.Point(41, 410);
-            this.panel301.Name = "panel301";
-            this.panel301.Size = new System.Drawing.Size(292, 45);
-            this.panel301.TabIndex = 60;
-            // 
-            // rJ_Lable173
-            // 
-            this.rJ_Lable173.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable173.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable173.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable173.BorderRadius = 10;
-            this.rJ_Lable173.BorderSize = 1;
-            this.rJ_Lable173.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable173.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable173.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable173.GUID = "";
-            this.rJ_Lable173.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable173.Name = "rJ_Lable173";
-            this.rJ_Lable173.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable173.ShadowSize = 0;
-            this.rJ_Lable173.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable173.TabIndex = 0;
-            this.rJ_Lable173.Text = "偏移距離";
-            this.rJ_Lable173.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable173.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox50
-            // 
-            this.plC_NumBox50.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox50.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox50.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox50.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox50.Name = "plC_NumBox50";
-            this.plC_NumBox50.ReadOnly = false;
-            this.plC_NumBox50.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox50.TabIndex = 1;
-            this.plC_NumBox50.Value = 0;
-            this.plC_NumBox50.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox50.密碼欄位 = false;
-            this.plC_NumBox50.寫入元件位置 = "D15136";
-            this.plC_NumBox50.小數點位置 = 0;
-            this.plC_NumBox50.微調數值 = 1;
-            this.plC_NumBox50.讀取元件位置 = "D15136";
-            this.plC_NumBox50.音效 = true;
-            this.plC_NumBox50.顯示微調按鈕 = false;
-            this.plC_NumBox50.顯示螢幕小鍵盤 = true;
-            // 
-            // rJ_Lable174
-            // 
-            this.rJ_Lable174.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable174.BackgroundColor = System.Drawing.Color.Gray;
-            this.rJ_Lable174.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rJ_Lable174.BorderRadius = 10;
-            this.rJ_Lable174.BorderSize = 0;
-            this.rJ_Lable174.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rJ_Lable174.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable174.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable174.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable174.GUID = "";
-            this.rJ_Lable174.Location = new System.Drawing.Point(20, 20);
-            this.rJ_Lable174.Name = "rJ_Lable174";
-            this.rJ_Lable174.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable174.ShadowSize = 0;
-            this.rJ_Lable174.Size = new System.Drawing.Size(433, 65);
-            this.rJ_Lable174.TabIndex = 59;
-            this.rJ_Lable174.Text = "CCD馬達";
-            this.rJ_Lable174.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable174.TextColor = System.Drawing.Color.White;
-            // 
-            // plC_Button228
-            // 
-            this.plC_Button228.Bool = false;
-            this.plC_Button228.but_press = false;
-            this.plC_Button228.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button228.Location = new System.Drawing.Point(41, 101);
-            this.plC_Button228.Margin = new System.Windows.Forms.Padding(4);
-            this.plC_Button228.Name = "plC_Button228";
-            this.plC_Button228.OFF_文字內容 = "原點";
-            this.plC_Button228.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
-            this.plC_Button228.OFF_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button228.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button228.ON_文字內容 = "原點";
-            this.plC_Button228.ON_文字字體 = new System.Drawing.Font("新細明體", 9F);
-            this.plC_Button228.ON_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button228.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button228.Size = new System.Drawing.Size(50, 47);
-            this.plC_Button228.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_綠;
-            this.plC_Button228.TabIndex = 35;
-            this.plC_Button228.事件驅動 = false;
-            this.plC_Button228.字型鎖住 = false;
-            this.plC_Button228.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button228.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button228.文字鎖住 = true;
-            this.plC_Button228.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button228.狀態OFF圖片")));
-            this.plC_Button228.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button228.狀態ON圖片")));
-            this.plC_Button228.讀取位元反向 = false;
-            this.plC_Button228.讀取元件位置 = "X44";
-            this.plC_Button228.讀寫鎖住 = false;
-            this.plC_Button228.起始狀態 = false;
-            this.plC_Button228.音效 = true;
-            this.plC_Button228.顯示 = false;
-            this.plC_Button228.顯示狀態 = false;
-            // 
-            // panel302
-            // 
-            this.panel302.Controls.Add(this.rJ_Lable175);
-            this.panel302.Controls.Add(this.plC_NumBox51);
-            this.panel302.Location = new System.Drawing.Point(41, 359);
-            this.panel302.Name = "panel302";
-            this.panel302.Size = new System.Drawing.Size(292, 45);
-            this.panel302.TabIndex = 41;
-            // 
-            // rJ_Lable175
-            // 
-            this.rJ_Lable175.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable175.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable175.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable175.BorderRadius = 10;
-            this.rJ_Lable175.BorderSize = 1;
-            this.rJ_Lable175.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable175.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable175.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable175.GUID = "";
-            this.rJ_Lable175.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable175.Name = "rJ_Lable175";
-            this.rJ_Lable175.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable175.ShadowSize = 0;
-            this.rJ_Lable175.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable175.TabIndex = 0;
-            this.rJ_Lable175.Text = "減速度";
-            this.rJ_Lable175.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable175.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox51
-            // 
-            this.plC_NumBox51.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox51.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox51.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox51.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox51.Name = "plC_NumBox51";
-            this.plC_NumBox51.ReadOnly = false;
-            this.plC_NumBox51.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox51.TabIndex = 1;
-            this.plC_NumBox51.Value = 0;
-            this.plC_NumBox51.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox51.密碼欄位 = false;
-            this.plC_NumBox51.寫入元件位置 = "D15110";
-            this.plC_NumBox51.小數點位置 = 0;
-            this.plC_NumBox51.微調數值 = 1;
-            this.plC_NumBox51.讀取元件位置 = "D15110";
-            this.plC_NumBox51.音效 = true;
-            this.plC_NumBox51.顯示微調按鈕 = false;
-            this.plC_NumBox51.顯示螢幕小鍵盤 = true;
-            // 
-            // plC_Button229
-            // 
-            this.plC_Button229.Bool = false;
-            this.plC_Button229.but_press = false;
-            this.plC_Button229.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button229.Location = new System.Drawing.Point(41, 473);
-            this.plC_Button229.Margin = new System.Windows.Forms.Padding(4);
-            this.plC_Button229.Name = "plC_Button229";
-            this.plC_Button229.OFF_文字內容 = "JOG+";
-            this.plC_Button229.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button229.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button229.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button229.ON_文字內容 = "JOG+";
-            this.plC_Button229.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button229.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button229.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button229.Size = new System.Drawing.Size(135, 43);
-            this.plC_Button229.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button229.TabIndex = 33;
-            this.plC_Button229.事件驅動 = false;
-            this.plC_Button229.字型鎖住 = true;
-            this.plC_Button229.寫入元件位置 = "S15110";
-            this.plC_Button229.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
-            this.plC_Button229.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button229.文字鎖住 = true;
-            this.plC_Button229.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button229.狀態OFF圖片")));
-            this.plC_Button229.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button229.狀態ON圖片")));
-            this.plC_Button229.讀取位元反向 = false;
-            this.plC_Button229.讀取元件位置 = "S15110";
-            this.plC_Button229.讀寫鎖住 = true;
-            this.plC_Button229.起始狀態 = false;
-            this.plC_Button229.音效 = true;
-            this.plC_Button229.顯示 = false;
-            this.plC_Button229.顯示狀態 = false;
-            // 
-            // panel303
-            // 
-            this.panel303.Controls.Add(this.rJ_Lable176);
-            this.panel303.Controls.Add(this.plC_NumBox52);
-            this.panel303.Location = new System.Drawing.Point(41, 308);
-            this.panel303.Name = "panel303";
-            this.panel303.Size = new System.Drawing.Size(292, 45);
-            this.panel303.TabIndex = 40;
-            // 
-            // rJ_Lable176
-            // 
-            this.rJ_Lable176.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable176.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable176.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable176.BorderRadius = 10;
-            this.rJ_Lable176.BorderSize = 1;
-            this.rJ_Lable176.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable176.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable176.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable176.GUID = "";
-            this.rJ_Lable176.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable176.Name = "rJ_Lable176";
-            this.rJ_Lable176.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable176.ShadowSize = 0;
-            this.rJ_Lable176.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable176.TabIndex = 0;
-            this.rJ_Lable176.Text = "加速度";
-            this.rJ_Lable176.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable176.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox52
-            // 
-            this.plC_NumBox52.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox52.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox52.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox52.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox52.Name = "plC_NumBox52";
-            this.plC_NumBox52.ReadOnly = false;
-            this.plC_NumBox52.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox52.TabIndex = 1;
-            this.plC_NumBox52.Value = 0;
-            this.plC_NumBox52.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox52.密碼欄位 = false;
-            this.plC_NumBox52.寫入元件位置 = "D15108";
-            this.plC_NumBox52.小數點位置 = 0;
-            this.plC_NumBox52.微調數值 = 1;
-            this.plC_NumBox52.讀取元件位置 = "D15108";
-            this.plC_NumBox52.音效 = true;
-            this.plC_NumBox52.顯示微調按鈕 = false;
-            this.plC_NumBox52.顯示螢幕小鍵盤 = true;
-            // 
-            // plC_Button230
-            // 
-            this.plC_Button230.Bool = false;
-            this.plC_Button230.but_press = false;
-            this.plC_Button230.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button230.Location = new System.Drawing.Point(181, 473);
-            this.plC_Button230.Margin = new System.Windows.Forms.Padding(2);
-            this.plC_Button230.Name = "plC_Button230";
-            this.plC_Button230.OFF_文字內容 = "JOG-";
-            this.plC_Button230.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button230.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button230.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button230.ON_文字內容 = "JOG-";
-            this.plC_Button230.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button230.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button230.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button230.Size = new System.Drawing.Size(135, 43);
-            this.plC_Button230.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button230.TabIndex = 34;
-            this.plC_Button230.事件驅動 = false;
-            this.plC_Button230.字型鎖住 = true;
-            this.plC_Button230.寫入元件位置 = "S15111";
-            this.plC_Button230.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
-            this.plC_Button230.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button230.文字鎖住 = true;
-            this.plC_Button230.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button230.狀態OFF圖片")));
-            this.plC_Button230.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button230.狀態ON圖片")));
-            this.plC_Button230.讀取位元反向 = false;
-            this.plC_Button230.讀取元件位置 = "S15111";
-            this.plC_Button230.讀寫鎖住 = true;
-            this.plC_Button230.起始狀態 = false;
-            this.plC_Button230.音效 = true;
-            this.plC_Button230.顯示 = false;
-            this.plC_Button230.顯示狀態 = false;
-            // 
-            // panel304
-            // 
-            this.panel304.Controls.Add(this.rJ_Lable177);
-            this.panel304.Controls.Add(this.plC_NumBox53);
-            this.panel304.Location = new System.Drawing.Point(41, 257);
-            this.panel304.Name = "panel304";
-            this.panel304.Size = new System.Drawing.Size(292, 45);
-            this.panel304.TabIndex = 39;
-            // 
-            // rJ_Lable177
-            // 
-            this.rJ_Lable177.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable177.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable177.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable177.BorderRadius = 10;
-            this.rJ_Lable177.BorderSize = 1;
-            this.rJ_Lable177.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable177.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable177.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable177.GUID = "";
-            this.rJ_Lable177.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable177.Name = "rJ_Lable177";
-            this.rJ_Lable177.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable177.ShadowSize = 0;
-            this.rJ_Lable177.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable177.TabIndex = 0;
-            this.rJ_Lable177.Text = "運轉速度";
-            this.rJ_Lable177.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable177.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox53
-            // 
-            this.plC_NumBox53.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox53.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox53.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox53.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox53.Name = "plC_NumBox53";
-            this.plC_NumBox53.ReadOnly = false;
-            this.plC_NumBox53.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox53.TabIndex = 1;
-            this.plC_NumBox53.Value = 0;
-            this.plC_NumBox53.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox53.密碼欄位 = false;
-            this.plC_NumBox53.寫入元件位置 = "D15124";
-            this.plC_NumBox53.小數點位置 = 0;
-            this.plC_NumBox53.微調數值 = 1;
-            this.plC_NumBox53.讀取元件位置 = "D15124";
-            this.plC_NumBox53.音效 = true;
-            this.plC_NumBox53.顯示微調按鈕 = false;
-            this.plC_NumBox53.顯示螢幕小鍵盤 = true;
-            // 
-            // plC_Button231
-            // 
-            this.plC_Button231.Bool = false;
-            this.plC_Button231.but_press = false;
-            this.plC_Button231.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button231.Location = new System.Drawing.Point(320, 473);
-            this.plC_Button231.Margin = new System.Windows.Forms.Padding(1);
-            this.plC_Button231.Name = "plC_Button231";
-            this.plC_Button231.OFF_文字內容 = "復歸";
-            this.plC_Button231.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button231.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button231.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button231.ON_文字內容 = "復歸";
-            this.plC_Button231.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button231.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button231.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button231.Size = new System.Drawing.Size(135, 43);
-            this.plC_Button231.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button231.TabIndex = 36;
-            this.plC_Button231.事件驅動 = false;
-            this.plC_Button231.字型鎖住 = true;
-            this.plC_Button231.寫入元件位置 = "S15140";
-            this.plC_Button231.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button231.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button231.文字鎖住 = true;
-            this.plC_Button231.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button231.狀態OFF圖片")));
-            this.plC_Button231.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button231.狀態ON圖片")));
-            this.plC_Button231.讀取位元反向 = false;
-            this.plC_Button231.讀取元件位置 = "S15150";
-            this.plC_Button231.讀寫鎖住 = true;
-            this.plC_Button231.起始狀態 = false;
-            this.plC_Button231.音效 = true;
-            this.plC_Button231.顯示 = false;
-            this.plC_Button231.顯示狀態 = false;
-            // 
-            // panel305
-            // 
-            this.panel305.Controls.Add(this.rJ_Lable178);
-            this.panel305.Controls.Add(this.plC_NumBox54);
-            this.panel305.Location = new System.Drawing.Point(41, 206);
-            this.panel305.Name = "panel305";
-            this.panel305.Size = new System.Drawing.Size(292, 45);
-            this.panel305.TabIndex = 38;
-            // 
-            // rJ_Lable178
-            // 
-            this.rJ_Lable178.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable178.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable178.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable178.BorderRadius = 10;
-            this.rJ_Lable178.BorderSize = 1;
-            this.rJ_Lable178.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable178.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable178.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable178.GUID = "";
-            this.rJ_Lable178.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable178.Name = "rJ_Lable178";
-            this.rJ_Lable178.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable178.ShadowSize = 0;
-            this.rJ_Lable178.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable178.TabIndex = 0;
-            this.rJ_Lable178.Text = "JOG速度";
-            this.rJ_Lable178.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable178.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox54
-            // 
-            this.plC_NumBox54.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox54.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox54.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox54.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox54.Name = "plC_NumBox54";
-            this.plC_NumBox54.ReadOnly = false;
-            this.plC_NumBox54.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox54.TabIndex = 1;
-            this.plC_NumBox54.Value = 0;
-            this.plC_NumBox54.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox54.密碼欄位 = false;
-            this.plC_NumBox54.寫入元件位置 = "D15106";
-            this.plC_NumBox54.小數點位置 = 0;
-            this.plC_NumBox54.微調數值 = 1;
-            this.plC_NumBox54.讀取元件位置 = "D15106";
-            this.plC_NumBox54.音效 = true;
-            this.plC_NumBox54.顯示微調按鈕 = false;
-            this.plC_NumBox54.顯示螢幕小鍵盤 = true;
-            // 
-            // panel306
-            // 
-            this.panel306.Controls.Add(this.rJ_Lable180);
-            this.panel306.Controls.Add(this.plC_NumBox55);
-            this.panel306.Location = new System.Drawing.Point(41, 155);
-            this.panel306.Name = "panel306";
-            this.panel306.Size = new System.Drawing.Size(292, 45);
-            this.panel306.TabIndex = 37;
-            // 
-            // rJ_Lable180
-            // 
-            this.rJ_Lable180.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable180.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable180.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable180.BorderRadius = 10;
-            this.rJ_Lable180.BorderSize = 1;
-            this.rJ_Lable180.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable180.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable180.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable180.GUID = "";
-            this.rJ_Lable180.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable180.Name = "rJ_Lable180";
-            this.rJ_Lable180.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable180.ShadowSize = 0;
-            this.rJ_Lable180.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable180.TabIndex = 0;
-            this.rJ_Lable180.Text = "現在位置";
-            this.rJ_Lable180.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable180.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox55
-            // 
-            this.plC_NumBox55.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox55.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox55.mBackColor = System.Drawing.SystemColors.Control;
-            this.plC_NumBox55.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox55.Name = "plC_NumBox55";
-            this.plC_NumBox55.ReadOnly = true;
-            this.plC_NumBox55.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox55.TabIndex = 1;
-            this.plC_NumBox55.Value = 0;
-            this.plC_NumBox55.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox55.密碼欄位 = false;
-            this.plC_NumBox55.小數點位置 = 0;
-            this.plC_NumBox55.微調數值 = 1;
-            this.plC_NumBox55.讀取元件位置 = "D15100";
-            this.plC_NumBox55.音效 = true;
-            this.plC_NumBox55.顯示微調按鈕 = false;
-            this.plC_NumBox55.顯示螢幕小鍵盤 = false;
-            // 
-            // plC_RJ_Pannel13
-            // 
-            this.plC_RJ_Pannel13.BackColor = System.Drawing.Color.White;
-            this.plC_RJ_Pannel13.BackgroundColor = System.Drawing.Color.Transparent;
-            this.plC_RJ_Pannel13.BorderColor = System.Drawing.Color.Gainsboro;
-            this.plC_RJ_Pannel13.BorderRadius = 40;
-            this.plC_RJ_Pannel13.BorderSize = 2;
-            this.plC_RJ_Pannel13.Controls.Add(this.plC_Button232);
-            this.plC_RJ_Pannel13.Controls.Add(this.panel307);
-            this.plC_RJ_Pannel13.Controls.Add(this.rJ_Lable182);
-            this.plC_RJ_Pannel13.Controls.Add(this.plC_Button233);
-            this.plC_RJ_Pannel13.Controls.Add(this.panel308);
-            this.plC_RJ_Pannel13.Controls.Add(this.plC_Button234);
-            this.plC_RJ_Pannel13.Controls.Add(this.panel309);
-            this.plC_RJ_Pannel13.Controls.Add(this.plC_Button235);
-            this.plC_RJ_Pannel13.Controls.Add(this.panel310);
-            this.plC_RJ_Pannel13.Controls.Add(this.plC_Button236);
-            this.plC_RJ_Pannel13.Controls.Add(this.panel311);
-            this.plC_RJ_Pannel13.Controls.Add(this.panel312);
-            this.plC_RJ_Pannel13.Dock = System.Windows.Forms.DockStyle.Right;
-            this.plC_RJ_Pannel13.ForeColor = System.Drawing.Color.White;
-            this.plC_RJ_Pannel13.IsSelected = false;
-            this.plC_RJ_Pannel13.Location = new System.Drawing.Point(1387, 0);
-            this.plC_RJ_Pannel13.Name = "plC_RJ_Pannel13";
-            this.plC_RJ_Pannel13.Padding = new System.Windows.Forms.Padding(20, 20, 30, 20);
-            this.plC_RJ_Pannel13.ShadowColor = System.Drawing.Color.DimGray;
-            this.plC_RJ_Pannel13.ShadowSize = 3;
-            this.plC_RJ_Pannel13.Size = new System.Drawing.Size(483, 719);
-            this.plC_RJ_Pannel13.TabIndex = 69;
-            // 
-            // plC_Button232
-            // 
-            this.plC_Button232.Bool = false;
-            this.plC_Button232.but_press = false;
-            this.plC_Button232.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button232.Location = new System.Drawing.Point(320, 523);
-            this.plC_Button232.Margin = new System.Windows.Forms.Padding(1);
-            this.plC_Button232.Name = "plC_Button232";
-            this.plC_Button232.OFF_文字內容 = "未復歸";
-            this.plC_Button232.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button232.OFF_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button232.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button232.ON_文字內容 = "復歸完成";
-            this.plC_Button232.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button232.ON_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button232.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button232.Size = new System.Drawing.Size(135, 55);
-            this.plC_Button232.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_黃;
-            this.plC_Button232.TabIndex = 61;
-            this.plC_Button232.事件驅動 = false;
-            this.plC_Button232.字型鎖住 = true;
-            this.plC_Button232.寫入位置註解 = "不良排除Y步進復歸完成";
-            this.plC_Button232.寫入元件位置 = "M4053";
-            this.plC_Button232.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
-            this.plC_Button232.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button232.文字鎖住 = false;
-            this.plC_Button232.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button232.狀態OFF圖片")));
-            this.plC_Button232.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button232.狀態ON圖片")));
-            this.plC_Button232.讀取位元反向 = false;
-            this.plC_Button232.讀取元件位置 = "M4053";
-            this.plC_Button232.讀寫鎖住 = true;
-            this.plC_Button232.起始狀態 = false;
-            this.plC_Button232.音效 = true;
-            this.plC_Button232.顯示 = false;
-            this.plC_Button232.顯示狀態 = false;
-            // 
-            // panel307
-            // 
-            this.panel307.Controls.Add(this.rJ_Lable181);
-            this.panel307.Controls.Add(this.plC_NumBox56);
-            this.panel307.Location = new System.Drawing.Point(41, 410);
-            this.panel307.Name = "panel307";
-            this.panel307.Size = new System.Drawing.Size(292, 45);
-            this.panel307.TabIndex = 60;
-            // 
-            // rJ_Lable181
-            // 
-            this.rJ_Lable181.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable181.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable181.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable181.BorderRadius = 10;
-            this.rJ_Lable181.BorderSize = 1;
-            this.rJ_Lable181.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable181.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable181.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable181.GUID = "";
-            this.rJ_Lable181.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable181.Name = "rJ_Lable181";
-            this.rJ_Lable181.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable181.ShadowSize = 0;
-            this.rJ_Lable181.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable181.TabIndex = 0;
-            this.rJ_Lable181.Text = "偏移距離";
-            this.rJ_Lable181.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable181.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox56
-            // 
-            this.plC_NumBox56.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox56.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox56.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox56.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox56.Name = "plC_NumBox56";
-            this.plC_NumBox56.ReadOnly = false;
-            this.plC_NumBox56.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox56.TabIndex = 1;
-            this.plC_NumBox56.Value = 0;
-            this.plC_NumBox56.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox56.密碼欄位 = false;
-            this.plC_NumBox56.寫入元件位置 = "D15336";
-            this.plC_NumBox56.小數點位置 = 0;
-            this.plC_NumBox56.微調數值 = 1;
-            this.plC_NumBox56.讀取元件位置 = "D15336";
-            this.plC_NumBox56.音效 = true;
-            this.plC_NumBox56.顯示微調按鈕 = false;
-            this.plC_NumBox56.顯示螢幕小鍵盤 = true;
-            // 
-            // rJ_Lable182
-            // 
-            this.rJ_Lable182.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable182.BackgroundColor = System.Drawing.Color.Gray;
-            this.rJ_Lable182.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rJ_Lable182.BorderRadius = 10;
-            this.rJ_Lable182.BorderSize = 0;
-            this.rJ_Lable182.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rJ_Lable182.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable182.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable182.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable182.GUID = "";
-            this.rJ_Lable182.Location = new System.Drawing.Point(20, 20);
-            this.rJ_Lable182.Name = "rJ_Lable182";
-            this.rJ_Lable182.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable182.ShadowSize = 0;
-            this.rJ_Lable182.Size = new System.Drawing.Size(433, 65);
-            this.rJ_Lable182.TabIndex = 59;
-            this.rJ_Lable182.Text = "Y軸馬達";
-            this.rJ_Lable182.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable182.TextColor = System.Drawing.Color.White;
-            // 
-            // plC_Button233
-            // 
-            this.plC_Button233.Bool = false;
-            this.plC_Button233.but_press = false;
-            this.plC_Button233.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button233.Location = new System.Drawing.Point(41, 101);
-            this.plC_Button233.Margin = new System.Windows.Forms.Padding(4);
-            this.plC_Button233.Name = "plC_Button233";
-            this.plC_Button233.OFF_文字內容 = "原點";
-            this.plC_Button233.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
-            this.plC_Button233.OFF_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button233.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button233.ON_文字內容 = "原點";
-            this.plC_Button233.ON_文字字體 = new System.Drawing.Font("新細明體", 9F);
-            this.plC_Button233.ON_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button233.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button233.Size = new System.Drawing.Size(50, 47);
-            this.plC_Button233.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_綠;
-            this.plC_Button233.TabIndex = 35;
-            this.plC_Button233.事件驅動 = false;
-            this.plC_Button233.字型鎖住 = false;
-            this.plC_Button233.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button233.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button233.文字鎖住 = true;
-            this.plC_Button233.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button233.狀態OFF圖片")));
-            this.plC_Button233.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button233.狀態ON圖片")));
-            this.plC_Button233.讀取位元反向 = false;
-            this.plC_Button233.讀取元件位置 = "X41";
-            this.plC_Button233.讀寫鎖住 = false;
-            this.plC_Button233.起始狀態 = false;
-            this.plC_Button233.音效 = true;
-            this.plC_Button233.顯示 = false;
-            this.plC_Button233.顯示狀態 = false;
-            // 
-            // panel308
-            // 
-            this.panel308.Controls.Add(this.rJ_Lable183);
-            this.panel308.Controls.Add(this.plC_NumBox57);
-            this.panel308.Location = new System.Drawing.Point(41, 359);
-            this.panel308.Name = "panel308";
-            this.panel308.Size = new System.Drawing.Size(292, 45);
-            this.panel308.TabIndex = 41;
-            // 
-            // rJ_Lable183
-            // 
-            this.rJ_Lable183.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable183.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable183.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable183.BorderRadius = 10;
-            this.rJ_Lable183.BorderSize = 1;
-            this.rJ_Lable183.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable183.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable183.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable183.GUID = "";
-            this.rJ_Lable183.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable183.Name = "rJ_Lable183";
-            this.rJ_Lable183.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable183.ShadowSize = 0;
-            this.rJ_Lable183.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable183.TabIndex = 0;
-            this.rJ_Lable183.Text = "減速度";
-            this.rJ_Lable183.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable183.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox57
-            // 
-            this.plC_NumBox57.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox57.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox57.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox57.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox57.Name = "plC_NumBox57";
-            this.plC_NumBox57.ReadOnly = false;
-            this.plC_NumBox57.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox57.TabIndex = 1;
-            this.plC_NumBox57.Value = 0;
-            this.plC_NumBox57.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox57.密碼欄位 = false;
-            this.plC_NumBox57.寫入元件位置 = "D15310";
-            this.plC_NumBox57.小數點位置 = 0;
-            this.plC_NumBox57.微調數值 = 1;
-            this.plC_NumBox57.讀取元件位置 = "D15310";
-            this.plC_NumBox57.音效 = true;
-            this.plC_NumBox57.顯示微調按鈕 = false;
-            this.plC_NumBox57.顯示螢幕小鍵盤 = true;
-            // 
-            // plC_Button234
-            // 
-            this.plC_Button234.Bool = false;
-            this.plC_Button234.but_press = false;
-            this.plC_Button234.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button234.Location = new System.Drawing.Point(41, 473);
-            this.plC_Button234.Margin = new System.Windows.Forms.Padding(4);
-            this.plC_Button234.Name = "plC_Button234";
-            this.plC_Button234.OFF_文字內容 = "JOG+";
-            this.plC_Button234.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button234.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button234.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button234.ON_文字內容 = "JOG+";
-            this.plC_Button234.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button234.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button234.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button234.Size = new System.Drawing.Size(135, 43);
-            this.plC_Button234.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button234.TabIndex = 33;
-            this.plC_Button234.事件驅動 = false;
-            this.plC_Button234.字型鎖住 = true;
-            this.plC_Button234.寫入元件位置 = "S15310";
-            this.plC_Button234.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
-            this.plC_Button234.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button234.文字鎖住 = true;
-            this.plC_Button234.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button234.狀態OFF圖片")));
-            this.plC_Button234.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button234.狀態ON圖片")));
-            this.plC_Button234.讀取位元反向 = false;
-            this.plC_Button234.讀取元件位置 = "S15310";
-            this.plC_Button234.讀寫鎖住 = true;
-            this.plC_Button234.起始狀態 = false;
-            this.plC_Button234.音效 = true;
-            this.plC_Button234.顯示 = false;
-            this.plC_Button234.顯示狀態 = false;
-            // 
-            // panel309
-            // 
-            this.panel309.Controls.Add(this.rJ_Lable184);
-            this.panel309.Controls.Add(this.plC_NumBox58);
-            this.panel309.Location = new System.Drawing.Point(41, 308);
-            this.panel309.Name = "panel309";
-            this.panel309.Size = new System.Drawing.Size(292, 45);
-            this.panel309.TabIndex = 40;
-            // 
-            // rJ_Lable184
-            // 
-            this.rJ_Lable184.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable184.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable184.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable184.BorderRadius = 10;
-            this.rJ_Lable184.BorderSize = 1;
-            this.rJ_Lable184.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable184.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable184.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable184.GUID = "";
-            this.rJ_Lable184.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable184.Name = "rJ_Lable184";
-            this.rJ_Lable184.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable184.ShadowSize = 0;
-            this.rJ_Lable184.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable184.TabIndex = 0;
-            this.rJ_Lable184.Text = "加速度";
-            this.rJ_Lable184.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable184.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox58
-            // 
-            this.plC_NumBox58.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox58.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox58.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox58.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox58.Name = "plC_NumBox58";
-            this.plC_NumBox58.ReadOnly = false;
-            this.plC_NumBox58.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox58.TabIndex = 1;
-            this.plC_NumBox58.Value = 0;
-            this.plC_NumBox58.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox58.密碼欄位 = false;
-            this.plC_NumBox58.寫入元件位置 = "D15308";
-            this.plC_NumBox58.小數點位置 = 0;
-            this.plC_NumBox58.微調數值 = 1;
-            this.plC_NumBox58.讀取元件位置 = "D15308";
-            this.plC_NumBox58.音效 = true;
-            this.plC_NumBox58.顯示微調按鈕 = false;
-            this.plC_NumBox58.顯示螢幕小鍵盤 = true;
-            // 
-            // plC_Button235
-            // 
-            this.plC_Button235.Bool = false;
-            this.plC_Button235.but_press = false;
-            this.plC_Button235.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button235.Location = new System.Drawing.Point(181, 473);
-            this.plC_Button235.Margin = new System.Windows.Forms.Padding(2);
-            this.plC_Button235.Name = "plC_Button235";
-            this.plC_Button235.OFF_文字內容 = "JOG-";
-            this.plC_Button235.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button235.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button235.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button235.ON_文字內容 = "JOG-";
-            this.plC_Button235.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button235.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button235.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button235.Size = new System.Drawing.Size(135, 43);
-            this.plC_Button235.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button235.TabIndex = 34;
-            this.plC_Button235.事件驅動 = false;
-            this.plC_Button235.字型鎖住 = true;
-            this.plC_Button235.寫入元件位置 = "S15311";
-            this.plC_Button235.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
-            this.plC_Button235.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button235.文字鎖住 = true;
-            this.plC_Button235.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button235.狀態OFF圖片")));
-            this.plC_Button235.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button235.狀態ON圖片")));
-            this.plC_Button235.讀取位元反向 = false;
-            this.plC_Button235.讀取元件位置 = "S15311";
-            this.plC_Button235.讀寫鎖住 = true;
-            this.plC_Button235.起始狀態 = false;
-            this.plC_Button235.音效 = true;
-            this.plC_Button235.顯示 = false;
-            this.plC_Button235.顯示狀態 = false;
-            // 
-            // panel310
-            // 
-            this.panel310.Controls.Add(this.rJ_Lable185);
-            this.panel310.Controls.Add(this.plC_NumBox59);
-            this.panel310.Location = new System.Drawing.Point(41, 257);
-            this.panel310.Name = "panel310";
-            this.panel310.Size = new System.Drawing.Size(292, 45);
-            this.panel310.TabIndex = 39;
-            // 
-            // rJ_Lable185
-            // 
-            this.rJ_Lable185.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable185.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable185.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable185.BorderRadius = 10;
-            this.rJ_Lable185.BorderSize = 1;
-            this.rJ_Lable185.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable185.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable185.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable185.GUID = "";
-            this.rJ_Lable185.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable185.Name = "rJ_Lable185";
-            this.rJ_Lable185.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable185.ShadowSize = 0;
-            this.rJ_Lable185.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable185.TabIndex = 0;
-            this.rJ_Lable185.Text = "運轉速度";
-            this.rJ_Lable185.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable185.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox59
-            // 
-            this.plC_NumBox59.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox59.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox59.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox59.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox59.Name = "plC_NumBox59";
-            this.plC_NumBox59.ReadOnly = false;
-            this.plC_NumBox59.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox59.TabIndex = 1;
-            this.plC_NumBox59.Value = 0;
-            this.plC_NumBox59.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox59.密碼欄位 = false;
-            this.plC_NumBox59.寫入元件位置 = "D15324";
-            this.plC_NumBox59.小數點位置 = 0;
-            this.plC_NumBox59.微調數值 = 1;
-            this.plC_NumBox59.讀取元件位置 = "D15324";
-            this.plC_NumBox59.音效 = true;
-            this.plC_NumBox59.顯示微調按鈕 = false;
-            this.plC_NumBox59.顯示螢幕小鍵盤 = true;
-            // 
-            // plC_Button236
-            // 
-            this.plC_Button236.Bool = false;
-            this.plC_Button236.but_press = false;
-            this.plC_Button236.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button236.Location = new System.Drawing.Point(320, 473);
-            this.plC_Button236.Margin = new System.Windows.Forms.Padding(1);
-            this.plC_Button236.Name = "plC_Button236";
-            this.plC_Button236.OFF_文字內容 = "復歸";
-            this.plC_Button236.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button236.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button236.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button236.ON_文字內容 = "復歸";
-            this.plC_Button236.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button236.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button236.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button236.Size = new System.Drawing.Size(135, 43);
-            this.plC_Button236.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button236.TabIndex = 36;
-            this.plC_Button236.事件驅動 = false;
-            this.plC_Button236.字型鎖住 = true;
-            this.plC_Button236.寫入元件位置 = "S15340";
-            this.plC_Button236.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button236.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button236.文字鎖住 = true;
-            this.plC_Button236.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button236.狀態OFF圖片")));
-            this.plC_Button236.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button236.狀態ON圖片")));
-            this.plC_Button236.讀取位元反向 = false;
-            this.plC_Button236.讀取元件位置 = "S15350";
-            this.plC_Button236.讀寫鎖住 = true;
-            this.plC_Button236.起始狀態 = false;
-            this.plC_Button236.音效 = true;
-            this.plC_Button236.顯示 = false;
-            this.plC_Button236.顯示狀態 = false;
-            // 
-            // panel311
-            // 
-            this.panel311.Controls.Add(this.rJ_Lable186);
-            this.panel311.Controls.Add(this.plC_NumBox60);
-            this.panel311.Location = new System.Drawing.Point(41, 206);
-            this.panel311.Name = "panel311";
-            this.panel311.Size = new System.Drawing.Size(292, 45);
-            this.panel311.TabIndex = 38;
-            // 
-            // rJ_Lable186
-            // 
-            this.rJ_Lable186.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable186.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable186.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable186.BorderRadius = 10;
-            this.rJ_Lable186.BorderSize = 1;
-            this.rJ_Lable186.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable186.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable186.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable186.GUID = "";
-            this.rJ_Lable186.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable186.Name = "rJ_Lable186";
-            this.rJ_Lable186.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable186.ShadowSize = 0;
-            this.rJ_Lable186.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable186.TabIndex = 0;
-            this.rJ_Lable186.Text = "JOG速度";
-            this.rJ_Lable186.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable186.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox60
-            // 
-            this.plC_NumBox60.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox60.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox60.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox60.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox60.Name = "plC_NumBox60";
-            this.plC_NumBox60.ReadOnly = false;
-            this.plC_NumBox60.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox60.TabIndex = 1;
-            this.plC_NumBox60.Value = 0;
-            this.plC_NumBox60.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox60.密碼欄位 = false;
-            this.plC_NumBox60.寫入元件位置 = "D15306";
-            this.plC_NumBox60.小數點位置 = 0;
-            this.plC_NumBox60.微調數值 = 1;
-            this.plC_NumBox60.讀取元件位置 = "D15306";
-            this.plC_NumBox60.音效 = true;
-            this.plC_NumBox60.顯示微調按鈕 = false;
-            this.plC_NumBox60.顯示螢幕小鍵盤 = true;
-            // 
-            // panel312
-            // 
-            this.panel312.Controls.Add(this.rJ_Lable187);
-            this.panel312.Controls.Add(this.plC_NumBox61);
-            this.panel312.Location = new System.Drawing.Point(41, 155);
-            this.panel312.Name = "panel312";
-            this.panel312.Size = new System.Drawing.Size(292, 45);
-            this.panel312.TabIndex = 37;
-            // 
-            // rJ_Lable187
-            // 
-            this.rJ_Lable187.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable187.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable187.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable187.BorderRadius = 10;
-            this.rJ_Lable187.BorderSize = 1;
-            this.rJ_Lable187.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable187.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable187.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable187.GUID = "";
-            this.rJ_Lable187.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable187.Name = "rJ_Lable187";
-            this.rJ_Lable187.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable187.ShadowSize = 0;
-            this.rJ_Lable187.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable187.TabIndex = 0;
-            this.rJ_Lable187.Text = "現在位置";
-            this.rJ_Lable187.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable187.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox61
-            // 
-            this.plC_NumBox61.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox61.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox61.mBackColor = System.Drawing.SystemColors.Control;
-            this.plC_NumBox61.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox61.Name = "plC_NumBox61";
-            this.plC_NumBox61.ReadOnly = true;
-            this.plC_NumBox61.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox61.TabIndex = 1;
-            this.plC_NumBox61.Value = 0;
-            this.plC_NumBox61.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox61.密碼欄位 = false;
-            this.plC_NumBox61.小數點位置 = 0;
-            this.plC_NumBox61.微調數值 = 1;
-            this.plC_NumBox61.讀取元件位置 = "D15300";
-            this.plC_NumBox61.音效 = true;
-            this.plC_NumBox61.顯示微調按鈕 = false;
-            this.plC_NumBox61.顯示螢幕小鍵盤 = false;
-            // 
-            // plC_RJ_Pannel14
-            // 
-            this.plC_RJ_Pannel14.BackColor = System.Drawing.Color.White;
-            this.plC_RJ_Pannel14.BackgroundColor = System.Drawing.Color.Transparent;
-            this.plC_RJ_Pannel14.BorderColor = System.Drawing.Color.Gainsboro;
-            this.plC_RJ_Pannel14.BorderRadius = 40;
-            this.plC_RJ_Pannel14.BorderSize = 2;
-            this.plC_RJ_Pannel14.Controls.Add(this.plC_Button237);
-            this.plC_RJ_Pannel14.Controls.Add(this.panel313);
-            this.plC_RJ_Pannel14.Controls.Add(this.rJ_Lable189);
-            this.plC_RJ_Pannel14.Controls.Add(this.plC_Button238);
-            this.plC_RJ_Pannel14.Controls.Add(this.panel314);
-            this.plC_RJ_Pannel14.Controls.Add(this.plC_Button239);
-            this.plC_RJ_Pannel14.Controls.Add(this.panel315);
-            this.plC_RJ_Pannel14.Controls.Add(this.plC_Button240);
-            this.plC_RJ_Pannel14.Controls.Add(this.panel316);
-            this.plC_RJ_Pannel14.Controls.Add(this.plC_Button241);
-            this.plC_RJ_Pannel14.Controls.Add(this.panel317);
-            this.plC_RJ_Pannel14.Controls.Add(this.panel318);
-            this.plC_RJ_Pannel14.Dock = System.Windows.Forms.DockStyle.Right;
-            this.plC_RJ_Pannel14.ForeColor = System.Drawing.Color.White;
-            this.plC_RJ_Pannel14.IsSelected = false;
-            this.plC_RJ_Pannel14.Location = new System.Drawing.Point(904, 0);
-            this.plC_RJ_Pannel14.Name = "plC_RJ_Pannel14";
-            this.plC_RJ_Pannel14.Padding = new System.Windows.Forms.Padding(20, 20, 30, 20);
-            this.plC_RJ_Pannel14.ShadowColor = System.Drawing.Color.DimGray;
-            this.plC_RJ_Pannel14.ShadowSize = 3;
-            this.plC_RJ_Pannel14.Size = new System.Drawing.Size(483, 719);
-            this.plC_RJ_Pannel14.TabIndex = 70;
-            // 
-            // plC_Button237
-            // 
-            this.plC_Button237.Bool = false;
-            this.plC_Button237.but_press = false;
-            this.plC_Button237.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button237.Location = new System.Drawing.Point(320, 523);
-            this.plC_Button237.Margin = new System.Windows.Forms.Padding(1);
-            this.plC_Button237.Name = "plC_Button237";
-            this.plC_Button237.OFF_文字內容 = "未復歸";
-            this.plC_Button237.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button237.OFF_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button237.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button237.ON_文字內容 = "復歸完成";
-            this.plC_Button237.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button237.ON_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button237.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button237.Size = new System.Drawing.Size(135, 55);
-            this.plC_Button237.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_黃;
-            this.plC_Button237.TabIndex = 61;
-            this.plC_Button237.事件驅動 = false;
-            this.plC_Button237.字型鎖住 = true;
-            this.plC_Button237.寫入位置註解 = "不良排除X步進復歸完成";
-            this.plC_Button237.寫入元件位置 = "M4052";
-            this.plC_Button237.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
-            this.plC_Button237.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button237.文字鎖住 = false;
-            this.plC_Button237.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button237.狀態OFF圖片")));
-            this.plC_Button237.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button237.狀態ON圖片")));
-            this.plC_Button237.讀取位元反向 = false;
-            this.plC_Button237.讀取元件位置 = "M4052";
-            this.plC_Button237.讀寫鎖住 = true;
-            this.plC_Button237.起始狀態 = false;
-            this.plC_Button237.音效 = true;
-            this.plC_Button237.顯示 = false;
-            this.plC_Button237.顯示狀態 = false;
-            // 
-            // panel313
-            // 
-            this.panel313.Controls.Add(this.rJ_Lable188);
-            this.panel313.Controls.Add(this.plC_NumBox62);
-            this.panel313.Location = new System.Drawing.Point(41, 410);
-            this.panel313.Name = "panel313";
-            this.panel313.Size = new System.Drawing.Size(292, 45);
-            this.panel313.TabIndex = 60;
-            // 
-            // rJ_Lable188
-            // 
-            this.rJ_Lable188.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable188.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable188.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable188.BorderRadius = 10;
-            this.rJ_Lable188.BorderSize = 1;
-            this.rJ_Lable188.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable188.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable188.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable188.GUID = "";
-            this.rJ_Lable188.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable188.Name = "rJ_Lable188";
-            this.rJ_Lable188.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable188.ShadowSize = 0;
-            this.rJ_Lable188.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable188.TabIndex = 0;
-            this.rJ_Lable188.Text = "偏移距離";
-            this.rJ_Lable188.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable188.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox62
-            // 
-            this.plC_NumBox62.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox62.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox62.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox62.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox62.Name = "plC_NumBox62";
-            this.plC_NumBox62.ReadOnly = false;
-            this.plC_NumBox62.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox62.TabIndex = 1;
-            this.plC_NumBox62.Value = 0;
-            this.plC_NumBox62.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox62.密碼欄位 = false;
-            this.plC_NumBox62.寫入元件位置 = "D15236";
-            this.plC_NumBox62.小數點位置 = 0;
-            this.plC_NumBox62.微調數值 = 1;
-            this.plC_NumBox62.讀取元件位置 = "D15236";
-            this.plC_NumBox62.音效 = true;
-            this.plC_NumBox62.顯示微調按鈕 = false;
-            this.plC_NumBox62.顯示螢幕小鍵盤 = true;
-            // 
-            // rJ_Lable189
-            // 
-            this.rJ_Lable189.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable189.BackgroundColor = System.Drawing.Color.Gray;
-            this.rJ_Lable189.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rJ_Lable189.BorderRadius = 10;
-            this.rJ_Lable189.BorderSize = 0;
-            this.rJ_Lable189.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rJ_Lable189.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable189.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable189.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable189.GUID = "";
-            this.rJ_Lable189.Location = new System.Drawing.Point(20, 20);
-            this.rJ_Lable189.Name = "rJ_Lable189";
-            this.rJ_Lable189.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable189.ShadowSize = 0;
-            this.rJ_Lable189.Size = new System.Drawing.Size(433, 65);
-            this.rJ_Lable189.TabIndex = 59;
-            this.rJ_Lable189.Text = "X軸馬達";
-            this.rJ_Lable189.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable189.TextColor = System.Drawing.Color.White;
-            // 
-            // plC_Button238
-            // 
-            this.plC_Button238.Bool = false;
-            this.plC_Button238.but_press = false;
-            this.plC_Button238.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button238.Location = new System.Drawing.Point(41, 101);
-            this.plC_Button238.Margin = new System.Windows.Forms.Padding(4);
-            this.plC_Button238.Name = "plC_Button238";
-            this.plC_Button238.OFF_文字內容 = "原點";
-            this.plC_Button238.OFF_文字字體 = new System.Drawing.Font("新細明體", 9F);
-            this.plC_Button238.OFF_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button238.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button238.ON_文字內容 = "原點";
-            this.plC_Button238.ON_文字字體 = new System.Drawing.Font("新細明體", 9F);
-            this.plC_Button238.ON_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button238.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button238.Size = new System.Drawing.Size(50, 47);
-            this.plC_Button238.Style = MyUI.PLC_Button.StyleEnum.Light_Rect_綠;
-            this.plC_Button238.TabIndex = 35;
-            this.plC_Button238.事件驅動 = false;
-            this.plC_Button238.字型鎖住 = false;
-            this.plC_Button238.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button238.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button238.文字鎖住 = true;
-            this.plC_Button238.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button238.狀態OFF圖片")));
-            this.plC_Button238.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button238.狀態ON圖片")));
-            this.plC_Button238.讀取位元反向 = false;
-            this.plC_Button238.讀取元件位置 = "X42";
-            this.plC_Button238.讀寫鎖住 = false;
-            this.plC_Button238.起始狀態 = false;
-            this.plC_Button238.音效 = true;
-            this.plC_Button238.顯示 = false;
-            this.plC_Button238.顯示狀態 = false;
-            // 
-            // panel314
-            // 
-            this.panel314.Controls.Add(this.rJ_Lable190);
-            this.panel314.Controls.Add(this.plC_NumBox63);
-            this.panel314.Location = new System.Drawing.Point(41, 359);
-            this.panel314.Name = "panel314";
-            this.panel314.Size = new System.Drawing.Size(292, 45);
-            this.panel314.TabIndex = 41;
-            // 
-            // rJ_Lable190
-            // 
-            this.rJ_Lable190.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable190.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable190.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable190.BorderRadius = 10;
-            this.rJ_Lable190.BorderSize = 1;
-            this.rJ_Lable190.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable190.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable190.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable190.GUID = "";
-            this.rJ_Lable190.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable190.Name = "rJ_Lable190";
-            this.rJ_Lable190.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable190.ShadowSize = 0;
-            this.rJ_Lable190.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable190.TabIndex = 0;
-            this.rJ_Lable190.Text = "減速度";
-            this.rJ_Lable190.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable190.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox63
-            // 
-            this.plC_NumBox63.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox63.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox63.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox63.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox63.Name = "plC_NumBox63";
-            this.plC_NumBox63.ReadOnly = false;
-            this.plC_NumBox63.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox63.TabIndex = 1;
-            this.plC_NumBox63.Value = 0;
-            this.plC_NumBox63.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox63.密碼欄位 = false;
-            this.plC_NumBox63.寫入元件位置 = "D15210";
-            this.plC_NumBox63.小數點位置 = 0;
-            this.plC_NumBox63.微調數值 = 1;
-            this.plC_NumBox63.讀取元件位置 = "D15210";
-            this.plC_NumBox63.音效 = true;
-            this.plC_NumBox63.顯示微調按鈕 = false;
-            this.plC_NumBox63.顯示螢幕小鍵盤 = true;
-            // 
-            // plC_Button239
-            // 
-            this.plC_Button239.Bool = false;
-            this.plC_Button239.but_press = false;
-            this.plC_Button239.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button239.Location = new System.Drawing.Point(41, 473);
-            this.plC_Button239.Margin = new System.Windows.Forms.Padding(4);
-            this.plC_Button239.Name = "plC_Button239";
-            this.plC_Button239.OFF_文字內容 = "JOG+";
-            this.plC_Button239.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button239.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button239.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button239.ON_文字內容 = "JOG+";
-            this.plC_Button239.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button239.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button239.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button239.Size = new System.Drawing.Size(135, 43);
-            this.plC_Button239.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button239.TabIndex = 33;
-            this.plC_Button239.事件驅動 = false;
-            this.plC_Button239.字型鎖住 = true;
-            this.plC_Button239.寫入元件位置 = "S15210";
-            this.plC_Button239.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
-            this.plC_Button239.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button239.文字鎖住 = true;
-            this.plC_Button239.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button239.狀態OFF圖片")));
-            this.plC_Button239.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button239.狀態ON圖片")));
-            this.plC_Button239.讀取位元反向 = false;
-            this.plC_Button239.讀取元件位置 = "S15210";
-            this.plC_Button239.讀寫鎖住 = true;
-            this.plC_Button239.起始狀態 = false;
-            this.plC_Button239.音效 = true;
-            this.plC_Button239.顯示 = false;
-            this.plC_Button239.顯示狀態 = false;
-            // 
-            // panel315
-            // 
-            this.panel315.Controls.Add(this.rJ_Lable191);
-            this.panel315.Controls.Add(this.plC_NumBox64);
-            this.panel315.Location = new System.Drawing.Point(41, 308);
-            this.panel315.Name = "panel315";
-            this.panel315.Size = new System.Drawing.Size(292, 45);
-            this.panel315.TabIndex = 40;
-            // 
-            // rJ_Lable191
-            // 
-            this.rJ_Lable191.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable191.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable191.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable191.BorderRadius = 10;
-            this.rJ_Lable191.BorderSize = 1;
-            this.rJ_Lable191.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable191.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable191.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable191.GUID = "";
-            this.rJ_Lable191.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable191.Name = "rJ_Lable191";
-            this.rJ_Lable191.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable191.ShadowSize = 0;
-            this.rJ_Lable191.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable191.TabIndex = 0;
-            this.rJ_Lable191.Text = "加速度";
-            this.rJ_Lable191.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable191.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox64
-            // 
-            this.plC_NumBox64.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox64.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox64.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox64.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox64.Name = "plC_NumBox64";
-            this.plC_NumBox64.ReadOnly = false;
-            this.plC_NumBox64.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox64.TabIndex = 1;
-            this.plC_NumBox64.Value = 0;
-            this.plC_NumBox64.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox64.密碼欄位 = false;
-            this.plC_NumBox64.寫入元件位置 = "D15208";
-            this.plC_NumBox64.小數點位置 = 0;
-            this.plC_NumBox64.微調數值 = 1;
-            this.plC_NumBox64.讀取元件位置 = "D15208";
-            this.plC_NumBox64.音效 = true;
-            this.plC_NumBox64.顯示微調按鈕 = false;
-            this.plC_NumBox64.顯示螢幕小鍵盤 = true;
-            // 
-            // plC_Button240
-            // 
-            this.plC_Button240.Bool = false;
-            this.plC_Button240.but_press = false;
-            this.plC_Button240.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button240.Location = new System.Drawing.Point(181, 473);
-            this.plC_Button240.Margin = new System.Windows.Forms.Padding(2);
-            this.plC_Button240.Name = "plC_Button240";
-            this.plC_Button240.OFF_文字內容 = "JOG-";
-            this.plC_Button240.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button240.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button240.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button240.ON_文字內容 = "JOG-";
-            this.plC_Button240.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button240.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button240.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button240.Size = new System.Drawing.Size(135, 43);
-            this.plC_Button240.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button240.TabIndex = 34;
-            this.plC_Button240.事件驅動 = false;
-            this.plC_Button240.字型鎖住 = true;
-            this.plC_Button240.寫入元件位置 = "S15211";
-            this.plC_Button240.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
-            this.plC_Button240.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button240.文字鎖住 = true;
-            this.plC_Button240.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button240.狀態OFF圖片")));
-            this.plC_Button240.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button240.狀態ON圖片")));
-            this.plC_Button240.讀取位元反向 = false;
-            this.plC_Button240.讀取元件位置 = "S15211";
-            this.plC_Button240.讀寫鎖住 = true;
-            this.plC_Button240.起始狀態 = false;
-            this.plC_Button240.音效 = true;
-            this.plC_Button240.顯示 = false;
-            this.plC_Button240.顯示狀態 = false;
-            // 
-            // panel316
-            // 
-            this.panel316.Controls.Add(this.rJ_Lable192);
-            this.panel316.Controls.Add(this.plC_NumBox65);
-            this.panel316.Location = new System.Drawing.Point(41, 257);
-            this.panel316.Name = "panel316";
-            this.panel316.Size = new System.Drawing.Size(292, 45);
-            this.panel316.TabIndex = 39;
-            // 
-            // rJ_Lable192
-            // 
-            this.rJ_Lable192.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable192.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable192.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable192.BorderRadius = 10;
-            this.rJ_Lable192.BorderSize = 1;
-            this.rJ_Lable192.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable192.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable192.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable192.GUID = "";
-            this.rJ_Lable192.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable192.Name = "rJ_Lable192";
-            this.rJ_Lable192.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable192.ShadowSize = 0;
-            this.rJ_Lable192.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable192.TabIndex = 0;
-            this.rJ_Lable192.Text = "運轉速度";
-            this.rJ_Lable192.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable192.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox65
-            // 
-            this.plC_NumBox65.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox65.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox65.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox65.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox65.Name = "plC_NumBox65";
-            this.plC_NumBox65.ReadOnly = false;
-            this.plC_NumBox65.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox65.TabIndex = 1;
-            this.plC_NumBox65.Value = 0;
-            this.plC_NumBox65.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox65.密碼欄位 = false;
-            this.plC_NumBox65.寫入元件位置 = "D15224";
-            this.plC_NumBox65.小數點位置 = 0;
-            this.plC_NumBox65.微調數值 = 1;
-            this.plC_NumBox65.讀取元件位置 = "D15224";
-            this.plC_NumBox65.音效 = true;
-            this.plC_NumBox65.顯示微調按鈕 = false;
-            this.plC_NumBox65.顯示螢幕小鍵盤 = true;
-            // 
-            // plC_Button241
-            // 
-            this.plC_Button241.Bool = false;
-            this.plC_Button241.but_press = false;
-            this.plC_Button241.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button241.Location = new System.Drawing.Point(320, 473);
-            this.plC_Button241.Margin = new System.Windows.Forms.Padding(1);
-            this.plC_Button241.Name = "plC_Button241";
-            this.plC_Button241.OFF_文字內容 = "復歸";
-            this.plC_Button241.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button241.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button241.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button241.ON_文字內容 = "復歸";
-            this.plC_Button241.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button241.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button241.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button241.Size = new System.Drawing.Size(135, 43);
-            this.plC_Button241.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button241.TabIndex = 36;
-            this.plC_Button241.事件驅動 = false;
-            this.plC_Button241.字型鎖住 = true;
-            this.plC_Button241.寫入元件位置 = "S15240";
-            this.plC_Button241.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button241.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button241.文字鎖住 = true;
-            this.plC_Button241.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button241.狀態OFF圖片")));
-            this.plC_Button241.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button241.狀態ON圖片")));
-            this.plC_Button241.讀取位元反向 = false;
-            this.plC_Button241.讀取元件位置 = "S15240";
-            this.plC_Button241.讀寫鎖住 = true;
-            this.plC_Button241.起始狀態 = false;
-            this.plC_Button241.音效 = true;
-            this.plC_Button241.顯示 = false;
-            this.plC_Button241.顯示狀態 = false;
-            // 
-            // panel317
-            // 
-            this.panel317.Controls.Add(this.rJ_Lable193);
-            this.panel317.Controls.Add(this.plC_NumBox66);
-            this.panel317.Location = new System.Drawing.Point(41, 206);
-            this.panel317.Name = "panel317";
-            this.panel317.Size = new System.Drawing.Size(292, 45);
-            this.panel317.TabIndex = 38;
-            // 
-            // rJ_Lable193
-            // 
-            this.rJ_Lable193.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable193.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable193.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable193.BorderRadius = 10;
-            this.rJ_Lable193.BorderSize = 1;
-            this.rJ_Lable193.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable193.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable193.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable193.GUID = "";
-            this.rJ_Lable193.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable193.Name = "rJ_Lable193";
-            this.rJ_Lable193.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable193.ShadowSize = 0;
-            this.rJ_Lable193.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable193.TabIndex = 0;
-            this.rJ_Lable193.Text = "JOG速度";
-            this.rJ_Lable193.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable193.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox66
-            // 
-            this.plC_NumBox66.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox66.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox66.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox66.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox66.Name = "plC_NumBox66";
-            this.plC_NumBox66.ReadOnly = false;
-            this.plC_NumBox66.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox66.TabIndex = 1;
-            this.plC_NumBox66.Value = 0;
-            this.plC_NumBox66.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox66.密碼欄位 = false;
-            this.plC_NumBox66.寫入元件位置 = "D15206";
-            this.plC_NumBox66.小數點位置 = 0;
-            this.plC_NumBox66.微調數值 = 1;
-            this.plC_NumBox66.讀取元件位置 = "D15206";
-            this.plC_NumBox66.音效 = true;
-            this.plC_NumBox66.顯示微調按鈕 = false;
-            this.plC_NumBox66.顯示螢幕小鍵盤 = true;
-            // 
-            // panel318
-            // 
-            this.panel318.Controls.Add(this.rJ_Lable194);
-            this.panel318.Controls.Add(this.plC_NumBox67);
-            this.panel318.Location = new System.Drawing.Point(41, 155);
-            this.panel318.Name = "panel318";
-            this.panel318.Size = new System.Drawing.Size(292, 45);
-            this.panel318.TabIndex = 37;
-            // 
-            // rJ_Lable194
-            // 
-            this.rJ_Lable194.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable194.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable194.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable194.BorderRadius = 10;
-            this.rJ_Lable194.BorderSize = 1;
-            this.rJ_Lable194.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable194.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable194.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable194.GUID = "";
-            this.rJ_Lable194.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable194.Name = "rJ_Lable194";
-            this.rJ_Lable194.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable194.ShadowSize = 0;
-            this.rJ_Lable194.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable194.TabIndex = 0;
-            this.rJ_Lable194.Text = "現在位置";
-            this.rJ_Lable194.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable194.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox67
-            // 
-            this.plC_NumBox67.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox67.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox67.mBackColor = System.Drawing.SystemColors.Control;
-            this.plC_NumBox67.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox67.Name = "plC_NumBox67";
-            this.plC_NumBox67.ReadOnly = true;
-            this.plC_NumBox67.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox67.TabIndex = 1;
-            this.plC_NumBox67.Value = 0;
-            this.plC_NumBox67.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox67.密碼欄位 = false;
-            this.plC_NumBox67.小數點位置 = 0;
-            this.plC_NumBox67.微調數值 = 1;
-            this.plC_NumBox67.讀取元件位置 = "D15200";
-            this.plC_NumBox67.音效 = true;
-            this.plC_NumBox67.顯示微調按鈕 = false;
-            this.plC_NumBox67.顯示螢幕小鍵盤 = false;
-            // 
-            // plC_RJ_Pannel15
-            // 
-            this.plC_RJ_Pannel15.BackColor = System.Drawing.Color.White;
-            this.plC_RJ_Pannel15.BackgroundColor = System.Drawing.Color.Transparent;
-            this.plC_RJ_Pannel15.BorderColor = System.Drawing.Color.Gainsboro;
-            this.plC_RJ_Pannel15.BorderRadius = 40;
-            this.plC_RJ_Pannel15.BorderSize = 2;
-            this.plC_RJ_Pannel15.Controls.Add(this.groupBox8);
-            this.plC_RJ_Pannel15.Controls.Add(this.rJ_Lable214);
-            this.plC_RJ_Pannel15.Controls.Add(this.plC_Button252);
-            this.plC_RJ_Pannel15.Controls.Add(this.plC_Button253);
-            this.plC_RJ_Pannel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.plC_RJ_Pannel15.ForeColor = System.Drawing.Color.White;
-            this.plC_RJ_Pannel15.IsSelected = false;
-            this.plC_RJ_Pannel15.Location = new System.Drawing.Point(0, 0);
-            this.plC_RJ_Pannel15.Name = "plC_RJ_Pannel15";
-            this.plC_RJ_Pannel15.Padding = new System.Windows.Forms.Padding(20, 20, 30, 20);
-            this.plC_RJ_Pannel15.ShadowColor = System.Drawing.Color.DimGray;
-            this.plC_RJ_Pannel15.ShadowSize = 3;
-            this.plC_RJ_Pannel15.Size = new System.Drawing.Size(1387, 719);
-            this.plC_RJ_Pannel15.TabIndex = 69;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.panel319);
-            this.groupBox8.Controls.Add(this.plC_Button247);
-            this.groupBox8.Controls.Add(this.plC_Button248);
-            this.groupBox8.Controls.Add(this.panel328);
-            this.groupBox8.Controls.Add(this.panel329);
-            this.groupBox8.Controls.Add(this.panel330);
-            this.groupBox8.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.groupBox8.Location = new System.Drawing.Point(27, 248);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(882, 268);
-            this.groupBox8.TabIndex = 66;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "送盤馬達";
-            // 
-            // plC_Button247
-            // 
-            this.plC_Button247.Bool = false;
-            this.plC_Button247.but_press = false;
-            this.plC_Button247.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button247.Location = new System.Drawing.Point(160, 197);
-            this.plC_Button247.Margin = new System.Windows.Forms.Padding(20, 21, 20, 21);
-            this.plC_Button247.Name = "plC_Button247";
-            this.plC_Button247.OFF_文字內容 = "送盤位置";
-            this.plC_Button247.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button247.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button247.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button247.ON_文字內容 = "送盤位置";
-            this.plC_Button247.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button247.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button247.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button247.Size = new System.Drawing.Size(108, 63);
-            this.plC_Button247.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button247.TabIndex = 75;
-            this.plC_Button247.事件驅動 = false;
-            this.plC_Button247.字型鎖住 = true;
-            this.plC_Button247.寫入位置註解 = "入料馬達_送盤位置";
-            this.plC_Button247.寫入元件位置 = "S10020";
-            this.plC_Button247.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button247.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button247.文字鎖住 = true;
-            this.plC_Button247.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button247.狀態OFF圖片")));
-            this.plC_Button247.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button247.狀態ON圖片")));
-            this.plC_Button247.讀取位元反向 = false;
-            this.plC_Button247.讀取元件位置 = "S10030";
-            this.plC_Button247.讀寫鎖住 = true;
-            this.plC_Button247.起始狀態 = false;
-            this.plC_Button247.音效 = true;
-            this.plC_Button247.顯示 = false;
-            this.plC_Button247.顯示狀態 = false;
-            // 
-            // plC_Button248
-            // 
-            this.plC_Button248.Bool = false;
-            this.plC_Button248.but_press = false;
-            this.plC_Button248.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button248.Location = new System.Drawing.Point(278, 196);
-            this.plC_Button248.Margin = new System.Windows.Forms.Padding(12);
-            this.plC_Button248.Name = "plC_Button248";
-            this.plC_Button248.OFF_文字內容 = "取盤位置";
-            this.plC_Button248.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button248.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button248.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button248.ON_文字內容 = "取盤位置";
-            this.plC_Button248.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button248.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button248.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button248.Size = new System.Drawing.Size(108, 63);
-            this.plC_Button248.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button248.TabIndex = 74;
-            this.plC_Button248.事件驅動 = false;
-            this.plC_Button248.字型鎖住 = true;
-            this.plC_Button248.寫入位置註解 = "送盤馬達_取盤位置";
-            this.plC_Button248.寫入元件位置 = "S10000";
-            this.plC_Button248.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button248.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button248.文字鎖住 = true;
-            this.plC_Button248.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button248.狀態OFF圖片")));
-            this.plC_Button248.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button248.狀態ON圖片")));
-            this.plC_Button248.讀取位元反向 = false;
-            this.plC_Button248.讀取元件位置 = "S10010";
-            this.plC_Button248.讀寫鎖住 = true;
-            this.plC_Button248.起始狀態 = false;
-            this.plC_Button248.音效 = true;
-            this.plC_Button248.顯示 = false;
-            this.plC_Button248.顯示狀態 = false;
-            // 
-            // panel328
-            // 
-            this.panel328.Controls.Add(this.rJ_Lable201);
-            this.panel328.Controls.Add(this.plC_NumBox69);
-            this.panel328.Location = new System.Drawing.Point(26, 136);
-            this.panel328.Name = "panel328";
-            this.panel328.Size = new System.Drawing.Size(329, 45);
-            this.panel328.TabIndex = 73;
-            // 
-            // rJ_Lable201
-            // 
-            this.rJ_Lable201.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable201.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable201.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable201.BorderRadius = 10;
-            this.rJ_Lable201.BorderSize = 1;
-            this.rJ_Lable201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable201.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable201.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable201.GUID = "";
-            this.rJ_Lable201.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable201.Name = "rJ_Lable201";
-            this.rJ_Lable201.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable201.ShadowSize = 0;
-            this.rJ_Lable201.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable201.TabIndex = 0;
-            this.rJ_Lable201.Text = "運轉速度";
-            this.rJ_Lable201.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable201.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox69
-            // 
-            this.plC_NumBox69.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox69.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox69.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox69.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox69.Name = "plC_NumBox69";
-            this.plC_NumBox69.ReadOnly = false;
-            this.plC_NumBox69.Size = new System.Drawing.Size(123, 32);
-            this.plC_NumBox69.TabIndex = 1;
-            this.plC_NumBox69.Value = 0;
-            this.plC_NumBox69.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox69.密碼欄位 = false;
-            this.plC_NumBox69.寫入元件位置 = "D15124";
-            this.plC_NumBox69.小數點位置 = 0;
-            this.plC_NumBox69.微調數值 = 1;
-            this.plC_NumBox69.讀取元件位置 = "D15124";
-            this.plC_NumBox69.音效 = true;
-            this.plC_NumBox69.顯示微調按鈕 = false;
-            this.plC_NumBox69.顯示螢幕小鍵盤 = true;
-            // 
-            // panel329
-            // 
-            this.panel329.Controls.Add(this.rJ_Lable202);
-            this.panel329.Controls.Add(this.plC_NumBox70);
-            this.panel329.Location = new System.Drawing.Point(26, 85);
-            this.panel329.Name = "panel329";
-            this.panel329.Size = new System.Drawing.Size(329, 45);
-            this.panel329.TabIndex = 72;
-            // 
-            // rJ_Lable202
-            // 
-            this.rJ_Lable202.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable202.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable202.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable202.BorderRadius = 10;
-            this.rJ_Lable202.BorderSize = 1;
-            this.rJ_Lable202.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable202.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable202.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable202.GUID = "";
-            this.rJ_Lable202.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable202.Name = "rJ_Lable202";
-            this.rJ_Lable202.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable202.ShadowSize = 0;
-            this.rJ_Lable202.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable202.TabIndex = 0;
-            this.rJ_Lable202.Text = "位置2";
-            this.rJ_Lable202.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable202.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox70
-            // 
-            this.plC_NumBox70.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox70.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox70.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox70.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox70.Name = "plC_NumBox70";
-            this.plC_NumBox70.ReadOnly = false;
-            this.plC_NumBox70.Size = new System.Drawing.Size(123, 30);
-            this.plC_NumBox70.TabIndex = 1;
-            this.plC_NumBox70.Value = 0;
-            this.plC_NumBox70.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox70.密碼欄位 = false;
-            this.plC_NumBox70.寫入位置註解 = "CCD馬達_位置2";
-            this.plC_NumBox70.寫入元件位置 = "D11001";
-            this.plC_NumBox70.小數點位置 = 0;
-            this.plC_NumBox70.微調數值 = 1;
-            this.plC_NumBox70.讀取元件位置 = "D11001";
-            this.plC_NumBox70.音效 = true;
-            this.plC_NumBox70.顯示微調按鈕 = false;
-            this.plC_NumBox70.顯示螢幕小鍵盤 = true;
-            // 
-            // panel330
-            // 
-            this.panel330.Controls.Add(this.rJ_Lable203);
-            this.panel330.Controls.Add(this.plC_NumBox71);
-            this.panel330.Location = new System.Drawing.Point(26, 34);
-            this.panel330.Name = "panel330";
-            this.panel330.Size = new System.Drawing.Size(329, 45);
-            this.panel330.TabIndex = 66;
-            // 
-            // rJ_Lable203
-            // 
-            this.rJ_Lable203.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable203.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable203.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable203.BorderRadius = 10;
-            this.rJ_Lable203.BorderSize = 1;
-            this.rJ_Lable203.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable203.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable203.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable203.GUID = "";
-            this.rJ_Lable203.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable203.Name = "rJ_Lable203";
-            this.rJ_Lable203.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable203.ShadowSize = 0;
-            this.rJ_Lable203.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable203.TabIndex = 0;
-            this.rJ_Lable203.Text = "位置1";
-            this.rJ_Lable203.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable203.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox71
-            // 
-            this.plC_NumBox71.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox71.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox71.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox71.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox71.Name = "plC_NumBox71";
-            this.plC_NumBox71.ReadOnly = false;
-            this.plC_NumBox71.Size = new System.Drawing.Size(123, 30);
-            this.plC_NumBox71.TabIndex = 1;
-            this.plC_NumBox71.Value = 0;
-            this.plC_NumBox71.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox71.密碼欄位 = false;
-            this.plC_NumBox71.寫入位置註解 = "CCD馬達_位置1";
-            this.plC_NumBox71.寫入元件位置 = "D11000";
-            this.plC_NumBox71.小數點位置 = 0;
-            this.plC_NumBox71.微調數值 = 1;
-            this.plC_NumBox71.讀取元件位置 = "D11000";
-            this.plC_NumBox71.音效 = true;
-            this.plC_NumBox71.顯示微調按鈕 = false;
-            this.plC_NumBox71.顯示螢幕小鍵盤 = true;
-            // 
-            // rJ_Lable214
-            // 
-            this.rJ_Lable214.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable214.BackgroundColor = System.Drawing.Color.Gray;
-            this.rJ_Lable214.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rJ_Lable214.BorderRadius = 10;
-            this.rJ_Lable214.BorderSize = 0;
-            this.rJ_Lable214.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rJ_Lable214.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable214.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable214.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable214.GUID = "";
-            this.rJ_Lable214.Location = new System.Drawing.Point(20, 20);
-            this.rJ_Lable214.Name = "rJ_Lable214";
-            this.rJ_Lable214.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable214.ShadowSize = 0;
-            this.rJ_Lable214.Size = new System.Drawing.Size(1337, 65);
-            this.rJ_Lable214.TabIndex = 60;
-            this.rJ_Lable214.Text = "系統操作";
-            this.rJ_Lable214.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable214.TextColor = System.Drawing.Color.White;
-            // 
-            // plC_Button252
-            // 
-            this.plC_Button252.Bool = false;
-            this.plC_Button252.but_press = false;
-            this.plC_Button252.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button252.Location = new System.Drawing.Point(27, 172);
-            this.plC_Button252.Margin = new System.Windows.Forms.Padding(4);
-            this.plC_Button252.Name = "plC_Button252";
-            this.plC_Button252.OFF_文字內容 = "一行程";
-            this.plC_Button252.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button252.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button252.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button252.ON_文字內容 = "一行程";
-            this.plC_Button252.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button252.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button252.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button252.Size = new System.Drawing.Size(202, 64);
-            this.plC_Button252.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button252.TabIndex = 63;
-            this.plC_Button252.事件驅動 = false;
-            this.plC_Button252.字型鎖住 = true;
-            this.plC_Button252.寫入元件位置 = "S650";
-            this.plC_Button252.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button252.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button252.文字鎖住 = true;
-            this.plC_Button252.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button252.狀態OFF圖片")));
-            this.plC_Button252.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button252.狀態ON圖片")));
-            this.plC_Button252.讀取位元反向 = false;
-            this.plC_Button252.讀取元件位置 = "S651";
-            this.plC_Button252.讀寫鎖住 = true;
-            this.plC_Button252.起始狀態 = false;
-            this.plC_Button252.音效 = true;
-            this.plC_Button252.顯示 = false;
-            this.plC_Button252.顯示狀態 = false;
-            // 
-            // plC_Button253
-            // 
-            this.plC_Button253.Bool = false;
-            this.plC_Button253.but_press = false;
-            this.plC_Button253.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button253.Location = new System.Drawing.Point(27, 99);
-            this.plC_Button253.Margin = new System.Windows.Forms.Padding(4);
-            this.plC_Button253.Name = "plC_Button253";
-            this.plC_Button253.OFF_文字內容 = "單步執行";
-            this.plC_Button253.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button253.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button253.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button253.ON_文字內容 = "單步執行";
-            this.plC_Button253.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button253.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button253.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button253.Size = new System.Drawing.Size(202, 64);
-            this.plC_Button253.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button253.TabIndex = 62;
-            this.plC_Button253.事件驅動 = false;
-            this.plC_Button253.字型鎖住 = true;
-            this.plC_Button253.寫入元件位置 = "S640";
-            this.plC_Button253.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button253.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button253.文字鎖住 = true;
-            this.plC_Button253.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button253.狀態OFF圖片")));
-            this.plC_Button253.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button253.狀態ON圖片")));
-            this.plC_Button253.讀取位元反向 = false;
-            this.plC_Button253.讀取元件位置 = "S641";
-            this.plC_Button253.讀寫鎖住 = true;
-            this.plC_Button253.起始狀態 = false;
-            this.plC_Button253.音效 = true;
-            this.plC_Button253.顯示 = false;
-            this.plC_Button253.顯示狀態 = false;
-            // 
-            // panel319
-            // 
-            this.panel319.Controls.Add(this.rJ_Lable196);
-            this.panel319.Controls.Add(this.rJ_Lable195);
-            this.panel319.Controls.Add(this.plC_NumBox68);
-            this.panel319.Location = new System.Drawing.Point(383, 35);
-            this.panel319.Name = "panel319";
-            this.panel319.Size = new System.Drawing.Size(301, 45);
-            this.panel319.TabIndex = 67;
-            // 
-            // rJ_Lable195
-            // 
-            this.rJ_Lable195.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable195.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable195.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable195.BorderRadius = 10;
-            this.rJ_Lable195.BorderSize = 1;
-            this.rJ_Lable195.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable195.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable195.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable195.GUID = "";
-            this.rJ_Lable195.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable195.Name = "rJ_Lable195";
-            this.rJ_Lable195.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable195.ShadowSize = 0;
-            this.rJ_Lable195.Size = new System.Drawing.Size(133, 42);
-            this.rJ_Lable195.TabIndex = 0;
-            this.rJ_Lable195.Text = "拍照延遲";
-            this.rJ_Lable195.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable195.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox68
-            // 
-            this.plC_NumBox68.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox68.Location = new System.Drawing.Point(144, 10);
-            this.plC_NumBox68.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox68.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox68.Name = "plC_NumBox68";
-            this.plC_NumBox68.ReadOnly = false;
-            this.plC_NumBox68.Size = new System.Drawing.Size(123, 30);
-            this.plC_NumBox68.TabIndex = 1;
-            this.plC_NumBox68.Value = 0;
-            this.plC_NumBox68.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox68.密碼欄位 = false;
-            this.plC_NumBox68.寫入位置註解 = "CCD馬達_位置1";
-            this.plC_NumBox68.寫入元件位置 = "D11000";
-            this.plC_NumBox68.小數點位置 = 3;
-            this.plC_NumBox68.微調數值 = 1;
-            this.plC_NumBox68.讀取元件位置 = "D11000";
-            this.plC_NumBox68.音效 = true;
-            this.plC_NumBox68.顯示微調按鈕 = false;
-            this.plC_NumBox68.顯示螢幕小鍵盤 = true;
-            // 
-            // rJ_Lable196
-            // 
-            this.rJ_Lable196.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable196.BackgroundColor = System.Drawing.Color.White;
-            this.rJ_Lable196.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rJ_Lable196.BorderRadius = 10;
-            this.rJ_Lable196.BorderSize = 0;
-            this.rJ_Lable196.Dock = System.Windows.Forms.DockStyle.Right;
-            this.rJ_Lable196.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable196.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable196.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable196.GUID = "";
-            this.rJ_Lable196.Location = new System.Drawing.Point(275, 0);
-            this.rJ_Lable196.Name = "rJ_Lable196";
-            this.rJ_Lable196.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable196.ShadowSize = 0;
-            this.rJ_Lable196.Size = new System.Drawing.Size(26, 45);
-            this.rJ_Lable196.TabIndex = 5;
-            this.rJ_Lable196.Text = "s";
-            this.rJ_Lable196.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.rJ_Lable196.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_Button242
-            // 
-            this.plC_Button242.Bool = false;
-            this.plC_Button242.but_press = false;
-            this.plC_Button242.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button242.Location = new System.Drawing.Point(4, 77);
-            this.plC_Button242.Margin = new System.Windows.Forms.Padding(4);
-            this.plC_Button242.Name = "plC_Button242";
-            this.plC_Button242.OFF_文字內容 = "一行程";
-            this.plC_Button242.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button242.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button242.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button242.ON_文字內容 = "一行程";
-            this.plC_Button242.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button242.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button242.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button242.Size = new System.Drawing.Size(202, 64);
-            this.plC_Button242.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button242.TabIndex = 82;
-            this.plC_Button242.事件驅動 = false;
-            this.plC_Button242.字型鎖住 = true;
-            this.plC_Button242.寫入元件位置 = "S710";
-            this.plC_Button242.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button242.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button242.文字鎖住 = true;
-            this.plC_Button242.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button242.狀態OFF圖片")));
-            this.plC_Button242.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button242.狀態ON圖片")));
-            this.plC_Button242.讀取位元反向 = false;
-            this.plC_Button242.讀取元件位置 = "S711";
-            this.plC_Button242.讀寫鎖住 = true;
-            this.plC_Button242.起始狀態 = false;
-            this.plC_Button242.音效 = true;
-            this.plC_Button242.顯示 = false;
-            this.plC_Button242.顯示狀態 = false;
-            // 
-            // plC_Button243
-            // 
-            this.plC_Button243.Bool = false;
-            this.plC_Button243.but_press = false;
-            this.plC_Button243.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button243.Location = new System.Drawing.Point(4, 4);
-            this.plC_Button243.Margin = new System.Windows.Forms.Padding(4);
-            this.plC_Button243.Name = "plC_Button243";
-            this.plC_Button243.OFF_文字內容 = "單步執行";
-            this.plC_Button243.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button243.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button243.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button243.ON_文字內容 = "單步執行";
-            this.plC_Button243.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button243.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button243.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button243.Size = new System.Drawing.Size(202, 64);
-            this.plC_Button243.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button243.TabIndex = 81;
-            this.plC_Button243.事件驅動 = false;
-            this.plC_Button243.字型鎖住 = true;
-            this.plC_Button243.寫入元件位置 = "S700";
-            this.plC_Button243.按鈕型態 = MyUI.PLC_Button.StatusEnum.保持型;
-            this.plC_Button243.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button243.文字鎖住 = true;
-            this.plC_Button243.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button243.狀態OFF圖片")));
-            this.plC_Button243.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button243.狀態ON圖片")));
-            this.plC_Button243.讀取位元反向 = false;
-            this.plC_Button243.讀取元件位置 = "S701";
-            this.plC_Button243.讀寫鎖住 = true;
-            this.plC_Button243.起始狀態 = false;
-            this.plC_Button243.音效 = true;
-            this.plC_Button243.顯示 = false;
-            this.plC_Button243.顯示狀態 = false;
-            // 
-            // panel320
-            // 
-            this.panel320.Controls.Add(this.rJ_Lable197);
-            this.panel320.Controls.Add(this.rJ_Lable198);
-            this.panel320.Controls.Add(this.plC_NumBox72);
-            this.panel320.Location = new System.Drawing.Point(368, 88);
-            this.panel320.Name = "panel320";
-            this.panel320.Size = new System.Drawing.Size(222, 45);
-            this.panel320.TabIndex = 88;
-            // 
-            // rJ_Lable197
-            // 
-            this.rJ_Lable197.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable197.BackgroundColor = System.Drawing.Color.White;
-            this.rJ_Lable197.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rJ_Lable197.BorderRadius = 10;
-            this.rJ_Lable197.BorderSize = 0;
-            this.rJ_Lable197.Dock = System.Windows.Forms.DockStyle.Right;
-            this.rJ_Lable197.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable197.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable197.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable197.GUID = "";
-            this.rJ_Lable197.Location = new System.Drawing.Point(196, 0);
-            this.rJ_Lable197.Name = "rJ_Lable197";
-            this.rJ_Lable197.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable197.ShadowSize = 0;
-            this.rJ_Lable197.Size = new System.Drawing.Size(26, 45);
-            this.rJ_Lable197.TabIndex = 4;
-            this.rJ_Lable197.Text = "s";
-            this.rJ_Lable197.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.rJ_Lable197.TextColor = System.Drawing.Color.Black;
-            // 
-            // rJ_Lable198
-            // 
-            this.rJ_Lable198.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable198.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable198.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable198.BorderRadius = 10;
-            this.rJ_Lable198.BorderSize = 1;
-            this.rJ_Lable198.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable198.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable198.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable198.GUID = "";
-            this.rJ_Lable198.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable198.Name = "rJ_Lable198";
-            this.rJ_Lable198.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable198.ShadowSize = 0;
-            this.rJ_Lable198.Size = new System.Drawing.Size(114, 42);
-            this.rJ_Lable198.TabIndex = 0;
-            this.rJ_Lable198.Text = "吸真空延遲";
-            this.rJ_Lable198.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable198.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox72
-            // 
-            this.plC_NumBox72.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox72.Location = new System.Drawing.Point(122, 9);
-            this.plC_NumBox72.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox72.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox72.Name = "plC_NumBox72";
-            this.plC_NumBox72.ReadOnly = false;
-            this.plC_NumBox72.Size = new System.Drawing.Size(72, 30);
-            this.plC_NumBox72.TabIndex = 1;
-            this.plC_NumBox72.Value = 0;
-            this.plC_NumBox72.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox72.密碼欄位 = false;
-            this.plC_NumBox72.寫入元件位置 = "D150";
-            this.plC_NumBox72.小數點位置 = 3;
-            this.plC_NumBox72.微調數值 = 1;
-            this.plC_NumBox72.讀取元件位置 = "D150";
-            this.plC_NumBox72.音效 = true;
-            this.plC_NumBox72.顯示微調按鈕 = false;
-            this.plC_NumBox72.顯示螢幕小鍵盤 = true;
-            // 
-            // panel321
-            // 
-            this.panel321.Controls.Add(this.rJ_Lable199);
-            this.panel321.Controls.Add(this.rJ_Lable200);
-            this.panel321.Controls.Add(this.plC_NumBox73);
-            this.panel321.Location = new System.Drawing.Point(584, 88);
-            this.panel321.Name = "panel321";
-            this.panel321.Size = new System.Drawing.Size(222, 45);
-            this.panel321.TabIndex = 89;
-            // 
-            // rJ_Lable199
-            // 
-            this.rJ_Lable199.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable199.BackgroundColor = System.Drawing.Color.White;
-            this.rJ_Lable199.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rJ_Lable199.BorderRadius = 10;
-            this.rJ_Lable199.BorderSize = 0;
-            this.rJ_Lable199.Dock = System.Windows.Forms.DockStyle.Right;
-            this.rJ_Lable199.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable199.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable199.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable199.GUID = "";
-            this.rJ_Lable199.Location = new System.Drawing.Point(196, 0);
-            this.rJ_Lable199.Name = "rJ_Lable199";
-            this.rJ_Lable199.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable199.ShadowSize = 0;
-            this.rJ_Lable199.Size = new System.Drawing.Size(26, 45);
-            this.rJ_Lable199.TabIndex = 4;
-            this.rJ_Lable199.Text = "s";
-            this.rJ_Lable199.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.rJ_Lable199.TextColor = System.Drawing.Color.Black;
-            // 
-            // rJ_Lable200
-            // 
-            this.rJ_Lable200.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable200.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable200.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable200.BorderRadius = 10;
-            this.rJ_Lable200.BorderSize = 1;
-            this.rJ_Lable200.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable200.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable200.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable200.GUID = "";
-            this.rJ_Lable200.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable200.Name = "rJ_Lable200";
-            this.rJ_Lable200.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable200.ShadowSize = 0;
-            this.rJ_Lable200.Size = new System.Drawing.Size(114, 42);
-            this.rJ_Lable200.TabIndex = 0;
-            this.rJ_Lable200.Text = "破真空延遲";
-            this.rJ_Lable200.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable200.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox73
-            // 
-            this.plC_NumBox73.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox73.Location = new System.Drawing.Point(122, 9);
-            this.plC_NumBox73.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox73.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox73.Name = "plC_NumBox73";
-            this.plC_NumBox73.ReadOnly = false;
-            this.plC_NumBox73.Size = new System.Drawing.Size(72, 30);
-            this.plC_NumBox73.TabIndex = 1;
-            this.plC_NumBox73.Value = 0;
-            this.plC_NumBox73.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox73.密碼欄位 = false;
-            this.plC_NumBox73.寫入元件位置 = "D152";
-            this.plC_NumBox73.小數點位置 = 3;
-            this.plC_NumBox73.微調數值 = 1;
-            this.plC_NumBox73.讀取元件位置 = "D152";
-            this.plC_NumBox73.音效 = true;
-            this.plC_NumBox73.顯示微調按鈕 = false;
-            this.plC_NumBox73.顯示螢幕小鍵盤 = true;
-            // 
-            // panel322
-            // 
-            this.panel322.Controls.Add(this.rJ_Lable204);
-            this.panel322.Controls.Add(this.rJ_Lable205);
-            this.panel322.Controls.Add(this.plC_NumBox74);
-            this.panel322.Location = new System.Drawing.Point(23, 531);
-            this.panel322.Name = "panel322";
-            this.panel322.Size = new System.Drawing.Size(222, 45);
-            this.panel322.TabIndex = 91;
-            // 
-            // rJ_Lable204
-            // 
-            this.rJ_Lable204.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable204.BackgroundColor = System.Drawing.Color.White;
-            this.rJ_Lable204.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rJ_Lable204.BorderRadius = 10;
-            this.rJ_Lable204.BorderSize = 0;
-            this.rJ_Lable204.Dock = System.Windows.Forms.DockStyle.Right;
-            this.rJ_Lable204.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable204.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable204.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable204.GUID = "";
-            this.rJ_Lable204.Location = new System.Drawing.Point(196, 0);
-            this.rJ_Lable204.Name = "rJ_Lable204";
-            this.rJ_Lable204.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable204.ShadowSize = 0;
-            this.rJ_Lable204.Size = new System.Drawing.Size(26, 45);
-            this.rJ_Lable204.TabIndex = 4;
-            this.rJ_Lable204.Text = "s";
-            this.rJ_Lable204.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.rJ_Lable204.TextColor = System.Drawing.Color.Black;
-            // 
-            // rJ_Lable205
-            // 
-            this.rJ_Lable205.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable205.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable205.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable205.BorderRadius = 10;
-            this.rJ_Lable205.BorderSize = 1;
-            this.rJ_Lable205.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable205.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable205.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable205.GUID = "";
-            this.rJ_Lable205.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable205.Name = "rJ_Lable205";
-            this.rJ_Lable205.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable205.ShadowSize = 0;
-            this.rJ_Lable205.Size = new System.Drawing.Size(114, 42);
-            this.rJ_Lable205.TabIndex = 0;
-            this.rJ_Lable205.Text = "破真空延遲";
-            this.rJ_Lable205.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable205.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox74
-            // 
-            this.plC_NumBox74.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox74.Location = new System.Drawing.Point(122, 9);
-            this.plC_NumBox74.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox74.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox74.Name = "plC_NumBox74";
-            this.plC_NumBox74.ReadOnly = false;
-            this.plC_NumBox74.Size = new System.Drawing.Size(72, 30);
-            this.plC_NumBox74.TabIndex = 1;
-            this.plC_NumBox74.Value = 0;
-            this.plC_NumBox74.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox74.密碼欄位 = false;
-            this.plC_NumBox74.寫入元件位置 = "D157";
-            this.plC_NumBox74.小數點位置 = 3;
-            this.plC_NumBox74.微調數值 = 1;
-            this.plC_NumBox74.讀取元件位置 = "D157";
-            this.plC_NumBox74.音效 = true;
-            this.plC_NumBox74.顯示微調按鈕 = false;
-            this.plC_NumBox74.顯示螢幕小鍵盤 = true;
-            // 
-            // panel323
-            // 
-            this.panel323.Controls.Add(this.rJ_Lable206);
-            this.panel323.Controls.Add(this.rJ_Lable207);
-            this.panel323.Controls.Add(this.plC_NumBox75);
-            this.panel323.Location = new System.Drawing.Point(23, 480);
-            this.panel323.Name = "panel323";
-            this.panel323.Size = new System.Drawing.Size(222, 45);
-            this.panel323.TabIndex = 90;
-            // 
-            // rJ_Lable206
-            // 
-            this.rJ_Lable206.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable206.BackgroundColor = System.Drawing.Color.White;
-            this.rJ_Lable206.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rJ_Lable206.BorderRadius = 10;
-            this.rJ_Lable206.BorderSize = 0;
-            this.rJ_Lable206.Dock = System.Windows.Forms.DockStyle.Right;
-            this.rJ_Lable206.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable206.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable206.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable206.GUID = "";
-            this.rJ_Lable206.Location = new System.Drawing.Point(196, 0);
-            this.rJ_Lable206.Name = "rJ_Lable206";
-            this.rJ_Lable206.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable206.ShadowSize = 0;
-            this.rJ_Lable206.Size = new System.Drawing.Size(26, 45);
-            this.rJ_Lable206.TabIndex = 4;
-            this.rJ_Lable206.Text = "s";
-            this.rJ_Lable206.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.rJ_Lable206.TextColor = System.Drawing.Color.Black;
-            // 
-            // rJ_Lable207
-            // 
-            this.rJ_Lable207.BackColor = System.Drawing.Color.White;
-            this.rJ_Lable207.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable207.BorderColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable207.BorderRadius = 10;
-            this.rJ_Lable207.BorderSize = 1;
-            this.rJ_Lable207.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rJ_Lable207.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.rJ_Lable207.ForeColor = System.Drawing.Color.Transparent;
-            this.rJ_Lable207.GUID = "";
-            this.rJ_Lable207.Location = new System.Drawing.Point(3, 1);
-            this.rJ_Lable207.Name = "rJ_Lable207";
-            this.rJ_Lable207.ShadowColor = System.Drawing.Color.DimGray;
-            this.rJ_Lable207.ShadowSize = 0;
-            this.rJ_Lable207.Size = new System.Drawing.Size(114, 42);
-            this.rJ_Lable207.TabIndex = 0;
-            this.rJ_Lable207.Text = "吸真空延遲";
-            this.rJ_Lable207.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rJ_Lable207.TextColor = System.Drawing.Color.Black;
-            // 
-            // plC_NumBox75
-            // 
-            this.plC_NumBox75.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.plC_NumBox75.Location = new System.Drawing.Point(122, 9);
-            this.plC_NumBox75.mBackColor = System.Drawing.Color.White;
-            this.plC_NumBox75.mForeColor = System.Drawing.SystemColors.WindowText;
-            this.plC_NumBox75.Name = "plC_NumBox75";
-            this.plC_NumBox75.ReadOnly = false;
-            this.plC_NumBox75.Size = new System.Drawing.Size(72, 30);
-            this.plC_NumBox75.TabIndex = 1;
-            this.plC_NumBox75.Value = 0;
-            this.plC_NumBox75.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
-            this.plC_NumBox75.密碼欄位 = false;
-            this.plC_NumBox75.寫入元件位置 = "D155";
-            this.plC_NumBox75.小數點位置 = 3;
-            this.plC_NumBox75.微調數值 = 1;
-            this.plC_NumBox75.讀取元件位置 = "D155";
-            this.plC_NumBox75.音效 = true;
-            this.plC_NumBox75.顯示微調按鈕 = false;
-            this.plC_NumBox75.顯示螢幕小鍵盤 = true;
-            // 
-            // plC_Button244
-            // 
-            this.plC_Button244.Bool = false;
-            this.plC_Button244.but_press = false;
-            this.plC_Button244.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button244.Location = new System.Drawing.Point(23, 587);
-            this.plC_Button244.Margin = new System.Windows.Forms.Padding(33, 37, 33, 37);
-            this.plC_Button244.Name = "plC_Button244";
-            this.plC_Button244.OFF_文字內容 = "真空不檢查";
-            this.plC_Button244.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button244.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button244.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button244.ON_文字內容 = "真空不檢查";
-            this.plC_Button244.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button244.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button244.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button244.Size = new System.Drawing.Size(194, 63);
-            this.plC_Button244.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button244.TabIndex = 92;
-            this.plC_Button244.事件驅動 = false;
-            this.plC_Button244.字型鎖住 = true;
-            this.plC_Button244.寫入位置註解 = "入料馬達_送盤位置";
-            this.plC_Button244.寫入元件位置 = "S4501";
-            this.plC_Button244.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
-            this.plC_Button244.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button244.文字鎖住 = true;
-            this.plC_Button244.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button244.狀態OFF圖片")));
-            this.plC_Button244.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button244.狀態ON圖片")));
-            this.plC_Button244.讀取位元反向 = false;
-            this.plC_Button244.讀取元件位置 = "S4501";
-            this.plC_Button244.讀寫鎖住 = true;
-            this.plC_Button244.起始狀態 = false;
-            this.plC_Button244.音效 = true;
-            this.plC_Button244.顯示 = false;
-            this.plC_Button244.顯示狀態 = false;
-            // 
-            // plC_Button245
-            // 
-            this.plC_Button245.Bool = false;
-            this.plC_Button245.but_press = false;
-            this.plC_Button245.Icon = System.Windows.Forms.MessageBoxIcon.Warning;
-            this.plC_Button245.Location = new System.Drawing.Point(263, 172);
-            this.plC_Button245.Margin = new System.Windows.Forms.Padding(33, 37, 33, 37);
-            this.plC_Button245.Name = "plC_Button245";
-            this.plC_Button245.OFF_文字內容 = "真空不檢查";
-            this.plC_Button245.OFF_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button245.OFF_文字顏色 = System.Drawing.Color.Black;
-            this.plC_Button245.OFF_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button245.ON_文字內容 = "真空不檢查";
-            this.plC_Button245.ON_文字字體 = new System.Drawing.Font("微軟正黑體", 12F);
-            this.plC_Button245.ON_文字顏色 = System.Drawing.Color.White;
-            this.plC_Button245.ON_背景顏色 = System.Drawing.SystemColors.Control;
-            this.plC_Button245.Size = new System.Drawing.Size(139, 63);
-            this.plC_Button245.Style = MyUI.PLC_Button.StyleEnum.經典;
-            this.plC_Button245.TabIndex = 93;
-            this.plC_Button245.事件驅動 = false;
-            this.plC_Button245.字型鎖住 = true;
-            this.plC_Button245.寫入位置註解 = "入料馬達_送盤位置";
-            this.plC_Button245.寫入元件位置 = "S4500";
-            this.plC_Button245.按鈕型態 = MyUI.PLC_Button.StatusEnum.交替型;
-            this.plC_Button245.按鍵方式 = MyUI.PLC_Button.PressEnum.Mouse_左鍵;
-            this.plC_Button245.文字鎖住 = true;
-            this.plC_Button245.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button245.狀態OFF圖片")));
-            this.plC_Button245.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button245.狀態ON圖片")));
-            this.plC_Button245.讀取位元反向 = false;
-            this.plC_Button245.讀取元件位置 = "S4500";
-            this.plC_Button245.讀寫鎖住 = true;
-            this.plC_Button245.起始狀態 = false;
-            this.plC_Button245.音效 = true;
-            this.plC_Button245.顯示 = false;
-            this.plC_Button245.顯示狀態 = false;
-            // 
             // Main_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -21458,7 +22489,7 @@
             this.Name = "Main_Form";
             this.ShowInTaskbar = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AI銅板檢測機(一詮精密工業股份有限公司)";
+            this.Text = "一詮精密工業(銅板檢測機)";
             this.TopMost = false;
             this.panel_main.ResumeLayout(false);
             this.panel291.ResumeLayout(false);
@@ -21471,6 +22502,14 @@
             this.panel292.ResumeLayout(false);
             this.rJ_Pannel1.ResumeLayout(false);
             this.plC_ScreenPage_main.ResumeLayout(false);
+            this.主畫面.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MainForm)).EndInit();
+            this.panel334.ResumeLayout(false);
+            this.panel334.PerformLayout();
+            this.panel333.ResumeLayout(false);
+            this.panel333.PerformLayout();
             this.手動作業.ResumeLayout(false);
             this.plC_ScreenPage_輸出入.ResumeLayout(false);
             this.輸入.ResumeLayout(false);
@@ -21596,6 +22635,8 @@
             this.panel_軸控.ResumeLayout(false);
             this.入盤系統.ResumeLayout(false);
             this.plC_RJ_Pannel8.ResumeLayout(false);
+            this.panel321.ResumeLayout(false);
+            this.panel320.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.panel247.ResumeLayout(false);
             this.panel254.ResumeLayout(false);
@@ -21647,9 +22688,46 @@
             this.panel213.ResumeLayout(false);
             this.panel214.ResumeLayout(false);
             this.CCD系統.ResumeLayout(false);
+            this.plC_RJ_Pannel15.ResumeLayout(false);
+            this.groupBox8.ResumeLayout(false);
+            this.panel326.ResumeLayout(false);
+            this.panel326.PerformLayout();
+            this.panel325.ResumeLayout(false);
+            this.panel325.PerformLayout();
+            this.panel324.ResumeLayout(false);
+            this.panel324.PerformLayout();
+            this.panel319.ResumeLayout(false);
+            this.panel328.ResumeLayout(false);
+            this.panel329.ResumeLayout(false);
+            this.panel329.PerformLayout();
+            this.panel330.ResumeLayout(false);
+            this.panel330.PerformLayout();
+            this.plC_RJ_Pannel12.ResumeLayout(false);
+            this.panel301.ResumeLayout(false);
+            this.panel302.ResumeLayout(false);
+            this.panel303.ResumeLayout(false);
+            this.panel304.ResumeLayout(false);
+            this.panel305.ResumeLayout(false);
+            this.panel306.ResumeLayout(false);
             this.不良排除系統.ResumeLayout(false);
+            this.plC_RJ_Pannel14.ResumeLayout(false);
+            this.panel313.ResumeLayout(false);
+            this.panel314.ResumeLayout(false);
+            this.panel315.ResumeLayout(false);
+            this.panel316.ResumeLayout(false);
+            this.panel317.ResumeLayout(false);
+            this.panel318.ResumeLayout(false);
+            this.plC_RJ_Pannel13.ResumeLayout(false);
+            this.panel307.ResumeLayout(false);
+            this.panel308.ResumeLayout(false);
+            this.panel309.ResumeLayout(false);
+            this.panel310.ResumeLayout(false);
+            this.panel311.ResumeLayout(false);
+            this.panel312.ResumeLayout(false);
             this.出盤系統.ResumeLayout(false);
             this.plC_RJ_Pannel11.ResumeLayout(false);
+            this.panel322.ResumeLayout(false);
+            this.panel323.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.panel265.ResumeLayout(false);
             this.panel266.ResumeLayout(false);
@@ -21695,6 +22773,14 @@
             this.panel237.ResumeLayout(false);
             this.panel234.ResumeLayout(false);
             this.panel_輸出入.ResumeLayout(false);
+            this.參數設定.ResumeLayout(false);
+            this.tabControl2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.panel332.ResumeLayout(false);
+            this.panel332.PerformLayout();
+            this.panel331.ResumeLayout(false);
+            this.panel331.PerformLayout();
+            this.panel327.ResumeLayout(false);
             this.後台設定.ResumeLayout(false);
             this.plC_ScreenPage_後台設定.ResumeLayout(false);
             this.PLC.ResumeLayout(false);
@@ -21702,38 +22788,9 @@
             this.panel2.ResumeLayout(false);
             this.TABP_9016.ResumeLayout(false);
             this.TABP_1230_1280.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
             this.panel_後台設定.ResumeLayout(false);
-            this.plC_RJ_Pannel12.ResumeLayout(false);
-            this.panel301.ResumeLayout(false);
-            this.panel302.ResumeLayout(false);
-            this.panel303.ResumeLayout(false);
-            this.panel304.ResumeLayout(false);
-            this.panel305.ResumeLayout(false);
-            this.panel306.ResumeLayout(false);
-            this.plC_RJ_Pannel13.ResumeLayout(false);
-            this.panel307.ResumeLayout(false);
-            this.panel308.ResumeLayout(false);
-            this.panel309.ResumeLayout(false);
-            this.panel310.ResumeLayout(false);
-            this.panel311.ResumeLayout(false);
-            this.panel312.ResumeLayout(false);
-            this.plC_RJ_Pannel14.ResumeLayout(false);
-            this.panel313.ResumeLayout(false);
-            this.panel314.ResumeLayout(false);
-            this.panel315.ResumeLayout(false);
-            this.panel316.ResumeLayout(false);
-            this.panel317.ResumeLayout(false);
-            this.panel318.ResumeLayout(false);
-            this.plC_RJ_Pannel15.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.panel328.ResumeLayout(false);
-            this.panel329.ResumeLayout(false);
-            this.panel330.ResumeLayout(false);
-            this.panel319.ResumeLayout(false);
-            this.panel320.ResumeLayout(false);
-            this.panel321.ResumeLayout(false);
-            this.panel322.ResumeLayout(false);
-            this.panel323.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -22643,8 +23700,6 @@
         private MyUI.PLC_NumBox plC_NumBox67;
         private MyUI.PLC_RJ_Pannel plC_RJ_Pannel15;
         private System.Windows.Forms.GroupBox groupBox8;
-        private MyUI.PLC_Button plC_Button247;
-        private MyUI.PLC_Button plC_Button248;
         private System.Windows.Forms.Panel panel328;
         private MyUI.RJ_Lable rJ_Lable201;
         private MyUI.PLC_NumBox plC_NumBox69;
@@ -22681,6 +23736,55 @@
         private MyUI.PLC_NumBox plC_NumBox75;
         private MyUI.PLC_Button plC_Button244;
         private MyUI.PLC_Button plC_Button245;
+        private System.Windows.Forms.Panel panel326;
+        private MyUI.RJ_Lable rJ_Lable210;
+        private MyUI.PLC_NumBox plC_NumBox78;
+        private System.Windows.Forms.Panel panel325;
+        private MyUI.RJ_Lable rJ_Lable209;
+        private MyUI.PLC_NumBox plC_NumBox77;
+        private System.Windows.Forms.Panel panel324;
+        private MyUI.RJ_Lable rJ_Lable208;
+        private MyUI.PLC_NumBox plC_NumBox76;
+        private MyUI.PLC_Button plC_Button246;
+        private MyUI.PLC_CheckBox plC_CheckBox5;
+        private MyUI.PLC_CheckBox plC_CheckBox4;
+        private MyUI.PLC_CheckBox plC_CheckBox3;
+        private MyUI.PLC_Button plC_Button247;
+        private MyUI.PLC_Button plC_Button248;
+        private MyUI.PLC_CheckBox plC_CheckBox2;
+        private MyUI.PLC_CheckBox plC_CheckBox1;
+        private MyUI.PLC_Button plC_Button254;
+        private MyUI.PLC_Button plC_Button251;
+        private MyUI.PLC_Button plC_Button250;
+        private MyUI.PLC_Button plC_Button249;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private MyUI.PLC_RJ_ScreenButtonEx plC_RJ_ScreenButtonEx5;
+        private System.Windows.Forms.TabControl tabControl2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private SQLUI.SQL_DataGridView sqL_DataGridView_EngineeringModel;
+        private System.Windows.Forms.Panel panel327;
+        private MyUI.RJ_Button rJ_Button_EngineeringModel_新增;
+        private System.Windows.Forms.Panel panel331;
+        private System.Windows.Forms.Label label1;
+        private MyUI.RJ_TextBox rJ_TextBox_EngineeringModel_型號名稱;
+        private System.Windows.Forms.Panel panel332;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboBox_EngineeringModel_檢測別名;
+        private MyUI.RJ_Button rJ_Button_EngineeringModel_刪除;
+        private MyUI.RJ_Button rJ_Button_EngineeringModel_修改;
+        private System.Windows.Forms.RichTextBox richTextBox_EngineeringModel_設定Base64;
+        private MyUI.PLC_Button plC_Button_CCD測試一次;
+        private System.Windows.Forms.Panel panel333;
+        private System.Windows.Forms.ComboBox comboBox_主畫面_型號選擇;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel334;
+        private MyUI.RJ_TextBox rJ_TextBox_主畫面_檢測別名;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox_MainForm;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

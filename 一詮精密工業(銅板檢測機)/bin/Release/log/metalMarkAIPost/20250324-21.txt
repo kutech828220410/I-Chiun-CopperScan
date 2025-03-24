@@ -1,0 +1,46 @@
+20250324-21:52:14 - {
+  "Data": [
+    {
+      "stage": "1",
+      "product": "GoldSize",
+      "op_time": "20250324 215214"
+    }
+  ]
+}
+20250324-21:52:19 - {
+  "Data": [
+    {
+      "centers": {
+        "0,0": "521,727",
+        "0,5": "3477,745"
+      },
+      "fails": [],
+      "origin_image_path": "D:\\GoldSize\\20250324\\215214_stage_1_origin.png",
+      "result_image_path": "D:\\GoldSize\\20250324\\215214_stage_1_labeled.png"
+    }
+  ]
+}
+
+20250324-21:53:03 - {
+  "Data": [
+    {
+      "stage": "1",
+      "product": "GoldSize",
+      "op_time": "20250324 215303"
+    }
+  ]
+}
+20250324-21:53:06 - {
+  "Data": [
+    {
+      "centers": {
+        "0,0": "537,805",
+        "0,5": "3496,829"
+      },
+      "fails": [],
+      "origin_image_path": "D:\\GoldSize\\20250324\\215303_stage_1_origin.png",
+      "result_image_path": "D:\\GoldSize\\20250324\\215303_stage_1_labeled.png"
+    }
+  ]
+}
+
