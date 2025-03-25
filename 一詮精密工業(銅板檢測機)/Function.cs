@@ -18,10 +18,30 @@ namespace 一詮精密工業_銅板檢測機_
     public partial class Main_Form : MyDialog
     {
         public class MetalMarkAIPost
-        {
+        {         /// <summary>
+                  /// 座標中心點集合
+                  /// </summary>
+            [JsonPropertyName("centers")]
+            public Dictionary<string, string> Centers { get; set; }
+            /// <summary>
+            /// 失敗座標集合
+            /// </summary>
+            [JsonPropertyName("fails")]
+            public List<string> Fails { get; set; }
+            /// <summary>
+            /// 原始圖像路徑
+            /// </summary>
+            [JsonPropertyName("origin_image_path")]
+            public string OriginImagePath { get; set; }
+
+            /// <summary>
+            /// 結果圖像路徑
+            /// </summary>
+            [JsonPropertyName("result_image_path")]
+            public string ResultImagePath { get; set; }
+
             [JsonPropertyName("Data")]
             public List<DataItem> Data { get; set; } = new List<DataItem>();
-
             public class DataItem
             {
 
@@ -41,31 +61,7 @@ namespace 一詮精密工業_銅板檢測機_
                 [JsonPropertyName("op_time")]
                 public string Op_time { get; set; }
 
-                /// <summary>
-                /// 座標中心點集合
-                /// </summary>
-                [JsonPropertyName("centers")]
-                public Dictionary<string, string> Centers { get; set; }
-
-                /// <summary>
-                /// 失敗座標集合
-                /// </summary>
-                [JsonPropertyName("fails")]
-                public List<string> Fails { get; set; }
-
-              
-
-                /// <summary>
-                /// 原始圖像路徑
-                /// </summary>
-                [JsonPropertyName("origin_image_path")]
-                public string OriginImagePath { get; set; }
-
-                /// <summary>
-                /// 結果圖像路徑
-                /// </summary>
-                [JsonPropertyName("result_image_path")]
-                public string ResultImagePath { get; set; }
+             
             }
         }
 

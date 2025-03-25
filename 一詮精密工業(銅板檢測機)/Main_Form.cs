@@ -19,7 +19,9 @@ namespace 一詮精密工業_銅板檢測機_
     {
         public enum enum_AI_test_Type
         {
+            [Description("DFP030-SGP")]
             GoldSize,
+            [Description("DFP071-SGP")]
             DoorPoint,
         }
         double CCD軸_ratio = (6500D / 10000D);
@@ -28,6 +30,18 @@ namespace 一詮精密工業_銅板檢測機_
         PLC_Device PLC_Device_CCD_原始目標位置 = new PLC_Device("D15122");
         PLC_Device PLC_Device_CCD_計算目標位置 = new PLC_Device("D15112");
         PLC_Device PLC_Device_CCD_計算目標位置完成 = new PLC_Device("S15134");
+
+        PLC_Device PLC_Device_不良排除X_軸卡現在位置 = new PLC_Device("D8360");
+        PLC_Device PLC_Device_不良排除X_計算現在位置 = new PLC_Device("D15200");
+        PLC_Device PLC_Device_不良排除X_原始目標位置 = new PLC_Device("D15222");
+        PLC_Device PLC_Device_不良排除X_計算目標位置 = new PLC_Device("D15212");
+        PLC_Device PLC_Device_不良排除X_計算目標位置完成 = new PLC_Device("S15234");
+
+        PLC_Device PLC_Device_不良排除Y_軸卡現在位置 = new PLC_Device("D8370");
+        PLC_Device PLC_Device_不良排除Y_計算現在位置 = new PLC_Device("D15300");
+        PLC_Device PLC_Device_不良排除Y_原始目標位置 = new PLC_Device("D15322");
+        PLC_Device PLC_Device_不良排除Y_計算目標位置 = new PLC_Device("D15312");
+        PLC_Device PLC_Device_不良排除Y_計算目標位置完成 = new PLC_Device("S15334");
         public static string currentDirectory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
         #region DBConfigClass
         private static string DBConfigFileName = $@"{currentDirectory}\DBConfig.txt";
@@ -124,6 +138,18 @@ namespace 一詮精密工業_銅板檢測機_
 
             PLC_Device_CCD_計算目標位置.Value = (int)Math.Round((PLC_Device_CCD_原始目標位置.Value / CCD軸_ratio));
             PLC_Device_CCD_計算目標位置完成.Bool = true;
+
+            float 不良排除X軸_ratio = (80F / 100F);
+            PLC_Device_不良排除X_計算現在位置.Value = (int)Math.Round((PLC_Device_不良排除X_軸卡現在位置.Value * 不良排除X軸_ratio));
+
+            PLC_Device_不良排除X_計算目標位置.Value = (int)Math.Round((PLC_Device_不良排除X_原始目標位置.Value / 不良排除X軸_ratio));
+            PLC_Device_不良排除X_計算目標位置完成.Bool = true;
+
+            float 不良排除Y軸_ratio = (625F / 100F);
+            PLC_Device_不良排除Y_計算現在位置.Value = (int)Math.Round((PLC_Device_不良排除Y_軸卡現在位置.Value * 不良排除Y軸_ratio));
+
+            PLC_Device_不良排除Y_計算目標位置.Value = (int)Math.Round((PLC_Device_不良排除Y_原始目標位置.Value / 不良排除Y軸_ratio));
+            PLC_Device_不良排除Y_計算目標位置完成.Bool = true;
         }
         #region PLC_Method
         PLC_Device PLC_Device_Method = new PLC_Device("");
@@ -196,7 +222,7 @@ namespace 一詮精密工業_銅板檢測機_
                 List<string> strs = (from temp in list_value
                                      select temp[(int)enum_engineering_model.型號名稱].ObjectToString()).Distinct().ToList();
                 comboBox_主畫面_型號選擇.DataSource = strs;
-                if (comboBox_主畫面_型號選擇.SelectedIndex == -1 && comboBox_主畫面_型號選擇.Items.Count > 0)
+                if (comboBox_主畫面_型號選擇.SelectedIndex != -1 && comboBox_主畫面_型號選擇.Items.Count > 0)
                 {
                     if(text.StringIsEmpty())
                     {

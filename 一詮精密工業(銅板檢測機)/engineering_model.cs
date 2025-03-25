@@ -159,7 +159,7 @@ namespace 一詮精密工業_銅板檢測機_
 
             this.sqL_DataGridView_EngineeringModel.RowDoubleClickEvent += SqL_DataGridView_EngineeringModel_RowDoubleClickEvent;
 
-            this.comboBox_EngineeringModel_檢測別名.DataSource = new enum_AI_test_Type().GetEnumNames();
+            this.comboBox_EngineeringModel_檢測別名.DataSource = new enum_AI_test_Type().GetEnumDescriptions();
             this.comboBox_EngineeringModel_檢測別名.SelectedIndex = 0;
 
             rJ_Button_EngineeringModel_新增.MouseDownEvent += RJ_Button_EngineeringModel_新增_MouseDownEvent;
@@ -245,7 +245,8 @@ namespace 一詮精密工業_銅板檢測機_
                 engineering_Model.設定Base64 = lowerMachine_Panel1.GetDeviceBase64();
             }      
             engineering_Model.建表時間 = DateTime.Now.ToDateTimeString_6();
-            this.sqL_DataGridView_EngineeringModel.SQL_ReplaceExtra(list_value, true);
+            list_value[0] = engineering_Model.ClassToSQL<engineering_model, enum_engineering_model>();
+            this.sqL_DataGridView_EngineeringModel.SQL_ReplaceExtra(list_value[0], true);
             MyMessageBox.ShowDialog("修改成功");
         }
 

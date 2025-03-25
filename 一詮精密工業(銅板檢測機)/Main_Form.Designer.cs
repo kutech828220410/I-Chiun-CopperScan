@@ -59,9 +59,9 @@
             this.rJ_Pannel1 = new MyUI.RJ_Pannel();
             this.plC_ScreenPage_main = new MyUI.PLC_ScreenPage();
             this.主畫面 = new System.Windows.Forms.TabPage();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_MainForm = new System.Windows.Forms.PictureBox();
+            this.pictureBox_MainForm_03 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_MainForm_02 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_MainForm_01 = new System.Windows.Forms.PictureBox();
             this.panel334 = new System.Windows.Forms.Panel();
             this.rJ_TextBox_主畫面_檢測別名 = new MyUI.RJ_TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -1017,6 +1017,7 @@
             this.plC_RJ_ScreenButtonEx8 = new MyUI.PLC_RJ_ScreenButtonEx();
             this.plC_RJ_ScreenButtonEx9 = new MyUI.PLC_RJ_ScreenButtonEx();
             this.plC_AlarmFlow1 = new MyUI.PLC_AlarmFlow();
+            this.rJ_Button_主畫面_讀取設定 = new MyUI.RJ_Button();
             this.panel_main.SuspendLayout();
             this.panel291.SuspendLayout();
             this.panel298.SuspendLayout();
@@ -1029,9 +1030,9 @@
             this.rJ_Pannel1.SuspendLayout();
             this.plC_ScreenPage_main.SuspendLayout();
             this.主畫面.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MainForm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MainForm_03)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MainForm_02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MainForm_01)).BeginInit();
             this.panel334.SuspendLayout();
             this.panel333.SuspendLayout();
             this.手動作業.SuspendLayout();
@@ -2106,9 +2107,10 @@
             // 主畫面
             // 
             this.主畫面.BackColor = System.Drawing.Color.White;
-            this.主畫面.Controls.Add(this.pictureBox2);
-            this.主畫面.Controls.Add(this.pictureBox1);
-            this.主畫面.Controls.Add(this.pictureBox_MainForm);
+            this.主畫面.Controls.Add(this.rJ_Button_主畫面_讀取設定);
+            this.主畫面.Controls.Add(this.pictureBox_MainForm_03);
+            this.主畫面.Controls.Add(this.pictureBox_MainForm_02);
+            this.主畫面.Controls.Add(this.pictureBox_MainForm_01);
             this.主畫面.Controls.Add(this.panel334);
             this.主畫面.Controls.Add(this.panel333);
             this.主畫面.Controls.Add(this.plC_Button_CCD測試一次);
@@ -2119,38 +2121,38 @@
             this.主畫面.TabIndex = 0;
             this.主畫面.Text = "主畫面";
             // 
-            // pictureBox2
+            // pictureBox_MainForm_03
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(1215, 11);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(600, 600);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 156;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox_MainForm_03.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox_MainForm_03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox_MainForm_03.Location = new System.Drawing.Point(1215, 11);
+            this.pictureBox_MainForm_03.Name = "pictureBox_MainForm_03";
+            this.pictureBox_MainForm_03.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox_MainForm_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_MainForm_03.TabIndex = 156;
+            this.pictureBox_MainForm_03.TabStop = false;
             // 
-            // pictureBox1
+            // pictureBox_MainForm_02
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(609, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(600, 600);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 155;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox_MainForm_02.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox_MainForm_02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox_MainForm_02.Location = new System.Drawing.Point(609, 11);
+            this.pictureBox_MainForm_02.Name = "pictureBox_MainForm_02";
+            this.pictureBox_MainForm_02.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox_MainForm_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_MainForm_02.TabIndex = 155;
+            this.pictureBox_MainForm_02.TabStop = false;
             // 
-            // pictureBox_MainForm
+            // pictureBox_MainForm_01
             // 
-            this.pictureBox_MainForm.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox_MainForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox_MainForm.Location = new System.Drawing.Point(3, 11);
-            this.pictureBox_MainForm.Name = "pictureBox_MainForm";
-            this.pictureBox_MainForm.Size = new System.Drawing.Size(600, 600);
-            this.pictureBox_MainForm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox_MainForm.TabIndex = 154;
-            this.pictureBox_MainForm.TabStop = false;
+            this.pictureBox_MainForm_01.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox_MainForm_01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox_MainForm_01.Location = new System.Drawing.Point(3, 11);
+            this.pictureBox_MainForm_01.Name = "pictureBox_MainForm_01";
+            this.pictureBox_MainForm_01.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox_MainForm_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_MainForm_01.TabIndex = 154;
+            this.pictureBox_MainForm_01.TabStop = false;
             // 
             // panel334
             // 
@@ -15353,7 +15355,7 @@
             this.groupBox8.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox8.Location = new System.Drawing.Point(27, 248);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(882, 415);
+            this.groupBox8.Size = new System.Drawing.Size(521, 415);
             this.groupBox8.TabIndex = 66;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "送盤馬達";
@@ -16851,7 +16853,7 @@
             this.plC_NumBox62.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
             this.plC_NumBox62.密碼欄位 = false;
             this.plC_NumBox62.寫入元件位置 = "D15236";
-            this.plC_NumBox62.小數點位置 = 0;
+            this.plC_NumBox62.小數點位置 = 2;
             this.plC_NumBox62.微調數值 = 1;
             this.plC_NumBox62.讀取元件位置 = "D15236";
             this.plC_NumBox62.音效 = true;
@@ -17165,7 +17167,7 @@
             this.plC_Button241.狀態OFF圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button241.狀態OFF圖片")));
             this.plC_Button241.狀態ON圖片 = ((System.Drawing.Image)(resources.GetObject("plC_Button241.狀態ON圖片")));
             this.plC_Button241.讀取位元反向 = false;
-            this.plC_Button241.讀取元件位置 = "S15240";
+            this.plC_Button241.讀取元件位置 = "S15250";
             this.plC_Button241.讀寫鎖住 = true;
             this.plC_Button241.起始狀態 = false;
             this.plC_Button241.音效 = true;
@@ -17266,7 +17268,7 @@
             this.plC_NumBox67.Value = 0;
             this.plC_NumBox67.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
             this.plC_NumBox67.密碼欄位 = false;
-            this.plC_NumBox67.小數點位置 = 0;
+            this.plC_NumBox67.小數點位置 = 2;
             this.plC_NumBox67.微調數值 = 1;
             this.plC_NumBox67.讀取元件位置 = "D15200";
             this.plC_NumBox67.音效 = true;
@@ -17383,7 +17385,7 @@
             this.plC_NumBox56.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
             this.plC_NumBox56.密碼欄位 = false;
             this.plC_NumBox56.寫入元件位置 = "D15336";
-            this.plC_NumBox56.小數點位置 = 0;
+            this.plC_NumBox56.小數點位置 = 2;
             this.plC_NumBox56.微調數值 = 1;
             this.plC_NumBox56.讀取元件位置 = "D15336";
             this.plC_NumBox56.音效 = true;
@@ -17798,7 +17800,7 @@
             this.plC_NumBox61.Value = 0;
             this.plC_NumBox61.字元長度 = MyUI.PLC_NumBox.WordLengthEnum.單字元;
             this.plC_NumBox61.密碼欄位 = false;
-            this.plC_NumBox61.小數點位置 = 0;
+            this.plC_NumBox61.小數點位置 = 2;
             this.plC_NumBox61.微調數值 = 1;
             this.plC_NumBox61.讀取元件位置 = "D15300";
             this.plC_NumBox61.音效 = true;
@@ -22472,6 +22474,38 @@
             this.plC_AlarmFlow1.警報編輯 = ((System.Collections.Generic.List<string>)(resources.GetObject("plC_AlarmFlow1.警報編輯")));
             this.plC_AlarmFlow1.顯示警報編號 = true;
             // 
+            // rJ_Button_主畫面_讀取設定
+            // 
+            this.rJ_Button_主畫面_讀取設定.AutoResetState = false;
+            this.rJ_Button_主畫面_讀取設定.BackColor = System.Drawing.Color.Transparent;
+            this.rJ_Button_主畫面_讀取設定.BackgroundColor = System.Drawing.Color.Black;
+            this.rJ_Button_主畫面_讀取設定.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rJ_Button_主畫面_讀取設定.BorderRadius = 20;
+            this.rJ_Button_主畫面_讀取設定.BorderSize = 0;
+            this.rJ_Button_主畫面_讀取設定.buttonType = MyUI.RJ_Button.ButtonType.Push;
+            this.rJ_Button_主畫面_讀取設定.DisenableColor = System.Drawing.Color.Gray;
+            this.rJ_Button_主畫面_讀取設定.FlatAppearance.BorderSize = 0;
+            this.rJ_Button_主畫面_讀取設定.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rJ_Button_主畫面_讀取設定.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.rJ_Button_主畫面_讀取設定.ForeColor = System.Drawing.Color.White;
+            this.rJ_Button_主畫面_讀取設定.GUID = "";
+            this.rJ_Button_主畫面_讀取設定.Image_padding = new System.Windows.Forms.Padding(0);
+            this.rJ_Button_主畫面_讀取設定.Location = new System.Drawing.Point(15, 636);
+            this.rJ_Button_主畫面_讀取設定.Name = "rJ_Button_主畫面_讀取設定";
+            this.rJ_Button_主畫面_讀取設定.ProhibitionBorderLineWidth = 1;
+            this.rJ_Button_主畫面_讀取設定.ProhibitionLineWidth = 4;
+            this.rJ_Button_主畫面_讀取設定.ProhibitionSymbolSize = 30;
+            this.rJ_Button_主畫面_讀取設定.ShadowColor = System.Drawing.Color.DimGray;
+            this.rJ_Button_主畫面_讀取設定.ShadowSize = 3;
+            this.rJ_Button_主畫面_讀取設定.ShowLoadingForm = false;
+            this.rJ_Button_主畫面_讀取設定.Size = new System.Drawing.Size(125, 73);
+            this.rJ_Button_主畫面_讀取設定.State = false;
+            this.rJ_Button_主畫面_讀取設定.TabIndex = 157;
+            this.rJ_Button_主畫面_讀取設定.Text = "讀取設定";
+            this.rJ_Button_主畫面_讀取設定.TextColor = System.Drawing.Color.White;
+            this.rJ_Button_主畫面_讀取設定.TextHeight = 0;
+            this.rJ_Button_主畫面_讀取設定.UseVisualStyleBackColor = false;
+            // 
             // Main_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -22503,9 +22537,9 @@
             this.rJ_Pannel1.ResumeLayout(false);
             this.plC_ScreenPage_main.ResumeLayout(false);
             this.主畫面.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MainForm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MainForm_03)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MainForm_02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MainForm_01)).EndInit();
             this.panel334.ResumeLayout(false);
             this.panel334.PerformLayout();
             this.panel333.ResumeLayout(false);
@@ -23782,9 +23816,10 @@
         private System.Windows.Forms.Panel panel334;
         private MyUI.RJ_TextBox rJ_TextBox_主畫面_檢測別名;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox_MainForm;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox_MainForm_01;
+        private System.Windows.Forms.PictureBox pictureBox_MainForm_03;
+        private System.Windows.Forms.PictureBox pictureBox_MainForm_02;
+        private MyUI.RJ_Button rJ_Button_主畫面_讀取設定;
     }
 }
 
