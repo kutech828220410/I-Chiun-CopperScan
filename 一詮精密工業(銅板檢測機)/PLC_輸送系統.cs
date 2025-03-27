@@ -355,6 +355,9 @@ namespace 一詮精密工業_銅板檢測機_
         {
             if (MyTimer_輸送系統_計時輸出.IsTimeOut())
             {
+                List<object[]> list_value = sqL_DataGridView_CCD_Fail_檢測結果.GetAllRows();
+                sqL_DataGridView_CCD_Fail_檢測結果.ClearGrid();
+                sqL_DataGridView_不良排除狀態.RefreshGrid(list_value);
                 cnt++;
             }
         }

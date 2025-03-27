@@ -184,6 +184,9 @@
     <Compile Include="PLC_CCD測試.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="PLC_不良排除.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="PLC_入料盤系統.cs">
       <SubType>Form</SubType>
     </Compile>

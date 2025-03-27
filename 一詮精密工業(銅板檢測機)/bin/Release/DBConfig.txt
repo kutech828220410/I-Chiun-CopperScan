@@ -8,5 +8,5 @@
     "MySqlSslMode": 0,
     "TableName": ""
   },
-  "MetalMarkAI_url": "http://localhost:3005/MetalMarkAI"
+  "MetalMarkAI_url": "http://localhost:3006/MetalMarkAI"
 }

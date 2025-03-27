@@ -17,10 +17,15 @@ namespace 一詮精密工業_銅板檢測機_
 {
     public partial class Main_Form : MyDialog
     {
+        MyThread myThread_CCD = null;
         private void PLC_CCD測試_Init()
         {
             rJ_Button_比例尺計算.MouseDownEvent += RJ_Button_比例尺計算_MouseDownEvent;
-            plC_UI_Init1.Add_Method(sub_PLC_CCD測試);
+            myThread_CCD = new MyThread();
+            myThread_CCD.AutoRun(true);
+            myThread_CCD.Add_Method(sub_PLC_CCD測試);
+            myThread_CCD.SetSleepTime(1);
+            myThread_CCD.Trigger();
         }
 
         private void RJ_Button_比例尺計算_MouseDownEvent(MouseEventArgs mevent)
@@ -43,6 +48,7 @@ namespace 一詮精密工業_銅板檢測機_
 
         List<MetalMarkAIPost> CCD_metalMarkAIPosts = new List<MetalMarkAIPost>();
         PLC_Device PLC_Device_CCD測試一次 = new PLC_Device("M5010");
+        PLC_Device PLC_Device_CCD測試一次_結果OK = new PLC_Device("S3011");
         PLC_Device PLC_Device_CCD測試一次_位置1 = new PLC_Device("D11000");
         PLC_Device PLC_Device_CCD測試一次_位置2 = new PLC_Device("D11001");
         PLC_Device PLC_Device_CCD測試一次_位置3 = new PLC_Device("D11002");
@@ -99,7 +105,7 @@ namespace 一詮精密工業_銅板檢測機_
                     {
                         int po_X = CCD_metalMarkAIPosts[stage].Fails[i].Split(',')[0].StringToInt32();
                         int po_Y = CCD_metalMarkAIPosts[stage].Fails[i].Split(',')[1].StringToInt32();
-                        if (text == enum_AI_test_Type.DoorPoint.GetEnumDescription())
+                        if (text == "DFP071-SGP")
                         {
                             //"DFP071-SGP"
                             if (stage == 2)
@@ -110,22 +116,23 @@ namespace 一詮精密工業_銅板檢測機_
                             po_Y = po_Y + stage * 2;
 
                         }
-                        if (text == enum_AI_test_Type.GoldSize.GetEnumDescription())
+                        if (text == "DFP030-SGP")
                         {
                             //"DFP030-SGP"
                             po_Y = po_Y + stage * 5;
                         }
                         if (CCD_metalMarkAIPosts[stage].Centers.ContainsKey(CCD_metalMarkAIPosts[stage].Fails[i]))
                         {
-                            string str_center = CCD_metalMarkAIPosts[stage].Centers[CCD_metalMarkAIPosts[0].Fails[i]];
-                            double center_x = (str_center.Split(',')[0].StringToDouble() - org_ccd_poX) * pixcel_to_mm;
-                            double center_y = (str_center.Split(',')[1].StringToDouble() - org_ccd_poY) * pixcel_to_mm + CCD_stage_position[stage];
+                            string str_center = CCD_metalMarkAIPosts[stage].Centers[CCD_metalMarkAIPosts[stage].Fails[i]];
+                            double center_x = (str_center.Split(',')[0].StringToDouble() - org_ccd_poX) * pixcel_to_mm + (plC_NumBox_吸料參考位置X.Value / 100D);
+                            double center_y = (str_center.Split(',')[1].StringToDouble() - org_ccd_poY) * pixcel_to_mm + CCD_stage_position[stage] + (plC_NumBox_吸料參考位置Y.Value / 100D);
 
 
                             object[] value = new object[new enum_CCD_Fail_Result().GetLength()];
                             value[(int)enum_CCD_Fail_Result.GUID] = Guid.NewGuid().ToString();
 
-                            value[(int)enum_CCD_Fail_Result.中心] = $"{center_x},{center_y}";
+                            value[(int)enum_CCD_Fail_Result.座標] = $"{po_X},{po_Y}";
+                            value[(int)enum_CCD_Fail_Result.中心] = $"{center_x.ToString("0.00")},{center_y.ToString("0.00")}";
                             value[(int)enum_CCD_Fail_Result.已吸取] = "N";
 
 
@@ -138,9 +145,12 @@ namespace 一詮精密工業_銅板檢測機_
                         }
                     }
                 }
-
+                list_value.Sort(new CoordinateStringComparer());
                 sqL_DataGridView_CCD_Fail_檢測結果.AddRows(list_value, true);
-
+                if(list_value.Count == 0)
+                {
+                    PLC_Device_CCD測試一次_結果OK.Bool = true;
+                }
 
                 cnt_Program_CCD測試一次 = 65500;
             }
@@ -163,7 +173,7 @@ namespace 一詮精密工業_銅板檢測機_
         }
         void cnt_Program_CCD測試一次_初始化(ref int cnt)
         {
-            PLC_Device_CCD測試一次_OK.Bool = false;
+            PLC_Device_CCD測試一次_結果OK.Bool = false;
             sqL_DataGridView_CCD_Fail_檢測結果.ClearGrid();
             CCD_metalMarkAIPosts.Clear();
             cnt++;
@@ -205,7 +215,7 @@ namespace 一詮精密工業_銅板檢測機_
             }
             MetalMarkAIPost metalMarkAIPost = Function_測試一次(rJ_TextBox_主畫面_檢測別名.Text, 1);
         
-            if (metalMarkAIPost.ResultImagePath == null)
+            if (metalMarkAIPost == null)
             {
                 MyMessageBox.ShowDialog("檢測失敗");
                 cnt = 65500;
@@ -254,7 +264,7 @@ namespace 一詮精密工業_銅板檢測機_
                 return;
             }
             MetalMarkAIPost metalMarkAIPost = Function_測試一次(rJ_TextBox_主畫面_檢測別名.Text, 2);
-            if (metalMarkAIPost.ResultImagePath == null)
+            if (metalMarkAIPost == null)
             {
                 MyMessageBox.ShowDialog("檢測失敗");
                 cnt = 65500;
@@ -303,7 +313,7 @@ namespace 一詮精密工業_銅板檢測機_
                 return;
             }
             MetalMarkAIPost metalMarkAIPost = Function_測試一次(rJ_TextBox_主畫面_檢測別名.Text, 3);
-            if (metalMarkAIPost.ResultImagePath == null)
+            if (metalMarkAIPost == null)
             {
                 MyMessageBox.ShowDialog("檢測失敗");
                 cnt = 65500;
@@ -379,5 +389,27 @@ namespace 一詮精密工業_銅板檢測機_
         }
 
         #endregion
+
+
+        public class CoordinateStringComparer : IComparer<object[]>
+        {
+            public int Compare(object[] a, object[] b)
+            {
+                var aParts = a[(int)enum_CCD_Fail_Result.座標].ObjectToString().Split(',');
+                var bParts = b[(int)enum_CCD_Fail_Result.座標].ObjectToString().Split(',');
+
+                int ax = int.Parse(aParts[0]);
+                int ay = int.Parse(aParts[1]);
+
+                int bx = int.Parse(bParts[0]);
+                int by = int.Parse(bParts[1]);
+
+                // 先比 X，再比 Y
+                int cmp = ax.CompareTo(bx);
+                if (cmp != 0) return cmp;
+
+                return ay.CompareTo(by);
+            }
+        }
     }
 }

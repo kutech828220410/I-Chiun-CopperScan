@@ -17,6 +17,7 @@ namespace 一詮精密工業_銅板檢測機_
 {
     public partial class Main_Form : MyDialog
     {
+        MyThread myThread_program = null;
         public enum enum_AI_test_Type
         {
             [Description("DFP030-SGP")]
@@ -117,11 +118,18 @@ namespace 一詮精密工業_銅板檢測機_
             PLC_UI_Init.Set_PLC_ScreenPage(panel_軸控, this.plC_ScreenPage_軸控);
             SQLUI.SQL_DataGridView.SQL_Set_Properties(dBConfigClass.DB_Basic.DataBaseName, dBConfigClass.DB_Basic.UserName, dBConfigClass.DB_Basic.Password, dBConfigClass.DB_Basic.IP, dBConfigClass.DB_Basic.Port, dBConfigClass.DB_Basic.MySqlSslMode, this.FindForm());
 
+            myThread_program = new MyThread();
+            myThread_program.AutoRun(true);
+            myThread_program.Add_Method(sub_PLC_program);
+            myThread_program.SetSleepTime(1);
+            myThread_program.Trigger();
+
             this.plC_UI_Init1.Add_Method(sub_PLC_program);
             PLC_入料盤系統_Init();
             PLC_輸送系統_Init();
             PLC_出料盤系統_Init();
             PLC_CCD測試_Init();
+            PLC_不良排除_Init();
 
             Program_資料庫_Init();
             Program_主畫面_Init();
